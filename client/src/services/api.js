@@ -69,6 +69,7 @@ export const skillApi = {
 export const mappingApi = {
   getAll: (params) => apiClient.get('/mappings', { params }),
   getById: (id) => apiClient.get(`/mappings/${id}`),
+  getByHeroSlug: (slug, game) => apiClient.get(`/mappings/hero/${slug}`, { params: { game } }),
   create: (data) => apiClient.post('/mappings', data),
   update: (id, data) => apiClient.put(`/mappings/${id}`, data),
   delete: (id) => apiClient.delete(`/mappings/${id}`),

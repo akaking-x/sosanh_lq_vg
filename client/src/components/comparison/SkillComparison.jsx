@@ -5,6 +5,11 @@ const SkillComparison = ({ vgSkill, lqSkill, skillType = 'passive' }) => {
     skill2: 'Kỹ năng 2',
     skill3: 'Kỹ năng 3',
     ultimate: 'Kỹ năng Tối thượng',
+    'Bị Động': 'Kỹ năng Bị động',
+    'Kỹ năng 1': 'Kỹ năng 1',
+    'Kỹ năng 2': 'Kỹ năng 2',
+    'Kỹ năng 3': 'Kỹ năng 3',
+    'Chiêu cuối': 'Chiêu cuối',
   }
 
   const SkillDisplay = ({ skill, game }) => {
@@ -51,9 +56,9 @@ const SkillComparison = ({ vgSkill, lqSkill, skillType = 'passive' }) => {
               ⏱️ {skill.cooldown}s
             </span>
           )}
-          {skill.mana_cost && (
+          {skill.manaCost && (
             <span className="bg-game-darker px-2 py-1 rounded">
-              💎 {skill.mana_cost}
+              💎 {skill.manaCost}
             </span>
           )}
         </div>

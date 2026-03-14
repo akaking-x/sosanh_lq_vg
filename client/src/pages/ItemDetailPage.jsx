@@ -18,8 +18,9 @@ const ItemDetailPage = () => {
   const fetchItemDetails = async () => {
     try {
       setLoading(true)
-      const response = await itemApi.getById(slug)
-      setItem(response.data)
+      const response = await itemApi.getBySlug(slug)
+      const data = response.data.data || response.data
+      setItem(data)
     } catch (error) {
       console.error('Failed to fetch item details:', error)
     } finally {
@@ -29,10 +30,10 @@ const ItemDetailPage = () => {
 
   const getDisplayName = () => {
     if (!item) return ''
-    if (item.game === 'vg' && showChinese && item.chineseName) {
-      return item.chineseName
+    if (item.game === 'vg' && showChinese && item.name_cn) {
+      return item.name_cn
     }
-    return item.name
+    return item.name_vi
   }
 
   if (loading) {
@@ -78,10 +79,10 @@ const ItemDetailPage = () => {
                 <div className="flex gap-6 flex-col sm:flex-row">
                   {/* Icon */}
                   <div className="flex-shrink-0 flex items-center justify-center w-40 h-40 bg-game-darker rounded-lg border border-game-accent border-opacity-30">
-                    {item.icon ? (
+                    {item.icon_url ? (
                       <img
-                        src={item.icon}
-                        alt={item.name}
+                        src={item.icon_url}
+                        alt={item.name_vi}
                         className="w-32 h-32 object-contain"
                       />
                     ) : (
@@ -96,9 +97,9 @@ const ItemDetailPage = () => {
                         <h1 className="text-3xl font-bold text-game-gold mb-2">
                           {getDisplayName()}
                         </h1>
-                        {item.game === 'vg' && item.chineseName && (
+                        {item.game === 'vg' && item.name_cn && item.name_cn !== item.name_vi && (
                           <p className="text-sm text-game-text-secondary mb-3">
-                            ({item.chineseName})
+                            ({item.name_cn})
                           </p>
                         )}
                       </div>
@@ -114,14 +115,14 @@ const ItemDetailPage = () => {
                     {/* Category */}
                     {item.category && (
                       <p className="text-lg text-game-accent font-semibold mb-4">
-                        📦 {item.category}
+                        {item.category}
                       </p>
                     )}
 
                     {/* Price */}
-                    {item.price && (
+                    {item.price != null && (
                       <p className="text-2xl text-game-gold font-bold mb-4">
-                        💰 {item.price}
+                        {item.price} vàng
                       </p>
                     )}
 
@@ -139,11 +140,11 @@ const ItemDetailPage = () => {
               </div>
 
               {/* Description */}
-              {item.description && (
+              {(item.description_vi || item.description) && (
                 <div className="card">
                   <h2 className="text-xl font-bold text-game-gold mb-4">Mô tả</h2>
                   <p className="text-game-text-secondary leading-relaxed">
-                    {item.description}
+                    {showChinese && item.description_cn ? item.description_cn : (item.description_vi || item.description)}
                   </p>
                 </div>
               )}
@@ -163,39 +164,26 @@ const ItemDetailPage = () => {
                 </div>
               )}
 
-              {/* Passive Effect */}
-              {item.passiveEffect && (
+              {/* Effect */}
+              {item.effect && (
                 <div className="card">
-                  <h2 className="text-xl font-bold text-game-gold mb-4">Hiệu ứng thụ động</h2>
+                  <h2 className="text-xl font-bold text-game-gold mb-4">Hiệu ứng</h2>
                   <div className="space-y-3">
-                    {Array.isArray(item.passiveEffect) ? (
-                      item.passiveEffect.map((effect, index) => (
+                    {Array.isArray(item.effect) ? (
+                      item.effect.map((eff, index) => (
                         <div key={index} className="p-3 bg-game-darker rounded border border-game-accent border-opacity-20">
-                          <h4 className="font-semibold text-game-accent mb-1">{effect.name}</h4>
-                          <p className="text-sm text-game-text-secondary">{effect.description}</p>
+                          {typeof eff === 'object' ? (
+                            <>
+                              <h4 className="font-semibold text-game-accent mb-1">{eff.name_vi || eff.name}</h4>
+                              <p className="text-sm text-game-text-secondary">{eff.description_vi || eff.description}</p>
+                            </>
+                          ) : (
+                            <p className="text-sm text-game-text-secondary">{eff}</p>
+                          )}
                         </div>
                       ))
                     ) : (
-                      <p className="text-game-text-secondary">{item.passiveEffect}</p>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Active Effect */}
-              {item.activeEffect && (
-                <div className="card">
-                  <h2 className="text-xl font-bold text-game-gold mb-4">Hiệu ứng chủ động</h2>
-                  <div className="space-y-3">
-                    {Array.isArray(item.activeEffect) ? (
-                      item.activeEffect.map((effect, index) => (
-                        <div key={index} className="p-3 bg-game-darker rounded border border-game-accent border-opacity-20">
-                          <h4 className="font-semibold text-game-accent mb-1">{effect.name}</h4>
-                          <p className="text-sm text-game-text-secondary">{effect.description}</p>
-                        </div>
-                      ))
-                    ) : (
-                      <p className="text-game-text-secondary">{item.activeEffect}</p>
+                      <p className="text-game-text-secondary">{item.effect}</p>
                     )}
                   </div>
                 </div>
@@ -216,26 +204,6 @@ const ItemDetailPage = () => {
                       >
                         <p className="text-sm text-game-text-secondary">{pathItem}</p>
                       </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Related Items */}
-              {item.relatedItems && item.relatedItems.length > 0 && (
-                <div className="card">
-                  <h3 className="text-lg font-bold text-game-gold mb-4">Trang bị liên quan</h3>
-                  <div className="space-y-2">
-                    {item.relatedItems.map((relatedItem, index) => (
-                      <Link
-                        key={index}
-                        to={`/items/${relatedItem.slug}`}
-                        className="block p-2 rounded bg-game-darker hover:bg-game-card transition-colors"
-                      >
-                        <p className="text-sm text-game-accent hover:text-game-gold">
-                          {relatedItem.name}
-                        </p>
-                      </Link>
                     ))}
                   </div>
                 </div>

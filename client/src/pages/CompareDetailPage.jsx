@@ -21,7 +21,8 @@ const CompareDetailPage = () => {
     try {
       setLoading(true)
       const response = await mappingApi.getById(mappingId)
-      setMapping(response.data)
+      const data = response.data.data || response.data
+      setMapping(data)
     } catch (error) {
       console.error('Failed to fetch mapping details:', error)
     } finally {
@@ -31,10 +32,10 @@ const CompareDetailPage = () => {
 
   const getDisplayName = (hero) => {
     if (!hero) return ''
-    if (hero.game === 'vg' && showChinese && hero.chineseName) {
-      return hero.chineseName
+    if (hero.game === 'vg' && showChinese && hero.name_cn) {
+      return hero.name_cn
     }
-    return hero.name
+    return hero.name_vi
   }
 
   const getRoles = (hero) => {
@@ -43,6 +44,12 @@ const CompareDetailPage = () => {
   }
 
   const roleIcons = {
+    'Chiến Binh': '⚔️',
+    'Pháp Sư': '✨',
+    'Bộ Binh': '🛡️',
+    'Sát Thủ': '🗡️',
+    'Hỗ Trợ': '❤️',
+    'Tấn Công': '🏹',
     warrior: '⚔️',
     mage: '✨',
     tank: '🛡️',
@@ -76,9 +83,17 @@ const CompareDetailPage = () => {
     )
   }
 
-  const vgHero = mapping.vgHero
-  const lqHero = mapping.lqHero
-  const similarity = mapping.similarityScore || 0
+  const vgHero = mapping.vg_hero
+  const lqHero = mapping.lq_hero
+  const similarity = mapping.similarity_score || 0
+
+  // Skills are arrays, map them by index for comparison
+  const getSkillByIndex = (hero, index) => {
+    if (!hero || !hero.skills || !Array.isArray(hero.skills)) return null
+    return hero.skills[index] || null
+  }
+
+  const skillLabels = ['Bị Động', 'Kỹ năng 1', 'Kỹ năng 2', 'Kỹ năng 3', 'Chiêu cuối']
 
   return (
     <Layout>
@@ -99,7 +114,7 @@ const CompareDetailPage = () => {
             {/* Similarity Score */}
             <div className="flex items-center justify-center gap-6 mb-8">
               <div className="text-center flex-1">
-                <p className="text-4xl font-bold text-red-400 mb-2">{vgHero?.name}</p>
+                <p className="text-4xl font-bold text-red-400 mb-2">{getDisplayName(vgHero)}</p>
                 <p className="text-red-400 font-semibold">Vương Giả Vinh Diệu</p>
               </div>
 
@@ -111,7 +126,7 @@ const CompareDetailPage = () => {
               </div>
 
               <div className="text-center flex-1">
-                <p className="text-4xl font-bold text-blue-400 mb-2">{lqHero?.name}</p>
+                <p className="text-4xl font-bold text-blue-400 mb-2">{getDisplayName(lqHero)}</p>
                 <p className="text-blue-400 font-semibold">Liên Quân Mobile</p>
               </div>
             </div>
@@ -131,19 +146,23 @@ const CompareDetailPage = () => {
             <div className="space-y-6">
               <div className="card">
                 <div className="flex gap-4 mb-6">
-                  {vgHero?.avatar && (
+                  {vgHero?.avatar_url ? (
                     <img
-                      src={vgHero.avatar}
-                      alt={vgHero.name}
+                      src={vgHero.avatar_url}
+                      alt={vgHero.name_vi}
                       className="w-32 h-32 rounded-lg object-cover border border-red-400 border-opacity-30"
                     />
+                  ) : (
+                    <div className="w-32 h-32 rounded-lg bg-game-darker border border-red-400 border-opacity-30 flex items-center justify-center text-game-text-secondary">
+                      No Image
+                    </div>
                   )}
                   <div className="flex-grow">
                     <h2 className="text-2xl font-bold text-red-400 mb-2">
                       {getDisplayName(vgHero)}
                     </h2>
-                    {vgHero?.title && (
-                      <p className="text-game-text-secondary mb-3">{vgHero.title}</p>
+                    {vgHero?.title_vi && (
+                      <p className="text-game-text-secondary mb-3">{showChinese && vgHero.title_cn ? vgHero.title_cn : vgHero.title_vi}</p>
                     )}
                     <div className="flex flex-wrap gap-2">
                       {getRoles(vgHero).map((role) => (
@@ -151,7 +170,7 @@ const CompareDetailPage = () => {
                           key={role}
                           className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-red-400 bg-opacity-10 text-red-400"
                         >
-                          {roleIcons[role.toLowerCase()] || '•'} {role}
+                          {roleIcons[role] || roleIcons[role.toLowerCase()] || '•'} {role}
                         </span>
                       ))}
                     </div>
@@ -164,19 +183,23 @@ const CompareDetailPage = () => {
             <div className="space-y-6">
               <div className="card">
                 <div className="flex gap-4 mb-6">
-                  {lqHero?.avatar && (
+                  {lqHero?.avatar_url ? (
                     <img
-                      src={lqHero.avatar}
-                      alt={lqHero.name}
+                      src={lqHero.avatar_url}
+                      alt={lqHero.name_vi}
                       className="w-32 h-32 rounded-lg object-cover border border-blue-400 border-opacity-30"
                     />
+                  ) : (
+                    <div className="w-32 h-32 rounded-lg bg-game-darker border border-blue-400 border-opacity-30 flex items-center justify-center text-game-text-secondary">
+                      No Image
+                    </div>
                   )}
                   <div className="flex-grow">
                     <h2 className="text-2xl font-bold text-blue-400 mb-2">
                       {getDisplayName(lqHero)}
                     </h2>
-                    {lqHero?.title && (
-                      <p className="text-game-text-secondary mb-3">{lqHero.title}</p>
+                    {lqHero?.title_vi && (
+                      <p className="text-game-text-secondary mb-3">{lqHero.title_vi}</p>
                     )}
                     <div className="flex flex-wrap gap-2">
                       {getRoles(lqHero).map((role) => (
@@ -184,7 +207,7 @@ const CompareDetailPage = () => {
                           key={role}
                           className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-400 bg-opacity-10 text-blue-400"
                         >
-                          {roleIcons[role.toLowerCase()] || '•'} {role}
+                          {roleIcons[role] || roleIcons[role.toLowerCase()] || '•'} {role}
                         </span>
                       ))}
                     </div>
@@ -194,45 +217,20 @@ const CompareDetailPage = () => {
             </div>
           </div>
 
-          {/* Skills Comparison */}
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-game-gold mb-8">So sánh Kỹ năng</h2>
-
-            {/* Passive */}
-            <SkillComparison
-              vgSkill={vgHero?.skills?.passive}
-              lqSkill={lqHero?.skills?.passive}
-              skillType="passive"
-            />
-
-            {/* Skill 1 */}
-            <SkillComparison
-              vgSkill={vgHero?.skills?.skill1}
-              lqSkill={lqHero?.skills?.skill1}
-              skillType="skill1"
-            />
-
-            {/* Skill 2 */}
-            <SkillComparison
-              vgSkill={vgHero?.skills?.skill2}
-              lqSkill={lqHero?.skills?.skill2}
-              skillType="skill2"
-            />
-
-            {/* Skill 3 */}
-            <SkillComparison
-              vgSkill={vgHero?.skills?.skill3}
-              lqSkill={lqHero?.skills?.skill3}
-              skillType="skill3"
-            />
-
-            {/* Ultimate */}
-            <SkillComparison
-              vgSkill={vgHero?.skills?.ultimate}
-              lqSkill={lqHero?.skills?.ultimate}
-              skillType="ultimate"
-            />
-          </div>
+          {/* Skills Comparison - skills are arrays, compare by index */}
+          {(vgHero?.skills?.length > 0 || lqHero?.skills?.length > 0) && (
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-game-gold mb-8">So sánh Kỹ năng</h2>
+              {skillLabels.map((label, index) => (
+                <SkillComparison
+                  key={index}
+                  vgSkill={getSkillByIndex(vgHero, index)}
+                  lqSkill={getSkillByIndex(lqHero, index)}
+                  skillType={label}
+                />
+              ))}
+            </div>
+          )}
 
           {/* Stats Comparison */}
           <StatsComparison vgHero={vgHero} lqHero={lqHero} />
@@ -253,7 +251,7 @@ const CompareDetailPage = () => {
             >
               <div className="text-center">
                 <p className="text-lg font-bold text-red-400 mb-2">Xem chi tiết</p>
-                <p className="text-game-text-secondary">{vgHero?.name}</p>
+                <p className="text-game-text-secondary">{vgHero?.name_vi}</p>
               </div>
             </Link>
             <Link
@@ -262,7 +260,7 @@ const CompareDetailPage = () => {
             >
               <div className="text-center">
                 <p className="text-lg font-bold text-blue-400 mb-2">Xem chi tiết</p>
-                <p className="text-game-text-secondary">{lqHero?.name}</p>
+                <p className="text-game-text-secondary">{lqHero?.name_vi}</p>
               </div>
             </Link>
           </div>

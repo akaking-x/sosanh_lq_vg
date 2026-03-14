@@ -1,11 +1,11 @@
 const StatsComparison = ({ vgHero, lqHero }) => {
   const statLabels = {
     hp: { label: 'HP', icon: '❤️' },
-    attack: { label: 'Tấn công', icon: '⚔️' },
-    defense: { label: 'Phòng thủ', icon: '🛡️' },
-    speed: { label: 'Tốc độ', icon: '👟' },
-    magicDamage: { label: 'Phép sát thương', icon: '✨' },
+    attackPower: { label: 'Tấn công', icon: '⚔️' },
+    armor: { label: 'Phòng thủ', icon: '🛡️' },
+    moveSpeed: { label: 'Tốc độ', icon: '👟' },
     magicResistance: { label: 'Kháng phép', icon: '🔮' },
+    hpRegenPerSecond: { label: 'Hồi máu/giây', icon: '💚' },
   }
 
   const getMaxValue = (stat) => {

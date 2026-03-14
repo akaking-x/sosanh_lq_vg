@@ -1,7 +1,8 @@
 import useLanguage from '../../hooks/useLanguage'
 
-const SkillDisplay = ({ skill, skillType = 'skill1' }) => {
-  const { showChinese } = useLanguage()
+const SkillDisplay = ({ skill, skillType = 'Kỹ năng', showChinese: showChineseProp }) => {
+  const { showChinese: showChineseHook } = useLanguage()
+  const showChinese = showChineseProp !== undefined ? showChineseProp : showChineseHook
 
   if (!skill) {
     return (
@@ -12,6 +13,15 @@ const SkillDisplay = ({ skill, skillType = 'skill1' }) => {
   }
 
   const skillTypeLabels = {
+    Passive: 'Kỹ năng Bị động',
+    Q: 'Kỹ năng 1 (Q)',
+    W: 'Kỹ năng 2 (W)',
+    E: 'Kỹ năng 3 (E)',
+    R: 'Chiêu cuối (R)',
+    Skill1: 'Kỹ năng 1',
+    Skill2: 'Kỹ năng 2',
+    Skill3: 'Kỹ năng 3',
+    Skill4: 'Kỹ năng 4',
     passive: 'Kỹ năng Bị động',
     skill1: 'Kỹ năng 1',
     skill2: 'Kỹ năng 2',
@@ -20,10 +30,17 @@ const SkillDisplay = ({ skill, skillType = 'skill1' }) => {
   }
 
   const getDisplayName = () => {
-    if (showChinese && skill.chineseName) {
-      return skill.chineseName
+    if (showChinese && skill.name_cn) {
+      return skill.name_cn
     }
-    return skill.name
+    return skill.name_vi || skill.name || 'Kỹ năng'
+  }
+
+  const getDescription = () => {
+    if (showChinese && skill.description_cn) {
+      return skill.description_cn
+    }
+    return skill.description_vi || skill.description || ''
   }
 
   return (
@@ -31,10 +48,10 @@ const SkillDisplay = ({ skill, skillType = 'skill1' }) => {
       <div className="flex gap-4">
         {/* Skill Icon */}
         <div className="flex-shrink-0">
-          {skill.icon ? (
+          {skill.icon_url ? (
             <img
-              src={skill.icon}
-              alt={skill.name}
+              src={skill.icon_url}
+              alt={skill.name_vi}
               className="w-16 h-16 rounded-lg object-cover border border-game-accent border-opacity-30"
             />
           ) : (
@@ -50,26 +67,26 @@ const SkillDisplay = ({ skill, skillType = 'skill1' }) => {
             <div>
               <h4 className="text-lg font-bold text-game-gold">{getDisplayName()}</h4>
               <p className="text-xs text-game-text-secondary">
-                {skillTypeLabels[skillType]}
+                {skillTypeLabels[skillType] || skillType}
               </p>
             </div>
           </div>
 
           {/* Description */}
-          {skill.description && (
+          {getDescription() && (
             <p className="text-sm text-game-text-secondary mb-3">
-              {skill.description}
+              {getDescription()}
             </p>
           )}
 
           {/* Cooldown & Mana */}
           <div className="flex gap-4 text-xs text-game-accent">
-            {skill.cooldown && (
+            {skill.cooldown != null && (
               <div>
                 <span className="text-game-text-secondary">Thời gian chờ:</span> {skill.cooldown}s
               </div>
             )}
-            {skill.manaCost && (
+            {skill.manaCost != null && (
               <div>
                 <span className="text-game-text-secondary">Năng lượng:</span> {skill.manaCost}
               </div>
