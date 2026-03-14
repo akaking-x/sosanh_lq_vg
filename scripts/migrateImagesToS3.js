@@ -112,6 +112,41 @@ function isS3Url(url) {
 }
 
 /**
+ * Try to extract VG hero ID from avatar_url like:
+ * https://game.gtimg.cn/images/yxzj/img201606/heroimg/105/1.jpg → 105
+ */
+function extractVgHeroId(avatarUrl) {
+  const match = avatarUrl.match(/heroimg\/(\d+)\//);
+  return match ? match[1] : null;
+}
+
+/**
+ * Try to extract item ID from icon_url like:
+ * https://pvp.qq.com/web201605/item/1111.png → 1111
+ */
+function extractItemId(iconUrl) {
+  const match = iconUrl.match(/item\/(\d+)\.png/);
+  if (match) return match[1];
+  const match2 = iconUrl.match(/itemimg\/(\d+)\.png/);
+  return match2 ? match2[1] : null;
+}
+
+/**
+ * Try downloading from multiple alternative URLs
+ */
+async function downloadWithFallbacks(urls) {
+  for (const url of urls) {
+    if (!url) continue;
+    try {
+      return await downloadImage(url, 1); // Only 1 try per URL
+    } catch (e) {
+      // Try next URL
+    }
+  }
+  throw new Error(`All ${urls.length} URLs failed`);
+}
+
+/**
  * Migrate hero avatars
  */
 async function migrateHeroAvatars(db) {
@@ -129,7 +164,20 @@ async function migrateHeroAvatars(db) {
     }
 
     const key = `heroes/${hero.game}/${hero.slug}.jpg`;
-    const { buffer, contentType } = await downloadImage(hero.avatar_url);
+
+    // Build fallback URLs for VG heroes
+    const urls = [hero.avatar_url];
+    if (hero.game === 'vg') {
+      const heroId = extractVgHeroId(hero.avatar_url);
+      if (heroId) {
+        // Alternative formats that work on game.gtimg.cn
+        urls.push(`https://game.gtimg.cn/images/yxzj/img201606/heroimg/${heroId}/${heroId}.jpg`);
+        urls.push(`https://game.gtimg.cn/images/yxzj/img201606/heroimg/${heroId}/${heroId}-smallskin-1.jpg`);
+        urls.push(`https://game.gtimg.cn/images/yxzj/img201606/heroimg/${heroId}/${heroId}-bigskin-1.jpg`);
+      }
+    }
+
+    const { buffer, contentType } = await downloadWithFallbacks(urls);
     const newUrl = await uploadToS3(buffer, key, contentType);
 
     await db.collection('heroes').updateOne(
@@ -266,7 +314,15 @@ async function migrateItemIcons(db) {
 
     const ext = item.icon_url.split('.').pop().split('?')[0] || 'png';
     const key = `items/${item.game}/${item.slug}.${ext}`;
-    const { buffer, contentType } = await downloadImage(item.icon_url);
+
+    // Build fallback URLs
+    const urls = [item.icon_url];
+    const itemId = extractItemId(item.icon_url);
+    if (itemId) {
+      urls.push(`https://game.gtimg.cn/images/yxzj/img201606/itemimg/${itemId}.png`);
+    }
+
+    const { buffer, contentType } = await downloadWithFallbacks(urls);
     const newUrl = await uploadToS3(buffer, key, contentType);
 
     await db.collection('items').updateOne(
