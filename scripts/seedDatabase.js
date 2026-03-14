@@ -66,6 +66,23 @@ const ITEM_CATEGORY_MAP = {
   'utility': 'Hỗ Trợ',
 };
 
+// Mapping rune tier (số → chữ)
+const RUNE_TIER_MAP = {
+  '1': 'C', '2': 'B', '3': 'A', '4': 'S', '5': 'S',
+  'S': 'S', 'A': 'A', 'B': 'B', 'C': 'C',
+  's': 'S', 'a': 'A', 'b': 'B', 'c': 'C',
+};
+
+// Mapping rune category (EN → VI)
+const RUNE_CATEGORY_MAP = {
+  'attack': 'Sức Mạnh',
+  'defense': 'Phòng Thủ',
+  'utility': 'Lưỡng Tính',
+  'speed': 'Tốc Độ',
+  'hybrid': 'Lưỡng Tính',
+  'magic': 'Công Thêm',
+};
+
 // ============================================
 // Helper Functions
 // ============================================
@@ -373,21 +390,24 @@ async function seedRunes() {
 
     for (const rune of data.runes) {
       try {
-        const name = rune.name_vi || rune.name_cn || rune.name_en || `Rune_${rune.id}`;
+        const name = rune.name_vi || rune.name_en || rune.name_cn || `Rune_${rune.id}`;
         const slug = makeSlug(name, game);
 
         const existing = await Rune.findOne({ slug });
         if (existing) continue;
+
+        const tier = RUNE_TIER_MAP[String(rune.tier)] || 'B';
+        const category = RUNE_CATEGORY_MAP[(rune.category || '').toLowerCase()] || 'Sức Mạnh';
 
         await Rune.create({
           name_vi: name,
           name_cn: rune.name_cn || '',
           slug,
           game,
-          tier: rune.tier || 'A',
-          category: rune.category || 'Sức Mạnh',
+          tier,
+          category,
           stats: rune.stats || {},
-          description_vi: rune.description_vi || rune.description || '',
+          description_vi: rune.description_vi || rune.description_cn || rune.description_en || rune.description || 'Chưa có mô tả',
           description_cn: rune.description_cn || '',
           icon_url: rune.icon_url || '',
           isActive: true,
@@ -428,7 +448,7 @@ async function seedSummonerSkills() {
           name_cn: skill.name_cn || '',
           slug,
           game,
-          description_vi: skill.description_vi || skill.description || '',
+          description_vi: skill.description_vi || skill.description_cn || skill.description_en || skill.description || 'Chưa có mô tả',
           description_cn: skill.description_cn || '',
           cooldown: skill.cooldown_seconds || skill.cooldown || 0,
           unlock_level: skill.unlock_level || 1,
@@ -460,22 +480,29 @@ async function seedHeroMappings() {
     try {
       // Tìm hero VG bằng tên
       const vgName = mapping.hok_name_vi || mapping.vg_name_vi;
-      const lqName = mapping.aov_name_vi || mapping.lq_name_vi;
+      const rawLqName = mapping.aov_name_vi || mapping.lq_name_vi;
 
-      if (!vgName || !lqName) continue;
+      if (!vgName || !rawLqName) continue;
+
+      // Handle "Diao Chan / Lauriel" → try each name
+      const lqNames = rawLqName.split('/').map(n => n.trim());
 
       const vgHero = await Hero.findOne({
         game: 'vg',
         $or: [
-          { name_vi: { $regex: new RegExp(`^${vgName}$`, 'i') } },
-          { name_cn: { $regex: new RegExp(`^${mapping.hok_name_cn || mapping.vg_name_cn}$`, 'i') } },
+          { name_vi: { $regex: new RegExp(`^${vgName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') } },
+          { name_cn: { $regex: new RegExp(`^${(mapping.hok_name_cn || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') } },
         ],
       });
 
-      const lqHero = await Hero.findOne({
-        game: 'lq',
-        name_vi: { $regex: new RegExp(`^${lqName}$`, 'i') },
-      });
+      let lqHero = null;
+      for (const lqName of lqNames) {
+        lqHero = await Hero.findOne({
+          game: 'lq',
+          name_vi: { $regex: new RegExp(`^${lqName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`, 'i') },
+        });
+        if (lqHero) break;
+      }
 
       if (!vgHero || !lqHero) {
         console.log(`   ⏭  Bỏ qua mapping: ${vgName} ↔ ${lqName} (không tìm thấy tướng)`);
