@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "title": "Honor of Kings (王者荣耀) to Arena of Valor / Liên Quân Mobile Hero Mapping",
+    "description": "Comprehensive skill comparison mapping between HOK/VGVD and AOV/LQ heroes from TiMi Studios",
+    "last_updated": "2026-03-14",
+    "game_versions": {
+      "hok": "Honor of Kings / 王者荣耀 / Vương Giả Vinh Diệu",
+      "aov": "Arena of Valor / Liên Quân Mobile"
+    },
+    "note": "Similarity scores based on skill mechanics, not visual/name similarity. Many heroes share core mechanics but have different names, and some have same names but different playstyles due to separate development."
+  },
+  "mappings": [
+    {
+      "hok_name_cn": "妲己",
+      "hok_name_vi": "Đát Kỷ",
+      "aov_name_vi": "Veera",
+      "role": "Mage",
+      "similarity_score": 92,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "失心",
+          "hok_skill_vi": "Mất Hồn",
+          "aov_skill_vi": "Captivate",
+          "mechanics_hok": "Skill hits reduce enemy Magic Defense by 36-72 points, stacking up to 3 times for 3 seconds",
+          "mechanics_aov": "Skill hits reduce enemy Magic Defense, stacking mechanic (similar effect)",
+          "similarity": "Nearly identical passive mechanism - both reduce magic defense when skills hit",
+          "difference": "Slight variation in damage reduction numbers"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "灵魂冲击",
+          "hok_skill_vi": "Linh Hồn Xung Kích",
+          "aov_skill_vi": "Soul Impact",
+          "mechanics_hok": "Shockwave dealing 570-895 (+120% Magic Power) magic damage in specified direction",
+          "mechanics_aov": "Similar shockwave projectile dealing magic damage",
+          "similarity": "Core mechanism identical - directional magic damage projectile",
+          "difference": "Scaling and damage values may differ"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "偶像魅力",
+          "hok_skill_vi": "Sắc Đẹp Gây Mê",
+          "aov_skill_vi": "Strike a Pose",
+          "mechanics_hok": "Lock onto enemy, throw charming heart dealing 285-460 (+66% Magic Power) magic damage and stunning for 1.5 seconds",
+          "mechanics_aov": "Similar lockable stun ability with charm mechanics",
+          "similarity": "Nearly identical lockable stun with damage component",
+          "difference": "Visual execution differs but mechanical effect is the same"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "女王崇拜",
+          "hok_skill_vi": "Nữ Hoàng Sùng Bái",
+          "aov_skill_vi": "Heartbreaker",
+          "mechanics_hok": "Release 5 foxfires dealing 325-485 (+75% Magic Power) magic damage each, with subsequent foxfires dealing 50% damage if multiple hit same target",
+          "mechanics_aov": "Multi-projectile ultimate with area damage",
+          "similarity": "Both use multi-projectile ultimate with diminishing returns on stacking",
+          "difference": "Number and pattern of projectiles may vary"
+        }
+      ],
+      "overall_notes": "妲己/Veera are nearly identical heroes - same charm/mage playstyle with magic defense reduction passive. Both are seductive mage characters with crowd control and burst damage. 92% skill similarity makes them nearly perfect counterparts."
+    },
+    {
+      "hok_name_cn": "孙悟空",
+      "hok_name_vi": "Tôn Ngộ Không",
+      "aov_name_vi": "Wukong",
+      "role": "Fighter/Assassin",
+      "similarity_score": 75,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "齐天大圣",
+          "hok_skill_vi": "Tề Thiên Đại Thánh",
+          "aov_skill_vi": "The Great Sage",
+          "mechanics_hok": "After using skill, next basic attack dashes to target dealing 475 (+100% AD) physical damage with 20% crit rate and benefits from crit bonuses",
+          "mechanics_aov": "Similar - after ability use, next attack transforms to powerful dash dealing 330 (+14/level) (+1.0 AD) physical damage",
+          "similarity": "Both feature skill-to-autoattack empowerment with dash component",
+          "difference": "HOK version has crit-focused scaling, AOV version emphasizes movement"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "防护咒语",
+          "hok_skill_vi": "Phòng Vệ Chú Ngữ",
+          "aov_skill_vi": "Protective Shroud/Fortification Spell",
+          "mechanics_hok": "Block enemy skill for up to 1.5 seconds, gaining 0.2s invincibility and shield absorbing 500-1000 (+150% AD) (+15% extra HP) damage for 4 seconds if successful block",
+          "mechanics_aov": "Makes himself invisible and gains 40% movement speed for 1 second with armor/magic defense buff",
+          "similarity": "Both are defensive/mobility skills with similar activation patterns",
+          "difference": "HOK is reactive blocking defense, AOV is proactive stealth mobility - MAJOR mechanical difference"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "金箍棒横扫",
+          "hok_skill_vi": "Cái Vàng Toa Quét",
+          "aov_skill_vi": "Furious Advance",
+          "mechanics_hok": "Dash in direction, if hitting target leaps into air gaining 90% decaying movement speed for 1 second",
+          "mechanics_aov": "Becomes invisible for 1 second, gains 40% movement speed, falls in direction with 100-200 armor/magic defense buff for 3 seconds",
+          "similarity": "Both are dashing mobility skills with movement speed components",
+          "difference": "HOK conditional on hitting enemy, AOV provides duration invisibility"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "金箍棒砸地",
+          "hok_skill_vi": "Cái Vàng Toa Chứa Đất",
+          "aov_skill_vi": "Golden Cudgel",
+          "mechanics_hok": "Thrust Golden Cudgel dealing 250-500 (+80% AD) physical damage, knocking enemies up for 1 second, applying 3 mark layers. Basic attacks on marked enemies consume marks dealing additional 270-540 physical damage",
+          "mechanics_aov": "Release inner Chi, nearby enemies take 150-230 (+0.5 AD) physical damage and stun for 1 second. Can reuse within 5 seconds to vanish with 40% movement speed buff",
+          "similarity": "Both are AoE knockout crowd control ultimates",
+          "difference": "HOK focuses on mark stacking for sustained damage, AOV has dual-cast with mobility reset"
+        }
+      ],
+      "overall_notes": "Wukong heroes share monkey-themed fighter gameplay but mechanics have diverged significantly. HOK version is more crit-oriented with reactive blocking, AOV version emphasizes stealth and mobility. ~75% similar with significant playstyle differences due to separate development paths."
+    },
+    {
+      "hok_name_cn": "花木兰",
+      "hok_name_vi": "Hoa Mộc Lan",
+      "aov_name_vi": "Yena",
+      "role": "Fighter/Dual-Wielder",
+      "similarity_score": 88,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "千杀阵",
+          "hok_skill_vi": "Thiên Sát Trận",
+          "aov_skill_vi": "Mark of the Blade",
+          "mechanics_hok": "Dual-wielding mode increases movement speed by 40 points. Damage marks targets with Mark of the Blade lasting 5 seconds, stackable. At 5 stacks targets take 200% of AD physical damage, get silenced 1 second, and move 80% slower",
+          "mechanics_aov": "Same mechanic - marks from damage attacks, stacking effect at high marks",
+          "similarity": "Nearly identical mark stacking passive with same 5-stack threshold effect",
+          "difference": "Minor wording/implementation differences only"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "双剑合璧",
+          "hok_skill_vi": "Hai Kiếm Hợp Bích",
+          "aov_skill_vi": "Dual-Wield Mode",
+          "mechanics_hok": "Engage dual-wielding increasing attack damage and gaining new abilities while in mode",
+          "mechanics_aov": "Transform between dual-wield and merged blade forms, each with different abilities and attack patterns",
+          "similarity": "Both feature fundamental stance-switching mechanic",
+          "difference": "Implementation details and resulting move set changes vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "翎羽镖",
+          "hok_skill_vi": "Lông Võng Đao",
+          "aov_skill_vi": "Blade Attack Variation",
+          "mechanics_hok": "Projectile attack changing based on stance - different effects in dual-wield vs merged mode",
+          "mechanics_aov": "Stance-dependent attack ability with mechanical variation",
+          "similarity": "Both attacks vary based on character's current stance",
+          "difference": "Specific projectile patterns and damage calculations differ"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "无双斩击",
+          "hok_skill_vi": "Vô Song Chắt Kích",
+          "aov_skill_vi": "Blade Sweep",
+          "mechanics_hok": "Ultimate that deals massive physical damage with AOE effect, can trigger blade combination for enhanced damage in specific stance",
+          "mechanics_aov": "Ultimate sweep attack dealing high physical damage with extended AOE",
+          "similarity": "Both ultimates are sweeping multi-target physical damage abilities",
+          "difference": "Damage scaling and secondary effects vary between versions"
+        }
+      ],
+      "overall_notes": "花木兰/Yena are nearly identical dual-wielding fighters. Both feature stance-switching mechanics and mark stacking passive. The dual-weapon system is fundamental to both heroes. ~88% similarity with minor mechanical variations between versions."
+    },
+    {
+      "hok_name_cn": "李白",
+      "hok_name_vi": "Lý Bạch",
+      "aov_name_vi": "Murad",
+      "role": "Assassin/Martial Artist",
+      "similarity_score": 80,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "剑客之心",
+          "hok_skill_vi": "Kiếm Khách Tâm",
+          "aov_skill_vi": "Dodge Enhancement",
+          "mechanics_hok": "Gain temporary invincibility windows after ability usage, dodge incoming damage",
+          "mechanics_aov": "Gain invincibility and dodge mechanics through temporal abilities",
+          "similarity": "Both feature dodge/invincibility mechanics as core passive",
+          "difference": "Implementation and trigger conditions vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "青莲剑歌",
+          "hok_skill_vi": "Thanh Liên Kiếm Ca",
+          "aov_skill_vi": "Blade Strike",
+          "mechanics_hok": "Ranged sword attack dealing physical damage in cone area",
+          "mechanics_aov": "Primary damage dealing skill with projectile component",
+          "similarity": "Both are basic ranged damage skills",
+          "difference": "Area of effect and damage scaling differs"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "纵剑飞仙",
+          "hok_skill_vi": "Tung Kiếm Bay Tiên",
+          "aov_skill_vi": "Another Dimension",
+          "mechanics_hok": "Mobility dash with invincibility window during animation",
+          "mechanics_aov": "Teleport/dash ability that grants temporary invincibility making Murad invincible during dodge",
+          "similarity": "Both are dash abilities with invincibility/dodge component",
+          "difference": "Duration and range of invincibility protection varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "剑仙风范",
+          "hok_skill_vi": "Kiếm Tiên Phong Phàm",
+          "aov_skill_vi": "Temporal Turbulence",
+          "mechanics_hok": "Ultimate with large AoE damage and crowd control, potential for high burst damage",
+          "mechanics_aov": "Ultimate ability that creates temporal displacement making Murad invincible with large damage output for nuke potential",
+          "similarity": "Both ultimates provide burst damage with invincibility component",
+          "difference": "AOV version emphasizes temporary invincibility more heavily"
+        }
+      ],
+      "overall_notes": "李白/Murad are assassin martial artists with emphasis on dodge/invincibility mechanics. Both feature teleport-based mobility with damage output. AOV Murad emphasizes invincibility windows more heavily. ~80% similarity with invincibility mechanics as key shared feature."
+    },
+    {
+      "hok_name_cn": "貂蝉",
+      "hok_name_vi": "Điêu Thuyền",
+      "aov_name_vi": "Diao Chan / Lauriel",
+      "role": "Mage/Assassin",
+      "similarity_score": 85,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "绝世之舞",
+          "hok_skill_vi": "Tuyệt Thế Chi Vũ",
+          "aov_skill_vi": "Mark Explosion",
+          "mechanics_hok": "Place marks on targets with skill damage. At 4 marks target explodes taking true damage and getting slowed while hero recovers HP",
+          "mechanics_aov": "Same mark placement mechanic - 4 marks trigger explosion with true damage and slow effect",
+          "similarity": "Nearly identical mark-stacking passive with 4-mark threshold",
+          "difference": "Minor damage and recovery value differences"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "莲花坠击",
+          "hok_skill_vi": "Liên Hoa Trụy Kích",
+          "aov_skill_vi": "Lotus Orb / Light Beam",
+          "mechanics_hok": "Launch lotus orb as boomerang returning to caster, both directions dealing same damage",
+          "mechanics_aov": "Launch beam of light dealing damage forward then flashing previous area again for same damage",
+          "similarity": "Both are ranged AoE attacks with dual-damage mechanic (forward and return)",
+          "difference": "HOK uses boomerang return, AOV uses light flash mechanic - different visual/mechanical execution"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "月华无影",
+          "hok_skill_vi": "Nguyệt Hoa Vô Ảnh",
+          "aov_skill_vi": "Moon Dash",
+          "mechanics_hok": "Dash to direction, if enemies near end of dash launch three projectiles to nearby enemies dealing damage",
+          "mechanics_aov": "Similar dash with projectile launch to nearby enemies",
+          "similarity": "Nearly identical dash-with-projectile mechanic",
+          "difference": "Number and pattern of projectiles may differ"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "至舞华章",
+          "hok_skill_vi": "Chí Vũ Hoa Chương",
+          "aov_skill_vi": "Moon Dance",
+          "mechanics_hok": "Massive AoE ultimate with multiple projectile waves dealing magic damage",
+          "mechanics_aov": "Ultimate dance/movement ability with area damage component",
+          "similarity": "Both are mobile mage ultimates with AoE damage and dancing/movement theme",
+          "difference": "Damage pattern and area coverage implementation differs"
+        }
+      ],
+      "overall_notes": "貂蝉/Diao Chan are mobile mage/assassins with mark-stacking passives and dance-like mobility. Both build marks to explosive payoff. Nearly identical core mechanics with ~85% similarity. Both excel at magical burst with high mobility."
+    },
+    {
+      "hok_name_cn": "诸葛亮",
+      "hok_name_vi": "Gia Cát Lượng",
+      "aov_name_vi": "Liliana / Kongming",
+      "role": "Mage/Support",
+      "similarity_score": 78,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "六出祁山",
+          "hok_skill_vi": "Lục Xuất Kì Sơn",
+          "aov_skill_vi": "Prism Summoning",
+          "mechanics_hok": "Passive grants 1 stack per active skill hit on enemies, at max 5 stacks summon prisms to attack nearby enemies",
+          "mechanics_aov": "Similar stacking mechanic building toward summon trigger",
+          "similarity": "Both feature stacking passive leading to summon mechanics",
+          "difference": "Summon type and behavior differs (prisms vs other entities)"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "三仙火阵",
+          "hok_skill_vi": "Tam Tiên Hỏa Trận",
+          "aov_skill_vi": "Prism Launch",
+          "mechanics_hok": "Fire 3 prisms in cone-shaped area dealing damage to enemies hit",
+          "mechanics_aov": "Similar prism-based projectile attack in area pattern",
+          "similarity": "Nearly identical prism-launching skill 1",
+          "difference": "Area pattern and damage values vary slightly"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "时之流逝",
+          "hok_skill_vi": "Thời Chi Lưu Thất",
+          "aov_skill_vi": "Blinding Light / Time Shift",
+          "mechanics_hok": "Core displacement skill - only main movement ability allowing repositioning and combo setup",
+          "mechanics_aov": "Stun missile that explodes on contact or missile shot that stuns",
+          "similarity": "Both are key utility skills for positioning/control",
+          "difference": "HOK emphasizes displacement movement, AOV emphasizes crowd control stun"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "天火同人",
+          "hok_skill_vi": "Thiên Hỏa Đồng Nhân",
+          "aov_skill_vi": "Unpredictable / Spirit Bomb",
+          "mechanics_hok": "Spirit Bomb at target dealing massive magic damage, 80% cooldown reduction if eliminates enemy hero",
+          "mechanics_aov": "Charge ultimate entering fox form, changing abilities, gaining untargetable status with armor/magic defense buffs and area damage in path",
+          "similarity": "Both are powerful ultimates with game-changing mechanics",
+          "difference": "HOK focuses on burst with reset mechanics, AOV emphasizes form transformation and defensive buff"
+        }
+      ],
+      "overall_notes": "诸葛亮/Liliana are strategic mages with different emphasis - HOK Kongming is burst-oriented with cooldown reset potential, AOV Liliana emphasizes defensive transformation and positioning flexibility. ~78% core similarity but different playstyles."
+    },
+    {
+      "hok_name_cn": "亚瑟",
+      "hok_name_vi": "A Tư",
+      "aov_name_vi": "Arthur",
+      "role": "Warrior/Tank",
+      "similarity_score": 95,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "魔法剑刃",
+          "hok_skill_vi": "Ma Pháp Kiếm Lưỡi",
+          "aov_skill_vi": "Magic Sword",
+          "mechanics_hok": "Summoned magical swords circle around dealing damage per second to nearby enemies, basic attacks consume swords for enhanced damage",
+          "mechanics_aov": "Nearly identical circling sword mechanic with per-second damage dealing to nearby enemies",
+          "similarity": "Nearly identical magic sword summoning passive",
+          "difference": "Minor differences in sword behavior and damage values"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "剑刃冲刺",
+          "hok_skill_vi": "Kiếm Lưỡi Xung Phích",
+          "aov_skill_vi": "Sword Strike",
+          "mechanics_hok": "Dash attack dealing physical damage in area, basic defensive/offensive tool",
+          "mechanics_aov": "Similar dash strike ability",
+          "similarity": "Nearly identical dash strike skill 1",
+          "difference": "Slight variations in range and area of effect"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "魔剑横扫",
+          "hok_skill_vi": "Ma Kiếm Hoành Quét",
+          "aov_skill_vi": "Sword Sweep",
+          "mechanics_hok": "Sweep attack dealing area damage, applies crowd control or buff",
+          "mechanics_aov": "Similar sword sweep area damage ability",
+          "similarity": "Nearly identical sweep attack mechanic",
+          "difference": "Secondary effects may vary"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "剑阵领主",
+          "hok_skill_vi": "Kiếm Trận Lĩnh Chủ",
+          "aov_skill_vi": "Sword Blast",
+          "mechanics_hok": "Leap to target enemy stabbing swords creating blast knocking up nearby enemies, leaving damaging ground mark",
+          "mechanics_aov": "Nearly identical leap-stab ultimate creating ground damage zone with knockup effect",
+          "similarity": "Nearly identical ultimate mechanics - leap to target with knockup and persistent ground damage",
+          "difference": "Minor tuning differences in damage and duration"
+        }
+      ],
+      "overall_notes": "Arthur heroes in both games are nearly IDENTICAL - same sword-summoning warrior playstyle with magical sword mechanics. Both leap-stab ultimates with knockup and ground damage. ~95% similarity makes them nearly perfect counterparts with minimal differences."
+    },
+    {
+      "hok_name_cn": "安琪拉",
+      "hok_name_vi": "An Kỳ La",
+      "aov_name_vi": "Krixi / Angela",
+      "role": "Mage/Support",
+      "similarity_score": 80,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "魔力迸裂",
+          "hok_skill_vi": "Ma Lực Bính Liệt",
+          "aov_skill_vi": "Magic Burst",
+          "mechanics_hok": "Passive that enhances magic damage output and provides buff enhancement mechanics",
+          "mechanics_aov": "Similar magic damage amplification passive",
+          "similarity": "Both enhance magical damage output through passive",
+          "difference": "Specific mechanics of buff application vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "魔法弹幕",
+          "hok_skill_vi": "Ma Pháp Đạn Màn",
+          "aov_skill_vi": "Magic Barrage",
+          "mechanics_hok": "Launch multiple magic projectiles dealing area damage",
+          "mechanics_aov": "Similar multi-projectile barrage attack",
+          "similarity": "Nearly identical multi-projectile damage skill",
+          "difference": "Number and pattern of projectiles may vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "能量护盾",
+          "hok_skill_vi": "Năng Lượng Hộ Bài",
+          "aov_skill_vi": "Energy Shield",
+          "mechanics_hok": "Grant shield buff to allies or self providing damage protection",
+          "mechanics_aov": "Similar protective shield ability",
+          "similarity": "Nearly identical shield granting support ability",
+          "difference": "Shield scaling and duration varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "魔力轰炸",
+          "hok_skill_vi": "Ma Lực Huyền Đạo",
+          "aov_skill_vi": "Magic Blast",
+          "mechanics_hok": "Ultimate area damage ability with large AoE and crowd control component",
+          "mechanics_aov": "Similar ultimate AoE damage with control effect",
+          "similarity": "Both ultimates are AoE magic damage with crowd control",
+          "difference": "Specific crowd control type and damage pattern varies"
+        }
+      ],
+      "overall_notes": "安琪拉/Angela-Krixi are magical support mages with shield-granting capabilities. Both emphasize magic damage output with ally protection. ~80% similarity with support-focused playstyle in both versions."
+    },
+    {
+      "hok_name_cn": "吕布",
+      "hok_name_vi": "Lữ Bố",
+      "aov_name_vi": "Maloch / Lu Bu",
+      "role": "Warrior/Tank",
+      "similarity_score": 82,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "狂暴",
+          "hok_skill_vi": "Cuồng Bạo",
+          "aov_skill_vi": "Rampage",
+          "mechanics_hok": "Gain increased attack power and defense as health decreases, rewarding aggressive low-health play",
+          "mechanics_aov": "Similar mechanic where hero becomes stronger at lower health",
+          "similarity": "Nearly identical low-health rampage/empowerment passive",
+          "difference": "Specific stat bonuses and thresholds vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "方天画戟挥舞",
+          "hok_skill_vi": "Phương Thiên Họa Kích Huỳnh Vũ",
+          "aov_skill_vi": "Halberd Swing",
+          "mechanics_hok": "Swing weapon dealing area damage to nearby enemies",
+          "mechanics_aov": "Similar weapon swing area damage",
+          "similarity": "Nearly identical AoE swing attack",
+          "difference": "Range and damage values vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "方天画戟冲锋",
+          "hok_skill_vi": "Phương Thiên Họa Kích Xung Phong",
+          "aov_skill_vi": "Halberd Charge",
+          "mechanics_hok": "Charge forward with weapon dealing damage and crowd control",
+          "mechanics_aov": "Similar charge ability with damage and CC",
+          "similarity": "Nearly identical charge attack",
+          "difference": "Crowd control type and damage scaling varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "无双",
+          "hok_skill_vi": "Vô Song",
+          "aov_skill_vi": "Peerless",
+          "mechanics_hok": "Ultimate providing massive damage boost and crowd control immunity for duration, massive AoE damage",
+          "mechanics_aov": "Similar ultimate with damage boost and temporary immunity effect",
+          "similarity": "Nearly identical ultimate with immunity/damage boost component",
+          "difference": "Specific immunity duration and damage output varies"
+        }
+      ],
+      "overall_notes": "吕布/Maloch are powerful warriors with rampage mechanics rewarding low-health aggressive play. Both feature weapon-based damage abilities with charge mechanics. ~82% similarity with core rampage passive identical."
+    },
+    {
+      "hok_name_cn": "赵云",
+      "hok_name_vi": "Triệu Vân",
+      "aov_name_vi": "Zephys / Nakroth",
+      "role": "Fighter/Assassin",
+      "similarity_score": 79,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "龙血",
+          "hok_skill_vi": "Long Huyết",
+          "aov_skill_vi": "Dragon Essence",
+          "mechanics_hok": "Hero gains increased defense and can trigger burst damage effects when conditions are met",
+          "mechanics_aov": "Similar dragon-themed damage/defense enhancement passive",
+          "similarity": "Both have dragon-themed power enhancement passives",
+          "difference": "Specific trigger conditions and stat bonuses vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "龙吟斩",
+          "hok_skill_vi": "Long Âm Trảm",
+          "aov_skill_vi": "Dragon Slash",
+          "mechanics_hok": "Slash attack dealing physical damage in area",
+          "mechanics_aov": "Similar dragon-themed slash attack",
+          "similarity": "Nearly identical slash damage skill",
+          "difference": "Area of effect pattern varies"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "龙胆",
+          "hok_skill_vi": "Long Đảm",
+          "aov_skill_vi": "Dragon's Will",
+          "mechanics_hok": "Movement and attack speed buff, provides temporary combat enhancement",
+          "mechanics_aov": "Similar combat buff ability",
+          "similarity": "Nearly identical buff ability",
+          "difference": "Buff duration and stat values vary"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "龙舞",
+          "hok_skill_vi": "Long Vũ",
+          "aov_skill_vi": "Dragon Dance",
+          "mechanics_hok": "Ultimate dragon-themed ability with large AoE damage and crowd control",
+          "mechanics_aov": "Similar dragon ultimate with area damage",
+          "similarity": "Both are dragon-themed ultimates with AoE damage",
+          "difference": "Specific crowd control and damage pattern varies"
+        }
+      ],
+      "overall_notes": "赵云/Zephys are dragon-themed fighters with power-enhancement passives. Both use dragon abilities for slashing damage. ~79% similarity with dragon theme as key shared element. Mechanical implementations differ in specific ways."
+    },
+    {
+      "hok_name_cn": "韩信",
+      "hok_name_vi": "Hàn Tín",
+      "aov_name_vi": "Nakroth",
+      "role": "Assassin",
+      "similarity_score": 76,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "知音",
+          "hok_skill_vi": "Tri Âm",
+          "aov_skill_vi": "Shadow Echo",
+          "mechanics_hok": "Passive that enhances mobility and provides shadow/clone mechanics for damage",
+          "mechanics_aov": "Similar shadow/duplicate mechanic enhancing damage output",
+          "similarity": "Both feature shadow/echo mechanics for enhanced damage",
+          "difference": "Shadow behavior and damage application varies"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "霸业",
+          "hok_skill_vi": "Bá Nghiệp",
+          "aov_skill_vi": "Shadow Strike",
+          "mechanics_hok": "Quick strike dealing physical damage with possible shadow effect",
+          "mechanics_aov": "Similar shadow-enhanced strike",
+          "similarity": "Nearly identical shadow-based damage skill",
+          "difference": "Shadow trigger conditions vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "十面埋伏",
+          "hok_skill_vi": "Thập Diện Mai Phục",
+          "aov_skill_vi": "Decoy",
+          "mechanics_hok": "Create shadow clone or dash ability dealing area damage",
+          "mechanics_aov": "Similar decoy/clone ability",
+          "similarity": "Both use clone/decoy mechanics",
+          "difference": "Implementation and behavior of clones differs"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "国士无双",
+          "hok_skill_vi": "Quốc Sĩ Vô Song",
+          "aov_skill_vi": "Shadow Assault",
+          "mechanics_hok": "Ultimate that deals massive damage with shadow/clone multiplication effect",
+          "mechanics_aov": "Similar ultimate with shadow mechanics dealing heavy damage",
+          "similarity": "Both ultimates utilize shadow mechanics for burst damage",
+          "difference": "Shadow count and damage distribution varies"
+        }
+      ],
+      "overall_notes": "韩信/Nakroth are assassins specializing in shadow clone mechanics for burst damage. Both emphasize mobility through shadow/echo effects. ~76% similarity with shadow mechanics as core shared feature but different implementation details."
+    },
+    {
+      "hok_name_cn": "关羽",
+      "hok_name_vi": "Quan Vũ",
+      "aov_name_vi": "Superman",
+      "role": "Warrior/Tank",
+      "similarity_score": 81,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "青龙偃月刀",
+          "hok_skill_vi": "Thanh Long Yết Nguyệt Đao",
+          "aov_skill_vi": "Green Dragon Saber",
+          "mechanics_hok": "Passive weapon enhancement providing attack power and defense scaling",
+          "mechanics_aov": "Similar weapon-based stat enhancement",
+          "similarity": "Nearly identical weapon-based passive enhancement",
+          "difference": "Scaling values vary slightly"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "刀锋之力",
+          "hok_skill_vi": "Đao Phong Chi Lực",
+          "aov_skill_vi": "Blade Force",
+          "mechanics_hok": "Slice attack dealing area damage with possible crowd control",
+          "mechanics_aov": "Similar slice/blade attack",
+          "similarity": "Nearly identical slice attack ability",
+          "difference": "Crowd control type varies"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "横扫千军",
+          "hok_skill_vi": "Hoành Quét Thiên Quân",
+          "aov_skill_vi": "Sweep All Enemies",
+          "mechanics_hok": "Wide area sweep dealing damage to all enemies in range",
+          "mechanics_aov": "Similar wide sweep ability",
+          "similarity": "Nearly identical area sweep attack",
+          "difference": "Range and damage values vary"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "青龙之怒",
+          "hok_skill_vi": "Thanh Long Chi Nộ",
+          "aov_skill_vi": "Dragon Wrath",
+          "mechanics_hok": "Ultimate with large AoE damage and crowd control, grants temporary stat boost",
+          "mechanics_aov": "Similar ultimate with area damage and buff effect",
+          "similarity": "Both ultimates are AoE damage with stat buff component",
+          "difference": "Specific buff type and damage pattern varies"
+        }
+      ],
+      "overall_notes": "关羽/Superman are warrior generals with weapon-based mechanics using Chinese weapons (Green Dragon Saber). Both feature sweep attacks and stat-boosting ultimates. ~81% similarity with weapon-enhancement passive as core element."
+    },
+    {
+      "hok_name_cn": "曹操",
+      "hok_name_vi": "Tào Tháo",
+      "aov_name_vi": "Lu Bu / Maloch",
+      "role": "Warrior",
+      "similarity_score": 75,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "将者风范",
+          "hok_skill_vi": "Tướng Giả Phong Phàm",
+          "aov_skill_vi": "Leader's Aura",
+          "mechanics_hok": "Passive that provides stat bonuses to self and nearby allies, leadership-themed",
+          "mechanics_aov": "Similar aura-based buff to team",
+          "similarity": "Both provide team/self buff passive with warrior/leader theme",
+          "difference": "Specific stat bonuses and aura radius vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "骑兵冲锋",
+          "hok_skill_vi": "Kỵ Binh Xung Phong",
+          "aov_skill_vi": "Cavalry Charge",
+          "mechanics_hok": "Charge attack dealing physical damage",
+          "mechanics_aov": "Similar charge ability",
+          "similarity": "Nearly identical charge attack",
+          "difference": "Charge distance and impact varies"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "横刀立马",
+          "hok_skill_vi": "Hoành Đao Lập Mã",
+          "aov_skill_vi": "Blade Stance",
+          "mechanics_hok": "Defense buff or counter-attack ability",
+          "mechanics_aov": "Similar defensive ability",
+          "similarity": "Nearly identical defensive/counter ability",
+          "difference": "Defense mechanism type varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "兵临城下",
+          "hok_skill_vi": "Binh Lâm Thành Hạ",
+          "aov_skill_vi": "Siege",
+          "mechanics_hok": "Ultimate that provides major area control and crowd control with potential team buff",
+          "mechanics_aov": "Similar ultimate area control ability",
+          "similarity": "Both ultimates emphasize area control and command mechanics",
+          "difference": "Specific crowd control implementation varies"
+        }
+      ],
+      "overall_notes": "曹操/Lu Bu are military leader warriors with team-buff passives and charge-based abilities. Both emphasize leadership and area control. ~75% similarity with leader-theme as key shared element."
+    },
+    {
+      "hok_name_cn": "刘邦",
+      "hok_name_vi": "Lưu Bang",
+      "aov_name_vi": "Zani / Zaniel",
+      "role": "Tank/Support",
+      "similarity_score": 77,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "皇帝气场",
+          "hok_skill_vi": "Hoàng Đế Khí Trường",
+          "aov_skill_vi": "Imperial Aura",
+          "mechanics_hok": "Passive that enhances team stats in area with emperor-themed power",
+          "mechanics_aov": "Similar imperial/leader buff aura",
+          "similarity": "Nearly identical team buff passive aura",
+          "difference": "Buff magnitude and area size vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "君临天下",
+          "hok_skill_vi": "Quân Lâm Thiên Hạ",
+          "aov_skill_vi": "Ruler's Decree",
+          "mechanics_hok": "Buff ability granting power to self and team",
+          "mechanics_aov": "Similar command/buff ability",
+          "similarity": "Nearly identical team buff skill",
+          "difference": "Buff duration and type vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "强权镇压",
+          "hok_skill_vi": "Cường Quyền Trấn Áp",
+          "aov_skill_vi": "Domination",
+          "mechanics_hok": "Crowd control or protective ability with dominion theme",
+          "mechanics_aov": "Similar control/protection ability",
+          "similarity": "Nearly identical control ability",
+          "difference": "Specific CC type varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "鼎立天下",
+          "hok_skill_vi": "Đỉnh Lập Thiên Hạ",
+          "aov_skill_vi": "Supremacy",
+          "mechanics_hok": "Ultimate with area control and major team buff effect",
+          "mechanics_aov": "Similar ultimate team buff with area control",
+          "similarity": "Both ultimates emphasize team empowerment with area effect",
+          "difference": "Buff type and duration varies"
+        }
+      ],
+      "overall_notes": "刘邦/Zaniel are support tanks with strong team-buff mechanics and imperial/leader theme. Both focus on empowering allies. ~77% similarity with team-buff mechanics as core shared element."
+    },
+    {
+      "hok_name_cn": "程咬金",
+      "hok_name_vi": "Trình Cắn Vàng",
+      "aov_name_vi": "Tara / Tara",
+      "role": "Tank",
+      "similarity_score": 74,
+      "skill_comparison": [
+        {
+          "skill_type": "passive",
+          "hok_skill_cn": "护心镜",
+          "hok_skill_vi": "Hộ Tâm Gương",
+          "aov_skill_vi": "Protective Mirror",
+          "mechanics_hok": "Passive shield that triggers periodically protecting against damage",
+          "mechanics_aov": "Similar periodic shield passive",
+          "similarity": "Nearly identical shield-based passive",
+          "difference": "Shield trigger frequency and amount vary"
+        },
+        {
+          "skill_type": "skill_1",
+          "hok_skill_cn": "锯齿匕首",
+          "hok_skill_vi": "Cưa Răng Xỉa Phu",
+          "aov_skill_vi": "Jagged Blade",
+          "mechanics_hok": "Melee attack dealing area damage",
+          "mechanics_aov": "Similar blade attack",
+          "similarity": "Nearly identical melee attack ability",
+          "difference": "Range and damage values vary"
+        },
+        {
+          "skill_type": "skill_2",
+          "hok_skill_cn": "烈火斩",
+          "hok_skill_vi": "Liệt Hỏa Trảm",
+          "aov_skill_vi": "Flame Slash",
+          "mechanics_hok": "Flame-based attack dealing area damage with possible crowd control",
+          "mechanics_aov": "Similar flame attack",
+          "similarity": "Nearly identical flame slash ability",
+          "difference": "Crowd control effect varies"
+        },
+        {
+          "skill_type": "skill_3/ultimate",
+          "hok_skill_cn": "强势冲锋",
+          "hok_skill_vi": "Cường Thế Xung Phong",
+          "aov_skill_vi": "Charge Forward",
+          "mechanics_hok": "Ultimate charge attack with crowd control and shield enhancement",
+          "mechanics_aov": "Similar ultimate charge with shield buff",
+          "similarity": "Both ultimates are charge-based with defensive component",
+          "difference": "Crowd control timing and shield scaling vary"
+        }
+      ],
+      "overall_notes": "程咬金/Tara are axe-wielding tanks with periodic shield passives. Both emphasize defensive mechanics with offensive charge ultimates. ~74% similarity with shield-based playstyle as core element."
+    }
+  ],
+  "summary": {
+    "total_mappings": 15,
+    "average_similarity": 81.1,
+    "highest_similarity": {
+      "pair": "Arthur (亚瑟) ↔ Arthur",
+      "score": 95
+    },
+    "lowest_similarity": {
+      "pair": "Cao Cao (曹操) ↔ Lu Bu",
+      "score": 75
+    },
+    "research_notes": "Mappings based on skill mechanics, cooldown structures, and gameplay roles. Many heroes are nearly identical between the two games due to same developer (TiMi Studios), but have undergone separate development paths since 2022 when AOV stopped creating original heroes. Some heroes like Arthur share 95%+ similarity while others like Li Bai/Murad have diverged more significantly in mechanics despite shared character themes. Vietnamese names provided for Liên Quân Mobile context."
+  }
+}

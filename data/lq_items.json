@@ -1,0 +1,189 @@
+{
+  "game": "lien_quan_mobile",
+  "items": [
+    {
+      "id": 1001,
+      "name_vi": "Chùy Băng Sương",
+      "category": "attack",
+      "price": 2060,
+      "stats": {
+        "physical_attack": 60,
+        "attack_speed": 30,
+        "max_hp": 900
+      },
+      "passive": "Tấn công thường tính thêm 20% sát thương dựa trên tốc độ tấn công của bạn",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/ice_hammer.png"
+    },
+    {
+      "id": 1002,
+      "name_vi": "Huyết Đao",
+      "category": "attack",
+      "price": 830,
+      "stats": {
+        "physical_attack": 30,
+        "lifesteal": 10
+      },
+      "passive": "",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/bloodblade.png"
+    },
+    {
+      "id": 1003,
+      "name_vi": "Diệt Thần Cung",
+      "category": "attack",
+      "price": 2980,
+      "stats": {
+        "physical_attack": 50,
+        "attack_speed": 30,
+        "crit_chance": 10
+      },
+      "passive": "Tấn công thường tính có 15% xác suất tạo ra một quầng sáng, gây 200% sát thương vật lý",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/godbow.png"
+    },
+    {
+      "id": 2001,
+      "name_vi": "Phù Chú Trường Sinh",
+      "category": "defense",
+      "price": 2190,
+      "stats": {
+        "armor": 150,
+        "magic_resistance": 100,
+        "max_hp": 1500
+      },
+      "passive": "Tăng độ bền toàn diện cho người mặc",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/immortal_talisman.png"
+    },
+    {
+      "id": 2002,
+      "name_vi": "Giáp Gaia",
+      "category": "defense",
+      "price": 1960,
+      "stats": {
+        "magic_resistance": 200,
+        "max_hp": 1200
+      },
+      "passive": "Khi bị tổn thương phép thuật, giảm 15% tổn thương phép thuật nhận được",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/gaia_armor.png"
+    },
+    {
+      "id": 2003,
+      "name_vi": "Nham Thuẫn",
+      "category": "defense",
+      "price": 1980,
+      "stats": {
+        "max_hp": 1200,
+        "armor": 240
+      },
+      "passive": "Khi bị tổn thương vật lý, giảm 15% tổn thương vật lý nhận được",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/stone_armor.png"
+    },
+    {
+      "id": 3001,
+      "name_vi": "Liệt Hoả Thần Tốc",
+      "category": "support",
+      "price": 1200,
+      "stats": {
+        "max_hp": 1200,
+        "movement_speed": 5
+      },
+      "passive": "Tấn công thường tính sẽ gây hiệu ứng chậm 30% cho kẻ thù",
+      "active": "Tăng tốc độ di chuyển 50% trong 3 giây, hiệu ứng tối đa 1 lần mỗi 15 giây",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/fire_god_boots.png"
+    },
+    {
+      "id": 3002,
+      "name_vi": "Đại Địa Hồi Huyết",
+      "category": "support",
+      "price": 1200,
+      "stats": {
+        "max_hp": 1200,
+        "movement_speed": 5
+      },
+      "passive": "Mỗi 5 giây hồi phục 100 máu cho bản thân và các đồng minh gần nhất",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/earth_recovery.png"
+    },
+    {
+      "id": 4001,
+      "name_vi": "Vương Miện Hecate",
+      "category": "magic",
+      "price": 2300,
+      "stats": {
+        "spell_power": 240
+      },
+      "passive": "Kỹ năng gây thêm 40% sát thương dựa trên chênh lệch máu giữa bạn và kẻ thù",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/hecate_crown.png"
+    },
+    {
+      "id": 4002,
+      "name_vi": "Sách Thánh",
+      "category": "magic",
+      "price": 2610,
+      "stats": {
+        "spell_power": 350,
+        "cooldown_reduction": 10
+      },
+      "passive": "Mỗi khi sử dụng kỹ năng, tăng tốc độ đánh 30% trong 2 giây, tối đa 3 lần叠加",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/holy_book.png"
+    },
+    {
+      "id": 5001,
+      "name_vi": "Giày Hermes",
+      "category": "movement",
+      "price": 580,
+      "stats": {
+        "max_hp": 300,
+        "movement_speed": 70
+      },
+      "passive": "",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/hermes_boots.png"
+    },
+    {
+      "id": 5002,
+      "name_vi": "Giày Thuật Sĩ",
+      "category": "movement",
+      "price": 710,
+      "stats": {
+        "cooldown_reduction": 15,
+        "movement_speed": 60
+      },
+      "passive": "",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/wizard_boots.png"
+    },
+    {
+      "id": 6001,
+      "name_vi": "Bảo Vệ Rừng",
+      "category": "jungle",
+      "price": 1500,
+      "stats": {
+        "max_hp": 600,
+        "armor": 80
+      },
+      "passive": "Giết lân cận quái vật rừng tăng 20% kinh nghiệm",
+      "active": "",
+      "components": [],
+      "icon_url": "https://lienquan.garena.vn/images/items/jungle_protection.png"
+    }
+  ]
+}

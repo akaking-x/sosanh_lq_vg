@@ -1,0 +1,309 @@
+{
+  "game": "Liên Quân Mobile (Arena of Valor)",
+  "system": "Bảng Ngọc (Runes)",
+  "last_updated": "2026-03-14",
+  "runes": [
+    {
+      "id": "attack_001",
+      "name_vi": "Mắt Đại Bàng",
+      "name_cn": "鹰眼",
+      "name_en": "Eagle Eye",
+      "tier": 1,
+      "category": "attack",
+      "stats": {
+        "physical_attack": 0.9,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng sức tấn công vật lý",
+      "description_cn": "增加物理攻击力",
+      "icon_url": "https://lienquan.garena.vn/img/runes/1.png"
+    },
+    {
+      "id": "attack_002",
+      "name_vi": "Khoảng Không",
+      "name_cn": "虚空",
+      "name_en": "Void",
+      "tier": 1,
+      "category": "attack",
+      "stats": {
+        "magic_attack": 0.9,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng sức tấn công phép thuật",
+      "description_cn": "增加法术攻击力",
+      "icon_url": "https://lienquan.garena.vn/img/runes/2.png"
+    },
+    {
+      "id": "attack_003",
+      "name_vi": "Săn Bắn",
+      "name_cn": "狩猎",
+      "name_en": "Hunt",
+      "tier": 1,
+      "category": "attack",
+      "stats": {
+        "physical_penetration": 0.75,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng xuyên thủng vật lý",
+      "description_cn": "增加物理穿透",
+      "icon_url": "https://lienquan.garena.vn/img/runes/3.png"
+    },
+    {
+      "id": "attack_004",
+      "name_vi": "Bí Pháp",
+      "name_cn": "秘法",
+      "name_en": "Arcane",
+      "tier": 1,
+      "category": "attack",
+      "stats": {
+        "magic_penetration": 0.75,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng xuyên thủng phép thuật",
+      "description_cn": "增加法术穿透",
+      "icon_url": "https://lienquan.garena.vn/img/runes/4.png"
+    },
+    {
+      "id": "attack_005",
+      "name_vi": "Mục Đích",
+      "name_cn": "热诚",
+      "name_en": "Fervor",
+      "tier": 1,
+      "category": "attack",
+      "stats": {
+        "attack_speed": 1.0,
+        "unit": "percent"
+      },
+      "description_vi": "Tăng tốc độ tấn công",
+      "description_cn": "增加攻击速度",
+      "icon_url": "https://lienquan.garena.vn/img/runes/5.png"
+    },
+    {
+      "id": "defense_001",
+      "name_vi": "Da Sắt",
+      "name_cn": "铁甲",
+      "name_en": "Iron Skin",
+      "tier": 1,
+      "category": "defense",
+      "stats": {
+        "armor": 0.9,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng phòng thủ vật lý",
+      "description_cn": "增加物理防御",
+      "icon_url": "https://lienquan.garena.vn/img/runes/6.png"
+    },
+    {
+      "id": "defense_002",
+      "name_vi": "Hỗ Trợ",
+      "name_cn": "辅助",
+      "name_en": "Protect",
+      "tier": 1,
+      "category": "defense",
+      "stats": {
+        "magic_defense": 0.9,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng phòng thủ phép thuật",
+      "description_cn": "增加法术防御",
+      "icon_url": "https://lienquan.garena.vn/img/runes/7.png"
+    },
+    {
+      "id": "defense_003",
+      "name_vi": "Bất Tường",
+      "name_cn": "不祥",
+      "name_en": "Malice",
+      "tier": 1,
+      "category": "defense",
+      "stats": {
+        "hp": 1.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng điểm sức khỏe",
+      "description_cn": "增加生命值",
+      "icon_url": "https://lienquan.garena.vn/img/runes/8.png"
+    },
+    {
+      "id": "utility_001",
+      "name_vi": "Ốc Đảo",
+      "name_cn": "绿洲",
+      "name_en": "Oasis",
+      "tier": 1,
+      "category": "utility",
+      "stats": {
+        "hp_regeneration": 0.6,
+        "unit": "per 5 seconds"
+      },
+      "description_vi": "Tăng tốc độ hồi máu",
+      "description_cn": "增加生命值恢复速度",
+      "icon_url": "https://lienquan.garena.vn/img/runes/9.png"
+    },
+    {
+      "id": "utility_002",
+      "name_vi": "Tĩnh Lặng",
+      "name_cn": "冷静",
+      "name_en": "Clarity",
+      "tier": 1,
+      "category": "utility",
+      "stats": {
+        "mana_regeneration": 0.6,
+        "unit": "per 5 seconds"
+      },
+      "description_vi": "Tăng tốc độ hồi thể lực",
+      "description_cn": "增加法力值恢复速度",
+      "icon_url": "https://lienquan.garena.vn/img/runes/10.png"
+    },
+    {
+      "id": "utility_003",
+      "name_vi": "Thiêu Đốt",
+      "name_cn": "灼烧",
+      "name_en": "Singe",
+      "tier": 1,
+      "category": "utility",
+      "stats": {
+        "cooldown_reduction": 1.0,
+        "unit": "percent"
+      },
+      "description_vi": "Tăng giảm thời gian hồi chiêu",
+      "description_cn": "增加冷却缩减",
+      "icon_url": "https://lienquan.garena.vn/img/runes/11.png"
+    },
+    {
+      "id": "attack_006",
+      "name_vi": "Vô Song",
+      "name_cn": "无双",
+      "name_en": "Rampage",
+      "tier": 2,
+      "category": "attack",
+      "stats": {
+        "physical_attack": 2.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng sức tấn công vật lý (tầng cao hơn)",
+      "description_cn": "增加物理攻击力（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/12.png"
+    },
+    {
+      "id": "attack_007",
+      "name_vi": "Trí Tuệ",
+      "name_cn": "智慧",
+      "name_en": "Wisdom",
+      "tier": 2,
+      "category": "attack",
+      "stats": {
+        "magic_attack": 2.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng sức tấn công phép thuật (tầng cao hơn)",
+      "description_cn": "增加法术攻击力（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/13.png"
+    },
+    {
+      "id": "attack_008",
+      "name_vi": "Phá Giáp",
+      "name_cn": "破甲",
+      "name_en": "Breaker",
+      "tier": 2,
+      "category": "attack",
+      "stats": {
+        "physical_penetration": 2.0,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng xuyên thủng vật lý (tầng cao hơn)",
+      "description_cn": "增加物理穿透（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/14.png"
+    },
+    {
+      "id": "attack_009",
+      "name_vi": "Pháp Xuyên",
+      "name_cn": "法穿",
+      "name_en": "Archmage",
+      "tier": 2,
+      "category": "attack",
+      "stats": {
+        "magic_penetration": 2.0,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng xuyên thủng phép thuật (tầng cao hơn)",
+      "description_cn": "增加法术穿透（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/15.png"
+    },
+    {
+      "id": "defense_004",
+      "name_vi": "Vinh Quang",
+      "name_cn": "荣耀",
+      "name_en": "Glory",
+      "tier": 2,
+      "category": "defense",
+      "stats": {
+        "armor": 2.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng phòng thủ vật lý (tầng cao hơn)",
+      "description_cn": "增加物理防御（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/16.png"
+    },
+    {
+      "id": "defense_005",
+      "name_vi": "Phúc Lành",
+      "name_cn": "祝福",
+      "name_en": "Blessing",
+      "tier": 2,
+      "category": "defense",
+      "stats": {
+        "magic_defense": 2.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng phòng thủ phép thuật (tầng cao hơn)",
+      "description_cn": "增加法术防御（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/17.png"
+    },
+    {
+      "id": "defense_006",
+      "name_vi": "Sức Sống",
+      "name_cn": "生命",
+      "name_en": "Vitality",
+      "tier": 2,
+      "category": "defense",
+      "stats": {
+        "hp": 4.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng điểm sức khỏe (tầng cao hơn)",
+      "description_cn": "增加生命值（更高级）",
+      "icon_url": "https://lienquan.garena.vn/img/runes/18.png"
+    },
+    {
+      "id": "utility_004",
+      "name_vi": "Nhịp Độ",
+      "name_cn": "节奏",
+      "name_en": "Rhythm",
+      "tier": 2,
+      "category": "utility",
+      "stats": {
+        "movement_speed": 1.5,
+        "unit": "per level"
+      },
+      "description_vi": "Tăng tốc độ di chuyển",
+      "description_cn": "增加移动速度",
+      "icon_url": "https://lienquan.garena.vn/img/runes/19.png"
+    },
+    {
+      "id": "utility_005",
+      "name_vi": "Thông Suốt",
+      "name_cn": "通晓",
+      "name_en": "Insight",
+      "tier": 2,
+      "category": "utility",
+      "stats": {
+        "experience_gain": 2.0,
+        "unit": "percent"
+      },
+      "description_vi": "Tăng kinh nghiệm nhận được",
+      "description_cn": "增加经验获取",
+      "icon_url": "https://lienquan.garena.vn/img/runes/20.png"
+    }
+  ],
+  "total_runes": 20,
+  "notes": "This is a comprehensive list of runes from Liên Quân Mobile (Arena of Valor) including Tier 1 and Tier 2 inscriptions. The system is very similar to Honor of Kings. Players can equip multiple runes to customize their character builds with Vietnamese, Chinese, and English names."
+}

@@ -1,0 +1,174 @@
+{
+  "game": "王者荣耀 (Honor of Kings)",
+  "system": "召唤师技能 (Summoner Skills)",
+  "last_updated": "2026-03-14",
+  "summoner_skills": [
+    {
+      "id": "1",
+      "name_cn": "闪现",
+      "name_en": "Flash",
+      "description_cn": "召唤师立即向指定方向闪过短距离，最多可穿过地形。",
+      "description_en": "Instantly dash in the targeted direction for a short distance, can pass through terrain.",
+      "cooldown_seconds": 300,
+      "cooldown_display": "5分钟",
+      "unlock_level": 1,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/1.png"
+    },
+    {
+      "id": "2",
+      "name_cn": "点燃",
+      "name_en": "Ignite",
+      "description_cn": "对敌人造成灼烧伤害，并持续伤害目标。",
+      "description_en": "Deal burn damage to an enemy and continue dealing damage over time.",
+      "cooldown_seconds": 60,
+      "cooldown_display": "1分钟",
+      "unlock_level": 6,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/2.png"
+    },
+    {
+      "id": "3",
+      "name_cn": "治疗",
+      "name_en": "Heal",
+      "description_cn": "立即恢复目标的生命值。",
+      "description_en": "Instantly restore target's HP.",
+      "cooldown_seconds": 90,
+      "cooldown_display": "1分钟30秒",
+      "unlock_level": 1,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/3.png"
+    },
+    {
+      "id": "4",
+      "name_cn": "疾跑",
+      "name_en": "Sprint",
+      "description_cn": "增加移动速度，持续时间内有加速效果。",
+      "description_en": "Increase movement speed for a duration.",
+      "cooldown_seconds": 120,
+      "cooldown_display": "2分钟",
+      "unlock_level": 8,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/4.png"
+    },
+    {
+      "id": "5",
+      "name_cn": "减速",
+      "name_en": "Slow",
+      "description_cn": "对目标造成减速效果。",
+      "description_en": "Slow target enemy.",
+      "cooldown_seconds": 90,
+      "cooldown_display": "1分钟30秒",
+      "unlock_level": 10,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/5.png"
+    },
+    {
+      "id": "6",
+      "name_cn": "沉默",
+      "name_en": "Silence",
+      "description_cn": "沉默目标英雄，使其无法释放技能。",
+      "description_en": "Silence target hero, preventing them from casting abilities.",
+      "cooldown_seconds": 120,
+      "cooldown_display": "2分钟",
+      "unlock_level": 12,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/6.png"
+    },
+    {
+      "id": "7",
+      "name_cn": "虚弱",
+      "name_en": "Weaken",
+      "description_cn": "削弱目标的攻击和防御。",
+      "description_en": "Reduce target's attack and defense.",
+      "cooldown_seconds": 150,
+      "cooldown_display": "2分钟30秒",
+      "unlock_level": 14,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/7.png"
+    },
+    {
+      "id": "8",
+      "name_cn": "终极减速",
+      "name_en": "Ultimate Slow",
+      "description_cn": "对一个区域内的敌人造成强力减速。",
+      "description_en": "Severely slow enemies in a target area.",
+      "cooldown_seconds": 180,
+      "cooldown_display": "3分钟",
+      "unlock_level": 16,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/8.png"
+    },
+    {
+      "id": "9",
+      "name_cn": "鼓舞",
+      "name_en": "Rally",
+      "description_cn": "增强自己和附近队友的属性。",
+      "description_en": "Enhance attributes for you and nearby allies.",
+      "cooldown_seconds": 120,
+      "cooldown_display": "2分钟",
+      "unlock_level": 18,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/9.png"
+    },
+    {
+      "id": "10",
+      "name_cn": "清晰术",
+      "name_en": "Clarity",
+      "description_cn": "恢复目标的法力值。",
+      "description_en": "Restore target's mana.",
+      "cooldown_seconds": 90,
+      "cooldown_display": "1分钟30秒",
+      "unlock_level": 20,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/10.png"
+    },
+    {
+      "id": "11",
+      "name_cn": "复活",
+      "name_en": "Revive",
+      "description_cn": "复活一个已死亡的友方英雄。",
+      "description_en": "Revive a fallen allied hero.",
+      "cooldown_seconds": 300,
+      "cooldown_display": "5分钟",
+      "unlock_level": 22,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/11.png"
+    },
+    {
+      "id": "12",
+      "name_cn": "传送",
+      "name_en": "Teleport",
+      "description_cn": "传送到地图上的指定位置。",
+      "description_en": "Teleport to a designated location on the map.",
+      "cooldown_seconds": 240,
+      "cooldown_display": "4分钟",
+      "unlock_level": 24,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/12.png"
+    },
+    {
+      "id": "13",
+      "name_cn": "守卫",
+      "name_en": "Guardian",
+      "description_cn": "召唤一个守卫来保护区域。",
+      "description_en": "Summon a guardian to protect an area.",
+      "cooldown_seconds": 180,
+      "cooldown_display": "3分钟",
+      "unlock_level": 26,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/13.png"
+    },
+    {
+      "id": "14",
+      "name_cn": "闪避",
+      "name_en": "Evasion",
+      "description_cn": "躲避下一次来自敌人的伤害。",
+      "description_en": "Evade the next incoming damage from enemies.",
+      "cooldown_seconds": 120,
+      "cooldown_display": "2分钟",
+      "unlock_level": 28,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/14.png"
+    },
+    {
+      "id": "15",
+      "name_cn": "防护罩",
+      "name_en": "Shield",
+      "description_cn": "为目标创建保护罩，减少伤害。",
+      "description_en": "Create a protective shield on target to reduce damage.",
+      "cooldown_seconds": 100,
+      "cooldown_display": "1分钟40秒",
+      "unlock_level": 30,
+      "icon_url": "https://game.gtimg.cn/images/yxzj/img201606/summoner/15.png"
+    }
+  ],
+  "total_skills": 15,
+  "notes": "Summoner skills in Honor of Kings are special abilities that players can equip and use in battles. Each skill has a cooldown period and can be unlocked at specific player levels. Players typically equip 2 summoner skills for combat."
+}

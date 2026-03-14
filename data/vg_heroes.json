@@ -1,0 +1,5014 @@
+{
+  "game": "vuong_gia_vinh_dieu",
+  "source": "pvp.qq.com",
+  "last_updated": "2026-03-14",
+  "total_heroes": 129,
+  "heroes": [
+    {
+      "id": 105,
+      "name_cn": "廉颇",
+      "name_vi": "Liêm Phá",
+      "id_name": "lianpo",
+      "title_cn": "正义爆轰",
+      "title_vi": "Vụ Nổ Công Lý",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "正义爆轰",
+        "地狱岩魂",
+        "无尽征程",
+        "寅虎·御盾",
+        "功夫炙烤",
+        "撼地雄心"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "骑士之盾",
+          "name_vi": "Khiên Hiệp Sĩ",
+          "description_cn": "每击中一个敌人增加一层护甲，最多叠加6层，每层增加5%的护甲，持续8秒",
+          "description_vi": "Mỗi lần trúng 1 kẻ thù tăng 1 lớp giáp, tối đa 6 lớp, mỗi lớp tăng 5% giáp, kéo dài 8 giây",
+          "type": "passive"
+        },
+        {
+          "name_cn": "铁骨成兵",
+          "name_vi": "Xương Sắt Thành Quân",
+          "description_cn": "廉颇挥动战锤，对前方的敌人造成伤害",
+          "description_vi": "Liêm Phá vung búa chiến, gây sát thương cho kẻ thù phía trước",
+          "type": "skill1",
+          "cooldown": 9,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "蛮横冲撞",
+          "name_vi": "Phỏng Từ Tấn Công",
+          "description_cn": "廉颇向前冲撞，对路径上的敌人造成伤害并击飞",
+          "description_vi": "Liêm Phá tấn công phía trước, gây sát thương cho kẻ thù trên đường đi và đẩy bay",
+          "type": "skill2",
+          "cooldown": "11/10.4/9.8/9.2/8.6/8",
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "终极决斗",
+          "name_vi": "Quyết Đấu Cuối Cùng",
+          "description_cn": "廉颇进入决斗状态，增加护甲和伤害，持续3次普攻",
+          "description_vi": "Liêm Phá vào trạng thái quyết đấu, tăng giáp và sát thương, kéo dài 3 lần tấn công bình thường",
+          "type": "ultimate",
+          "cooldown": "54/45/36",
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/105/1.jpg"
+    },
+    {
+      "id": 106,
+      "name_cn": "小乔",
+      "name_vi": "Tiểu Kiều",
+      "id_name": "xiaoqiao",
+      "title_cn": "恋之微风",
+      "title_vi": "Gió Nhẹ Của Tình Yêu",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "恋之微风",
+        "万圣前夜",
+        "天鹅之梦",
+        "纯白花嫁",
+        "缤纷独角兽",
+        "丁香结",
+        "青蛇",
+        "音你心动",
+        "山海·琳琅生",
+        "时之魔女",
+        "秘证寻踪"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "花之微澜",
+          "name_vi": "Sóng Nhẹ Của Hoa",
+          "description_cn": "小乔对敌人造成伤害后，获得移动速度加成",
+          "description_vi": "Tiểu Kiều gây sát thương cho kẻ thù sau đó nhận được tăng tốc độ di chuyển",
+          "type": "passive"
+        },
+        {
+          "name_cn": "克制之箭",
+          "name_vi": "Mũi Tên Bình Phục",
+          "description_cn": "小乔射出一支箭，对敌人造成伤害",
+          "description_vi": "Tiểu Kiều bắn một mũi tên, gây sát thương cho kẻ thù",
+          "type": "skill1",
+          "cooldown": "5/4.8/4.6/4.4/4.2/4",
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "渊客之箭",
+          "name_vi": "Mũi Tên Khách Sâu",
+          "description_cn": "小乔召唤箭矢对范围内敌人造成伤害",
+          "description_vi": "Tiểu Kiều triệu tập mũi tên gây sát thương cho kẻ thù trong phạm vi",
+          "type": "skill2",
+          "cooldown": "10/9.6/9.2/8.8/8.4/8",
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "琵琶绝音",
+          "name_vi": "Âm Tuyệt Vĩ Cầm",
+          "description_cn": "小乔弹奏琵琶，对敌人造成持续伤害",
+          "description_vi": "Tiểu Kiều đàn vĩ cầm, gây sát thương liên tục cho kẻ thù",
+          "type": "ultimate",
+          "cooldown": "42/35/28",
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/106/1.jpg"
+    },
+    {
+      "id": 107,
+      "name_cn": "赵云",
+      "name_vi": "Triệu Vân",
+      "id_name": "zhaoyun",
+      "title_cn": "苍天翔龙",
+      "title_vi": "苍天翔龙",
+      "roles": [
+        "warrior",
+        "assassin"
+      ],
+      "skins": [
+        "苍天翔龙",
+        "忍●炎影",
+        "未来纪元",
+        "皇家上将",
+        "嘻哈天王",
+        "白执事",
+        "引擎之心",
+        "龙胆",
+        "淬星耀世",
+        "百木心枪",
+        "乘龙铭钟鼎"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/107/1.jpg"
+    },
+    {
+      "id": 108,
+      "name_cn": "墨子",
+      "name_vi": "Mạc Tử",
+      "id_name": "mozi",
+      "title_cn": "和平守望",
+      "title_vi": "Canh Giữ Hòa Bình",
+      "roles": [
+        "mage",
+        "warrior"
+      ],
+      "skins": [
+        "和平守望",
+        "金属风暴",
+        "龙骑士",
+        "进击墨子号",
+        "神迹守卫",
+        "降魔",
+        "黄金天蝎座"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "和平守望",
+          "name_vi": "Canh Giữ Hòa Bình",
+          "description_cn": "墨子的防御流派",
+          "description_vi": "Phong cách phòng thủ của Mạc Tử",
+          "type": "passive"
+        },
+        {
+          "name_cn": "墨家机关",
+          "name_vi": "Cơ Quan Mạc Gia",
+          "description_cn": "释放机关装置",
+          "description_vi": "Phát hành thiết bị cơ quan",
+          "type": "skill1",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "防御阵线",
+          "name_vi": "Tuyến Phòng Thủ",
+          "description_cn": "增加防御",
+          "description_vi": "Tăng phòng thủ",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "和谐世界",
+          "name_vi": "Thế Giới Hòa Hợp",
+          "description_cn": "大招防御",
+          "description_vi": "Phòng thủ lớn",
+          "type": "ultimate",
+          "cooldown": 40,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2800,
+        "attack": 120,
+        "defense": 80,
+        "ability": 150
+      },
+      "runes_cn": "狩猎、神射、掠夺",
+      "runes_vi": "Săn Bắt, Thần Bắn, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/108/1.jpg"
+    },
+    {
+      "id": 109,
+      "name_cn": "妲己",
+      "name_vi": "Đạt Kỷ",
+      "id_name": "daji",
+      "title_cn": "魅力之狐",
+      "title_vi": "Cáo Quyến Rũ",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "魅惑之狐",
+        "女仆咖啡",
+        "魅力维加斯",
+        "仙境爱丽丝",
+        "少女阿狸",
+        "热情桑巴",
+        "时之彼端",
+        "紫罗兰之誓",
+        "时之奇旅",
+        "青丘·九尾",
+        "灵卜魔法",
+        "愿照·众生和"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "魅惑",
+          "name_vi": "Quyến Rũ",
+          "description_cn": "妲己的魅力",
+          "description_vi": "Sức hút của Đạt Kỷ",
+          "type": "passive"
+        },
+        {
+          "name_cn": "灵狐之火",
+          "name_vi": "Lửa Linh Cáo",
+          "description_cn": "释放火焰",
+          "description_vi": "Phát hành ngọn lửa",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "妖魔化身",
+          "name_vi": "Hóa Thân Quỷ Dữ",
+          "description_cn": "变身攻击",
+          "description_vi": "Biến hình tấn công",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "灵魂束缚",
+          "name_vi": "Trói Buộc Linh Hồn",
+          "description_cn": "束缚敌人",
+          "description_vi": "Trói buộc kẻ thù",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 100
+        }
+      ],
+      "stats": {
+        "hp": 2200,
+        "attack": 100,
+        "defense": 60,
+        "ability": 180
+      },
+      "runes_cn": "猎手、冥想、掠夺",
+      "runes_vi": "Thợ Săn, Thiền Định, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/109/1.jpg"
+    },
+    {
+      "id": 110,
+      "name_cn": "嬴政",
+      "name_vi": "Anh Chính",
+      "id_name": "yingzheng",
+      "title_cn": "王者独尊",
+      "title_vi": "Độc Tôn Vương Giả",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "王者独尊",
+        "摇滚巨星",
+        "暗夜贵公子",
+        "优雅恋人",
+        "白昼王子",
+        "玄雷天君"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "强势压制",
+          "name_vi": "Áp Chế Mạnh Mẽ",
+          "description_cn": "嬴政的压制力",
+          "description_vi": "Sức áp chế của Anh Chính",
+          "type": "passive"
+        },
+        {
+          "name_cn": "冲刺突击",
+          "name_vi": "Cú Tấn Công Vội",
+          "description_cn": "冲向敌人",
+          "description_vi": "Tấn công kẻ thù",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "横扫千军",
+          "name_vi": "Quét Sạch Vạn Quân",
+          "description_cn": "范围攻击",
+          "description_vi": "Tấn công phạm vi",
+          "type": "skill2",
+          "cooldown": 9,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "泰山压顶",
+          "name_vi": "Thái Sơn Áp Đỉnh",
+          "description_cn": "压制所有敌人",
+          "description_vi": "Áp chế tất cả kẻ thù",
+          "type": "ultimate",
+          "cooldown": 45,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2500,
+        "attack": 130,
+        "defense": 70,
+        "ability": 170
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/110/1.jpg"
+    },
+    {
+      "id": 111,
+      "name_cn": "孙尚香",
+      "name_vi": "Tôn Thượng Hương",
+      "id_name": "sunshangxiang",
+      "title_cn": "千金重弩",
+      "title_vi": "Nỏ Nặng Thiên Kim",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "千金重弩",
+        "火炮千金",
+        "水果甜心",
+        "蔷薇恋人",
+        "杀手不太冷",
+        "末日机甲",
+        "沉稳之力",
+        "时之恋人",
+        "异界灵契",
+        "音你闪耀",
+        "乘龙问璇玑"
+      ],
+      "difficulty": 4,
+      "skills": [
+        {
+          "name_cn": "千金之躯",
+          "name_vi": "Thân Thể Thiên Kim",
+          "description_cn": "提升防御",
+          "description_vi": "Nâng cao phòng thủ",
+          "type": "passive"
+        },
+        {
+          "name_cn": "多段射击",
+          "name_vi": "Bắn Nhiều Lần",
+          "description_cn": "射出多支箭",
+          "description_vi": "Bắn nhiều mũi tên",
+          "type": "skill1",
+          "cooldown": 5,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "横扫之枪",
+          "name_vi": "Mũi Giáo Quét Sạch",
+          "description_cn": "挥舞战枪",
+          "description_vi": "Vung chiến giáo",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "绝对领域",
+          "name_vi": "Vùng Địa Tuyệt Đối",
+          "description_cn": "召唤护卫",
+          "description_vi": "Triệu tập vệ sĩ",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 160,
+        "defense": 55,
+        "ability": 90
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/111/1.jpg"
+    },
+    {
+      "id": 112,
+      "name_cn": "鲁班七号",
+      "name_vi": "Lỗ Ban Bảy Số",
+      "id_name": "lubanqihao",
+      "title_cn": "机关造物",
+      "title_vi": "Tạo Vật Cơ Quan",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "机关造物",
+        "木偶奇遇记",
+        "福禄兄弟",
+        "电玩小子",
+        "星空梦想",
+        "狮舞东方",
+        "黑桃队长",
+        "乒乒小将",
+        "寅虎·瑞焰",
+        "时之奇旅",
+        "蔬乡物语",
+        "江户川柯南"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "机关爆弹",
+          "name_vi": "Bom Cơ Quan",
+          "description_cn": "被动爆弹",
+          "description_vi": "Bom thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "炮弹射击",
+          "name_vi": "Bắn Đạn Pháo",
+          "description_cn": "射出炮弹",
+          "description_vi": "Bắn đạn pháo",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "布雷陷阱",
+          "name_vi": "Bẫy Bố Mìn",
+          "description_cn": "布置陷阱",
+          "description_vi": "Bố trí bẫy",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "全屏轰炸",
+          "name_vi": "Dội Bom Toàn Màn",
+          "description_cn": "范围轰炸",
+          "description_vi": "Dội bom toàn màn",
+          "type": "ultimate",
+          "cooldown": 45,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2300,
+        "attack": 150,
+        "defense": 65,
+        "ability": 110
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/112/1.jpg"
+    },
+    {
+      "id": 113,
+      "name_cn": "庄周",
+      "name_vi": "Trang Chu",
+      "id_name": "zhuangzhou",
+      "title_cn": "逍遥梦幻",
+      "title_vi": "Mộng Huyền Tự Do",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "逍遥幻梦",
+        "鲤鱼之梦",
+        "蜃楼王",
+        "云端筑梦师",
+        "奇妙博物学",
+        "玄嵩",
+        "高山流水",
+        "天秀·幻梦",
+        "牧神诗旅",
+        "锦麟游梦"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "蝴蝶梦",
+          "name_vi": "Mộng Bướm",
+          "description_cn": "进入梦境",
+          "description_vi": "Vào mộng cảnh",
+          "type": "passive"
+        },
+        {
+          "name_cn": "梦幻突袭",
+          "name_vi": "Tấn Công Mộng Huyền",
+          "description_cn": "突袭敌人",
+          "description_vi": "Tấn công bất ngờ",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "梦幻漩涡",
+          "name_vi": "Xoáy Mộng Huyền",
+          "description_cn": "制造漩涡",
+          "description_vi": "Tạo xoáy",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "庄周梦蝶",
+          "name_vi": "Mộng Bướm Trang Chu",
+          "description_cn": "最强梦幻",
+          "description_vi": "Mộng huyền mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2700,
+        "attack": 90,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "心眼、狂暴、掠夺",
+      "runes_vi": "Mắt Tâm, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/113/1.jpg"
+    },
+    {
+      "id": 114,
+      "name_cn": "刘禅",
+      "name_vi": "Lưu Thiềm",
+      "id_name": "liushan",
+      "title_cn": "暴走机关",
+      "title_vi": "Cơ Quan Điên Cuồng",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "暴走机关",
+        "英喵野望",
+        "绅士熊喵",
+        "天才门将",
+        "秘密基地",
+        "唤灵魔甲",
+        "电玩·爆裂旋风",
+        "鸭鸭历险记"
+      ],
+      "difficulty": 4,
+      "skills": [
+        {
+          "name_cn": "暴走",
+          "name_vi": "Điên Cuồng",
+          "description_cn": "被动暴走",
+          "description_vi": "Điên cuồng thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "心情不好",
+          "name_vi": "Tâm Trạng Không Tốt",
+          "description_cn": "拍打地面",
+          "description_vi": "Đập mặt đất",
+          "type": "skill1",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "莫名其妙",
+          "name_vi": "Bí Ẩn",
+          "description_cn": "跳跃",
+          "description_vi": "Nhảy",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "坐下",
+          "name_vi": "Ngồi Xuống",
+          "description_cn": "坐下压制",
+          "description_vi": "Ngồi xuống áp chế",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 3000,
+        "attack": 100,
+        "defense": 90,
+        "ability": 120
+      },
+      "runes_cn": "心眼、狂暴、掠夺",
+      "runes_vi": "Mắt Tâm, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/114/1.jpg"
+    },
+    {
+      "id": 115,
+      "name_cn": "高渐离",
+      "name_vi": "Cao Tiệm Ly",
+      "id_name": "gaojianli",
+      "title_cn": "叛逆吟游",
+      "title_vi": "Du Giang Phản Nghịch",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "叛逆吟游",
+        "金属狂潮",
+        "死亡摇滚",
+        "玩趣恶龙",
+        "天秀·音浪",
+        "燃音魔法"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "叛逆之音",
+          "name_vi": "Âm Thanh Phản Nghịch",
+          "description_cn": "被动音乐",
+          "description_vi": "Âm nhạc thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "琴声攻击",
+          "name_vi": "Tấn Công Âm Thanh Đàn",
+          "description_cn": "释放琴声",
+          "description_vi": "Phát hành âm thanh đàn",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "音波炸弹",
+          "name_vi": "Bom Sóng Âm",
+          "description_cn": "炸弹攻击",
+          "description_vi": "Tấn công bom",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "终极摇滚",
+          "name_vi": "Rock Cuối Cùng",
+          "description_cn": "摇滚音乐",
+          "description_vi": "Âm nhạc rock",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 100
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 140,
+        "defense": 65,
+        "ability": 140
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/115/1.jpg"
+    },
+    {
+      "id": 116,
+      "name_cn": "阿轲",
+      "name_vi": "A Kha",
+      "id_name": "ake",
+      "title_cn": "信念之刃",
+      "title_vi": "Lưỡi Kiếm Niềm Tin",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "信念之刃",
+        "爱心护理",
+        "暗夜猫娘",
+        "致命风华",
+        "节奏热浪",
+        "迷踪丽影",
+        "化蝶舞"
+      ],
+      "difficulty": 8,
+      "skills": [
+        {
+          "name_cn": "信念之刃",
+          "name_vi": "Lưỡi Kiếm Niềm Tin",
+          "description_cn": "被动伤害",
+          "description_vi": "Sát thương thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "切割",
+          "name_vi": "Cắt Gọt",
+          "description_cn": "快速切割",
+          "description_vi": "Cắt gọt nhanh",
+          "type": "skill1",
+          "cooldown": 5,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "影分身",
+          "name_vi": "Phân Thân Bóng",
+          "description_cn": "制造分身",
+          "description_vi": "Tạo phân thân",
+          "type": "skill2",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "瞬间剑阵",
+          "name_vi": "Trận Kiếm Tức Thời",
+          "description_cn": "瞬间攻击",
+          "description_vi": "Tấn công tức thời",
+          "type": "ultimate",
+          "cooldown": 45,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 80
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/116/1.jpg"
+    },
+    {
+      "id": 117,
+      "name_cn": "钟无艳",
+      "name_vi": "Chung Vô Nhan",
+      "id_name": "zhongwuyan",
+      "title_cn": "野蛮之锤",
+      "title_vi": "Búa Dã Man",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "野蛮之锤",
+        "生化警戒",
+        "王者之锤",
+        "海滩丽影",
+        "超时空战士",
+        "聚星闪耀",
+        "春野之旅",
+        "戍鼓铭心",
+        "戍鼓铭心"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "野蛮之力",
+          "name_vi": "Sức Mạnh Dã Man",
+          "description_cn": "被动增强",
+          "description_vi": "Tăng cường thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "挥舞战锤",
+          "name_vi": "Vung Búa Chiến",
+          "description_cn": "挥舞锤子",
+          "description_vi": "Vung búa",
+          "type": "skill1",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "地震",
+          "name_vi": "Động Đất",
+          "description_cn": "造成地震",
+          "description_vi": "Gây động đất",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "终极敲击",
+          "name_vi": "Gõ Cuối Cùng",
+          "description_cn": "最强敲击",
+          "description_vi": "Gõ mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2900,
+        "attack": 140,
+        "defense": 85,
+        "ability": 100
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/117/1.jpg"
+    },
+    {
+      "id": 118,
+      "name_cn": "孙膑",
+      "name_vi": "Tôn Tẩu",
+      "id_name": "sunbin",
+      "title_cn": "逆流之时",
+      "title_vi": "Thời Gian Ngược Dòng",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "逆流之时",
+        "未来旅行",
+        "天使之翼",
+        "妖精王",
+        "归虚梦演",
+        "天狼运算者",
+        "寅虎·展翼",
+        "小动物乐团",
+        "茶境仙"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "逆流之时",
+          "name_vi": "Thời Gian Ngược Dòng",
+          "description_cn": "被动时间",
+          "description_vi": "Thời gian thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "时间折叠",
+          "name_vi": "Gấp Thời Gian",
+          "description_cn": "折叠时间",
+          "description_vi": "Gấp thời gian",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "加速",
+          "name_vi": "Tăng Tốc",
+          "description_cn": "增加速度",
+          "description_vi": "Tăng tốc độ",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 50
+        },
+        {
+          "name_cn": "时间停止",
+          "name_vi": "Dừng Thời Gian",
+          "description_cn": "停止时间",
+          "description_vi": "Dừng thời gian",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 100
+        }
+      ],
+      "stats": {
+        "hp": 2200,
+        "attack": 110,
+        "defense": 60,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、心眼、掠夺",
+      "runes_vi": "Săn Bắt, Mắt Tâm, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/118/1.jpg"
+    },
+    {
+      "id": 119,
+      "name_cn": "扁鹊",
+      "name_vi": "Biển Thước",
+      "id_name": "bianque",
+      "title_cn": "善恶怪医",
+      "title_vi": "Bác Sĩ Quái Thiện Ác",
+      "roles": [
+        "mage",
+        "warrior"
+      ],
+      "skins": [
+        "善恶怪医",
+        "救世之瞳",
+        "化身博士",
+        "炼金王",
+        "奇幻香踪",
+        "无尽旅途",
+        "灵蛊蚀心"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "草药知识",
+          "name_vi": "Kiến Thức Dân Dã",
+          "description_cn": "被动治愈",
+          "description_vi": "Chữa bệnh thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "毒针",
+          "name_vi": "Kim Độc",
+          "description_cn": "射出毒针",
+          "description_vi": "Bắn kim độc",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "灵魂互换",
+          "name_vi": "Trao Đổi Linh Hồn",
+          "description_cn": "交换位置",
+          "description_vi": "Trao đổi vị trí",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 80
+        },
+        {
+          "name_cn": "医疗复活",
+          "name_vi": "Phục Hưng Y Học",
+          "description_cn": "复活队友",
+          "description_vi": "Phục hưng đồng đội",
+          "type": "ultimate",
+          "cooldown": 60,
+          "mana_cost": 120
+        }
+      ],
+      "stats": {
+        "hp": 2300,
+        "attack": 110,
+        "defense": 65,
+        "ability": 155
+      },
+      "runes_cn": "狩猎、心眼、掠夺",
+      "runes_vi": "Săn Bắt, Mắt Tâm, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/119/1.jpg"
+    },
+    {
+      "id": 120,
+      "name_cn": "白起",
+      "name_vi": "Bạch Khởi",
+      "id_name": "baiqi",
+      "title_cn": "最终兵器",
+      "title_vi": "Vũ Khí Cuối Cùng",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "最终兵器",
+        "白色死神",
+        "狰",
+        "星夜王子",
+        "夜都怪侠",
+        "乐园追猎者",
+        "苍鳞隐世",
+        "死霸装"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "最终兵器",
+          "name_vi": "Vũ Khí Cuối Cùng",
+          "description_cn": "被动强化",
+          "description_vi": "Tăng cường thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "割颈",
+          "name_vi": "Cắt Cổ",
+          "description_cn": "快速割颈",
+          "description_vi": "Cắt cổ nhanh",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "挥舞战刃",
+          "name_vi": "Vung Lưỡi Chiến",
+          "description_cn": "范围攻击",
+          "description_vi": "Tấn công phạm vi",
+          "type": "skill2",
+          "cooldown": 9,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "死神之临",
+          "name_vi": "Sự Viếng Thăm Của Tử Thần",
+          "description_cn": "最终审判",
+          "description_vi": "Phán quyết cuối cùng",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 3000,
+        "attack": 150,
+        "defense": 95,
+        "ability": 100
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/120/1.jpg"
+    },
+    {
+      "id": 121,
+      "name_cn": "芈月",
+      "name_vi": "Mi Nguyệt",
+      "id_name": "miyue",
+      "title_cn": "永恒之月",
+      "title_vi": "Mặt Trăng Vĩnh Hằng",
+      "roles": [
+        "mage",
+        "warrior"
+      ],
+      "skins": [
+        "永恒之月",
+        "红桃皇后",
+        "大秦宣太后",
+        "重明",
+        "白晶晶",
+        "幻夜卜梦",
+        "浮光幕影",
+        "瑰影绮梦"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "永恒之月",
+          "name_vi": "Mặt Trăng Vĩnh Hằng",
+          "description_cn": "被动月光",
+          "description_vi": "Ánh trăng thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "月光弹",
+          "name_vi": "Đạn Ánh Trăng",
+          "description_cn": "射出月光",
+          "description_vi": "Bắn ánh trăng",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "月蚀",
+          "name_vi": "Nhật Thực",
+          "description_cn": "制造月蚀",
+          "description_vi": "Tạo nhật thực",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "月神降临",
+          "name_vi": "Nữ Thần Trăng Giáng Lâm",
+          "description_cn": "月神降临",
+          "description_vi": "Nữ thần trăng giáng lâm",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 110
+        }
+      ],
+      "stats": {
+        "hp": 2700,
+        "attack": 120,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、心眼、掠夺",
+      "runes_vi": "Săn Bắt, Mắt Tâm, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/121/1.jpg"
+    },
+    {
+      "id": 123,
+      "name_cn": "吕布",
+      "name_vi": "Lữ Bố",
+      "id_name": "lvbu",
+      "title_cn": "无双之魔",
+      "title_vi": "Thần Chiến",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "无双之魔",
+        "圣诞狂欢",
+        "天魔缭乱",
+        "末日机甲",
+        "猎兽之王",
+        "野性能量",
+        "御风骁将",
+        "怒海麟威",
+        "遇见神鼓",
+        "曦玄引",
+        "逐霄战戟"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "战神降临",
+          "name_vi": "Thần Chiến Giáng Lâm",
+          "description_cn": "被动强化",
+          "description_vi": "Tăng cường thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "刺击",
+          "name_vi": "Đâm Chích",
+          "description_cn": "快速刺击",
+          "description_vi": "Đâm chích nhanh",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "挥舞长矛",
+          "name_vi": "Vung Dạo Dài",
+          "description_cn": "范围攻击",
+          "description_vi": "Tấn công phạm vi",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "无敌斩",
+          "name_vi": "Chém Vô Địch",
+          "description_cn": "最强一击",
+          "description_vi": "Đòn chém mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 3200,
+        "attack": 160,
+        "defense": 90,
+        "ability": 110
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/123/1.jpg"
+    },
+    {
+      "id": 124,
+      "name_cn": "周瑜",
+      "name_vi": "Chu Du",
+      "id_name": "zhouyv",
+      "title_cn": "铁血都督",
+      "title_vi": "Con Em Yêu Của Trời",
+      "roles": [
+        "mage",
+        "warrior"
+      ],
+      "skins": [
+        "铁血都督",
+        "海军大将",
+        "真爱至上",
+        "赤莲之焰",
+        "音你心动",
+        "雪夜绮愿",
+        "熔金海岸",
+        "百相守梦"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "谋略",
+          "name_vi": "Chiến Lược",
+          "description_cn": "被动加强",
+          "description_vi": "Tăng cường thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "火焰箭",
+          "name_vi": "Mũi Tên Lửa",
+          "description_cn": "射出火箭",
+          "description_vi": "Bắn mũi tên lửa",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "烈火剑阵",
+          "name_vi": "Trận Kiếm Lửa Dữ",
+          "description_cn": "制造火阵",
+          "description_vi": "Tạo trận lửa",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "火烧赤壁",
+          "name_vi": "Lửa Thiêu Xích Bích",
+          "description_cn": "大规模火攻",
+          "description_vi": "Tấn công lửa quy mô lớn",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 120
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 130,
+        "defense": 65,
+        "ability": 150
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/124/1.jpg"
+    },
+    {
+      "id": 126,
+      "name_cn": "夏侯惇",
+      "name_vi": "Hạ Hầu Đôn",
+      "id_name": "xiahoudun",
+      "title_cn": "不羁之风",
+      "title_vi": "Trái Tim Trung Liệt",
+      "roles": [
+        "fighter",
+        "warrior"
+      ],
+      "skins": [
+        "不羁之风",
+        "战争骑士",
+        "乘风破浪",
+        "无限飓风号",
+        "朔风刀",
+        "匿光决锋者",
+        "霜北刀"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "忠烈",
+          "name_vi": "Trung Liệt",
+          "description_cn": "被动防御",
+          "description_vi": "Phòng thủ thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "穿刺",
+          "name_vi": "Đâm Xuyên",
+          "description_cn": "穿刺敌人",
+          "description_vi": "Đâm xuyên kẻ thù",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "战盔冲撞",
+          "name_vi": "Tấn Công Nón Chiến",
+          "description_cn": "冲撞敌人",
+          "description_vi": "Tấn công kẻ thù",
+          "type": "skill2",
+          "cooldown": 9,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "忠烈之力",
+          "name_vi": "Sức Mạnh Trung Liệt",
+          "description_cn": "增强攻击",
+          "description_vi": "Tăng cường tấn công",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2800,
+        "attack": 140,
+        "defense": 85,
+        "ability": 100
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/126/1.jpg"
+    },
+    {
+      "id": 127,
+      "name_cn": "甄姬",
+      "name_vi": "Zhenji",
+      "id_name": "zhenji",
+      "title_cn": "洛神降临",
+      "title_vi": "Kiều Nữ Quyến Rũ",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "洛神降临",
+        "冰雪圆舞曲",
+        "花好人间",
+        "游园惊梦",
+        "幽恒",
+        "女儿国国王",
+        "落雪兰心",
+        "至美·化雀舞",
+        "雪境奇遇",
+        "逆浪荇歌"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "裂地杀手",
+          "name_vi": "Sát Thủ Nứt Đất",
+          "description_cn": "甄姬的普攻造成目标生命值百分比伤害",
+          "description_vi": "Tấn công bình thường của Chân Cơ gây sát thương theo tỷ lệ máu kẻ thù",
+          "type": "passive"
+        },
+        {
+          "name_cn": "泣血圆弧",
+          "name_vi": "Cung Huyết Nước Mắt",
+          "description_cn": "甄姬射出弧线箭矢，对敌人造成伤害",
+          "description_vi": "Chân Cơ bắn mũi tên cung, gây sát thương cho kẻ thù",
+          "type": "skill1",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "怨咒水炮",
+          "name_vi": "Pháo Nước Lời Nguyền",
+          "description_cn": "甄姬释放水炮，对敌人造成伤害和减速",
+          "description_vi": "Chân Cơ phát hành pháo nước, gây sát thương và làm chậm kẻ thù",
+          "type": "skill2",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "深渊冲击",
+          "name_vi": "Cú Đâm Vực Sâu",
+          "description_cn": "甄姬冲向前方，对路径上的敌人造成伤害",
+          "description_vi": "Chân Cơ tấn công phía trước, gây sát thương cho kẻ thù trên đường đi",
+          "type": "ultimate",
+          "cooldown": "45/40/35",
+          "mana_cost": 100
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/127/1.jpg"
+    },
+    {
+      "id": 128,
+      "name_cn": "曹操",
+      "name_vi": "Tào Tháo",
+      "id_name": "caocao",
+      "title_cn": "鲜血枭雄",
+      "title_vi": "Đại Anh Hùng",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "鲜血枭雄",
+        "超能战警",
+        "幽灵船长",
+        "死神来了",
+        "烛龙",
+        "天狼征服者",
+        "决胜大满贯"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "枭雄之势",
+          "name_vi": "Thế Đại Anh Hùng",
+          "description_cn": "被动强化",
+          "description_vi": "Tăng cường thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "刀锋突进",
+          "name_vi": "Cú Tấn Công Gươm",
+          "description_cn": "冲向敌人",
+          "description_vi": "Tấn công kẻ thù",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "横扫千军",
+          "name_vi": "Quét Sạch Vạn Quân",
+          "description_cn": "范围攻击",
+          "description_vi": "Tấn công phạm vi",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "帝王之刃",
+          "name_vi": "Lưỡi Kiếm Đế Vương",
+          "description_cn": "最强一斩",
+          "description_vi": "Đòn chém mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2600,
+        "attack": 145,
+        "defense": 80,
+        "ability": 120
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/128/1.jpg"
+    },
+    {
+      "id": 129,
+      "name_cn": "典韦",
+      "name_vi": "Điển Vị",
+      "id_name": "dianwei",
+      "title_cn": "狂战士",
+      "title_vi": "Ác Lai",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "狂战士",
+        "黄金武士",
+        "穷奇",
+        "蓝屏警告",
+        "岱宗",
+        "铁甲之心",
+        "战鼓燎原",
+        "铁骨偃魂"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "恶来之怒",
+          "name_vi": "Cơn Giận Ác Lai",
+          "description_cn": "被动愤怒",
+          "description_vi": "Thụ động tức giận",
+          "type": "passive"
+        },
+        {
+          "name_cn": "双戟挥舞",
+          "name_vi": "Vung Kích Kép",
+          "description_cn": "挥舞双戟",
+          "description_vi": "Vung kích kép",
+          "type": "skill1",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "蛮力冲撞",
+          "name_vi": "Tấn Công Sức Mạnh",
+          "description_cn": "冲撞敌人",
+          "description_vi": "Tấn công kẻ thù",
+          "type": "skill2",
+          "cooldown": 9,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "力量之顶",
+          "name_vi": "Đỉnh Sức Mạnh",
+          "description_cn": "最强冲撞",
+          "description_vi": "Tấn công mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2900,
+        "attack": 155,
+        "defense": 80,
+        "ability": 95
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/129/1.jpg"
+    },
+    {
+      "id": 130,
+      "name_cn": "宫本武藏",
+      "name_vi": "Cung Bản Vũ Tạng",
+      "id_name": "gongbenwuzang",
+      "title_cn": "剑圣",
+      "title_vi": "Kiếm Tú",
+      "roles": [
+        "warrior",
+        "assassin"
+      ],
+      "skins": [
+        "剑圣",
+        "鬼剑武藏",
+        "未来纪元",
+        "万象初新",
+        "地狱之眼",
+        "霸王丸",
+        "惊梅引",
+        "黑崎一护"
+      ],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_cn": "剑意",
+          "name_vi": "Ý Chí Kiếm",
+          "description_cn": "被动剑意",
+          "description_vi": "Ý chí kiếm thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "剑气斩",
+          "name_vi": "Chém Khí Kiếm",
+          "description_cn": "斩出剑气",
+          "description_vi": "Chém khí kiếm",
+          "type": "skill1",
+          "cooldown": 5,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "二刀流",
+          "name_vi": "Hai Thanh Kiếm",
+          "description_cn": "使用双刀",
+          "description_vi": "Dùng hai kiếm",
+          "type": "skill2",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "宝刀赤月",
+          "name_vi": "Bảo Đao Xích Nguyệt",
+          "description_cn": "最强剑意",
+          "description_vi": "Ý chí kiếm mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2200,
+        "attack": 175,
+        "defense": 60,
+        "ability": 85
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/130/1.jpg"
+    },
+    {
+      "id": 131,
+      "name_cn": "李白",
+      "name_vi": "Lý Bạch",
+      "id_name": "libai",
+      "title_cn": "青莲剑仙",
+      "title_vi": "Kiếm Tiên Thanh Liên",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "青莲剑仙",
+        "范海辛",
+        "千年之狐",
+        "凤求凰",
+        "敏锐之力",
+        "鸣剑·曳影",
+        "诗剑行",
+        "碎月剑心",
+        "谪仙醉月"
+      ],
+      "difficulty": 8,
+      "skills": [
+        {
+          "name_cn": "青莲剑意",
+          "name_vi": "Ý Chí Kiếm Thanh Liên",
+          "description_cn": "被动剑意",
+          "description_vi": "Ý chí kiếm thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "青莲剑歌",
+          "name_vi": "Ca Kiếm Thanh Liên",
+          "description_cn": "剑歌攻击",
+          "description_vi": "Tấn công ca kiếm",
+          "type": "skill1",
+          "cooldown": 5,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "飘然若思",
+          "name_vi": "Tự Tại Như Tư",
+          "description_cn": "瞬间移动",
+          "description_vi": "Dịch chuyển tức thời",
+          "type": "skill2",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "侠客行",
+          "name_vi": "Hành Khách Giang Hồ",
+          "description_cn": "最强剑舞",
+          "description_vi": "Vũ kiếm mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 45,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 55,
+        "ability": 100
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/131/1.jpg"
+    },
+    {
+      "id": 132,
+      "name_cn": "马可波罗",
+      "name_vi": "Mã Khả Ba Lô",
+      "id_name": "makeboluo",
+      "title_cn": "远游之枪",
+      "title_vi": "Khách Từ Nơi Xa",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "远游之枪",
+        "激情绿茵",
+        "逐梦之星",
+        "暗影游猎",
+        "潮玩牛仔",
+        "深海之息",
+        "山海·玄木吟",
+        "妄想实况",
+        "星界特工",
+        "怪盗基德"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "旅行的梦想",
+          "name_vi": "Mộng Hành Trình",
+          "description_cn": "被动移动",
+          "description_vi": "Di chuyển thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "远方的枪声",
+          "name_vi": "Tiếng Súng Nơi Xa",
+          "description_cn": "远程射击",
+          "description_vi": "Bắn từ xa",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "沙漠风暴",
+          "name_vi": "Cơn Bão Sa Mạc",
+          "description_cn": "范围攻击",
+          "description_vi": "Tấn công phạm vi",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "终极轰击",
+          "name_vi": "Đòn Báo Cuối Cùng",
+          "description_cn": "最强射击",
+          "description_vi": "Bắn mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 50,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 95
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/132/1.jpg"
+    },
+    {
+      "id": 133,
+      "name_cn": "狄仁杰",
+      "name_vi": "Địch Nhân Kiệt",
+      "id_name": "direnjie",
+      "title_cn": "断案大师",
+      "title_vi": "Thần Thám",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "断案大师",
+        "锦衣卫",
+        "魔术师",
+        "超时空战士",
+        "阴阳师",
+        "鹰眼统帅",
+        "万华元夜",
+        "星际治安官",
+        "神器·狴犴令",
+        "绮世丹青"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "推理",
+          "name_vi": "Suy Luận",
+          "description_cn": "被动侦查",
+          "description_vi": "Trinh sát thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "无敌手枪",
+          "name_vi": "Súng Tay Vô Địch",
+          "description_cn": "射击敌人",
+          "description_vi": "Bắn kẻ thù",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "证据链",
+          "name_vi": "Chuỗi Bằng Chứng",
+          "description_cn": "追踪敌人",
+          "description_vi": "Theo dõi kẻ thù",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "真相大白",
+          "name_vi": "Sự Thật Lộ Diện",
+          "description_cn": "揭露真相",
+          "description_vi": "Lộ diện sự thật",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 150,
+        "defense": 65,
+        "ability": 105
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/133/1.jpg"
+    },
+    {
+      "id": 134,
+      "name_cn": "达摩",
+      "name_vi": "Đạt Ma",
+      "id_name": "damo",
+      "title_cn": "拳僧",
+      "title_vi": "Tăng Quyền",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "拳僧",
+        "拳王",
+        "大发明家",
+        "黄金狮子座",
+        "星际陆战队",
+        "沙漠行僧",
+        "爆烈喵拳"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "拳意",
+          "name_vi": "Ý Chí Quyền",
+          "description_cn": "被动拳意",
+          "description_vi": "Ý chí quyền thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "金刚碎击",
+          "name_vi": "Đòn Chí Kim Cương",
+          "description_cn": "拳击敌人",
+          "description_vi": "Đấm kẻ thù",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "禅定",
+          "name_vi": "Thiền Định",
+          "description_cn": "冥想防御",
+          "description_vi": "Thiền định phòng thủ",
+          "type": "skill2",
+          "cooldown": 10,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "大威天龙",
+          "name_vi": "Đại Uy Thiên Long",
+          "description_cn": "最强拳意",
+          "description_vi": "Ý chí quyền mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2600,
+        "attack": 140,
+        "defense": 75,
+        "ability": 115
+      },
+      "runes_cn": "无情、狂暴、掠夺",
+      "runes_vi": "Vô Tình, Điên Cuồng, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/134/1.jpg"
+    },
+    {
+      "id": 135,
+      "name_cn": "项羽",
+      "name_vi": "Hạng Vũ",
+      "id_name": "xiangyu",
+      "title_cn": "霸王",
+      "title_vi": "Bá Vương",
+      "roles": [
+        "fighter",
+        "warrior"
+      ],
+      "skins": [
+        "霸王",
+        "帝国元帅",
+        "苍穹之光",
+        "海滩派对",
+        "职棒王牌",
+        "霸王别姬",
+        "科学大爆炸",
+        "无限倾心",
+        "苍威无极"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "志之证",
+          "name_vi": "Chứng Chí Hướng",
+          "description_cn": "项羽受到伤害后获得伤害减免效果",
+          "description_vi": "Hạng Vũ nhận sát thương sau đó nhận được hiệu ứng giảm sát thương",
+          "type": "passive"
+        },
+        {
+          "name_cn": "破阵",
+          "name_vi": "Phá Trận",
+          "description_cn": "项羽冲向敌人，对其造成伤害和眩晕",
+          "description_vi": "Hạng Vũ tấn công kẻ thù, gây sát thương và choáng váng",
+          "type": "skill1",
+          "cooldown": "11/10/9/8/7/6",
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "弧光斩",
+          "name_vi": "Chém Cung Sáng",
+          "description_cn": "项羽挥动长矛进行圆形攻击，造成伤害",
+          "description_vi": "Hạng Vũ vung kích pháp thực hiện tấn công tròn, gây sát thương",
+          "type": "skill2",
+          "cooldown": 7,
+          "mana_cost": 0
+        },
+        {
+          "name_cn": "战阵冲",
+          "name_vi": "Tấn Công Trận Chiến",
+          "description_cn": "项羽冲向前方，对路径上的敌人造成大量伤害",
+          "description_vi": "Hạng Vũ tấn công phía trước, gây sát thương lớn cho kẻ thù trên đường đi",
+          "type": "ultimate",
+          "cooldown": "50/45/40",
+          "mana_cost": 0
+        }
+      ],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/135/1.jpg"
+    },
+    {
+      "id": 136,
+      "name_cn": "武则天",
+      "name_vi": "Võ Tắc Thiên",
+      "id_name": "wuzetian",
+      "title_cn": "女帝",
+      "title_vi": "Chí Tôn",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "女帝",
+        "东方不败",
+        "海洋之心",
+        "倪克斯神谕",
+        "神器·明辉仪"
+      ],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_cn": "至尊",
+          "name_vi": "Chí Tôn",
+          "description_cn": "被动威压",
+          "description_vi": "Áp lực thụ động",
+          "type": "passive"
+        },
+        {
+          "name_cn": "权杖打击",
+          "name_vi": "Đòn Chí Trượng",
+          "description_cn": "魔法打击",
+          "description_vi": "Tấn công phép thuật",
+          "type": "skill1",
+          "cooldown": 6,
+          "mana_cost": 60
+        },
+        {
+          "name_cn": "能量炮",
+          "name_vi": "Pháo Năng Lượng",
+          "description_cn": "能量攻击",
+          "description_vi": "Tấn công năng lượng",
+          "type": "skill2",
+          "cooldown": 8,
+          "mana_cost": 70
+        },
+        {
+          "name_cn": "女皇之威",
+          "name_vi": "Uy Quyền Nữ Hoàng",
+          "description_cn": "最强魔法",
+          "description_vi": "Phép thuật mạnh nhất",
+          "type": "ultimate",
+          "cooldown": 55,
+          "mana_cost": 120
+        }
+      ],
+      "stats": {
+        "hp": 2400,
+        "attack": 125,
+        "defense": 70,
+        "ability": 155
+      },
+      "runes_cn": "狩猎、心眼、掠夺",
+      "runes_vi": "Săn Bắt, Mắt Tâm, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/136/1.jpg"
+    },
+    {
+      "id": 139,
+      "name_cn": "老夫子",
+      "name_vi": "Tôn Liên",
+      "id_name": "laofuzi",
+      "title_cn": "万古长明",
+      "title_vi": "万古长明",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "万古长明",
+        "潮流仙人",
+        "圣诞老人",
+        "功夫老勺",
+        "醍醐杖",
+        "航海奇遇记",
+        "百相守梦",
+        "藏狐·褐绒"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/139/1.jpg"
+    },
+    {
+      "id": 140,
+      "name_cn": "关羽",
+      "name_vi": "Guanyu",
+      "id_name": "guanyu",
+      "title_cn": "一骑当千",
+      "title_vi": "一骑当千",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "一骑当千",
+        "龙腾万里",
+        "天启骑士",
+        "冰锋战神",
+        "武圣",
+        "赤影疾锋",
+        "百相守梦",
+        "决胜骁骑"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/140/1.jpg"
+    },
+    {
+      "id": 141,
+      "name_cn": "貂蝉",
+      "name_vi": "Nguyên Thị",
+      "id_name": "diaochan",
+      "title_cn": "绝世舞姬",
+      "title_vi": "绝世舞姬",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "绝世舞姬",
+        "异域舞娘",
+        "圣诞恋歌",
+        "仲夏夜之梦",
+        "逐梦之音",
+        "猫影幻舞",
+        "遇见胡旋",
+        "唤灵魅影",
+        "幻阙歌",
+        "曦玄引",
+        "长夏之忆",
+        "馥梦繁花"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/141/1.jpg"
+    },
+    {
+      "id": 142,
+      "name_cn": "安琪拉",
+      "name_vi": "Tước Lệ",
+      "id_name": "anqila",
+      "title_cn": "暗夜萝莉",
+      "title_vi": "暗夜萝莉",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "暗夜萝莉",
+        "玩偶对对碰",
+        "魔法小厨娘",
+        "心灵骇客",
+        "如懿",
+        "时之奇旅",
+        "追逃游戏",
+        "乘龙聚宝船",
+        "酷洛米之心"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/142/1.jpg"
+    },
+    {
+      "id": 144,
+      "name_cn": "程咬金",
+      "name_vi": "Đông Trác",
+      "id_name": "chengyaojin",
+      "title_cn": "热烈之斧",
+      "title_vi": "热烈之斧",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "热烈之斧",
+        "爱与正义",
+        "星际陆战队",
+        "华尔街大亨",
+        "功夫厨神",
+        "活力突击",
+        "演武夺筹",
+        "无双福将",
+        "暖冬絮语",
+        "群星魔术团"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/144/1.jpg"
+    },
+    {
+      "id": 146,
+      "name_cn": "露娜",
+      "name_vi": "Thái Bình Công Chúa",
+      "id_name": "luna",
+      "title_cn": "月光之女",
+      "title_vi": "月光之女",
+      "roles": [
+        "assassin",
+        "mage"
+      ],
+      "skins": [
+        "月光之女",
+        "哥特玫瑰",
+        "绯红之刃",
+        "紫霞仙子",
+        "一生所爱",
+        "瓷语鉴心",
+        "启示之音",
+        "霜月吟",
+        "命运加冕"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/146/1.jpg"
+    },
+    {
+      "id": 148,
+      "name_cn": "姜子牙",
+      "name_vi": "Tư Mã Tướng",
+      "id_name": "jiangziya",
+      "title_cn": "封神者",
+      "title_vi": "封神者",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "太古魔导",
+        "时尚教父",
+        "炽热元素使",
+        "闲日渔趣",
+        "天穹之誓",
+        "星梦巡礼"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/148/1.jpg"
+    },
+    {
+      "id": 149,
+      "name_cn": "刘邦",
+      "name_vi": "Liubang",
+      "id_name": "liubang",
+      "title_cn": "双面君主",
+      "title_vi": "双面君主",
+      "roles": [
+        "fighter",
+        "mage"
+      ],
+      "skins": [
+        "双面君主",
+        "圣殿之光",
+        "德古拉伯爵",
+        "夺宝奇兵",
+        "虎啸剑宗",
+        "剑破天穹"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/149/1.jpg"
+    },
+    {
+      "id": 150,
+      "name_cn": "韩信",
+      "name_vi": "Tường Ca",
+      "id_name": "hanxin",
+      "title_cn": "国士无双",
+      "title_vi": "国士无双",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "国士无双",
+        "街头霸王",
+        "教廷特使",
+        "白龙吟",
+        "逐梦之影",
+        "飞衡",
+        "傲雪梅枪",
+        "弑枪猎影",
+        "群星魔术团"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/150/1.jpg"
+    },
+    {
+      "id": 152,
+      "name_cn": "王昭君",
+      "name_vi": "Tôn Nghị",
+      "id_name": "wangzhaojun",
+      "title_cn": "冰雪之华",
+      "title_vi": "冰雪之华",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "冰雪之华",
+        "精灵公主",
+        "偶像歌手",
+        "凤凰于飞",
+        "幻想奇妙夜",
+        "乞巧织情",
+        "午后时光",
+        "星穹之声",
+        "映山客"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/152/1.jpg"
+    },
+    {
+      "id": 153,
+      "name_cn": "兰陵王",
+      "name_vi": "Bạc Vân",
+      "id_name": "lanlingwang",
+      "title_cn": "暗影刀锋",
+      "title_vi": "暗影刀锋",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "暗影刀锋",
+        "隐刃",
+        "暗隐猎兽者",
+        "驯魔猎人",
+        "默契交锋",
+        "金庭之子",
+        "影龙天霄"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/153/1.jpg"
+    },
+    {
+      "id": 154,
+      "name_cn": "花木兰",
+      "name_vi": "Mao Tú",
+      "id_name": "huamulan",
+      "title_cn": "传说之刃",
+      "title_vi": "传说之刃",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "传说之刃",
+        "剑舞者",
+        "兔女郎",
+        "水晶猎龙者",
+        "青春决赛季",
+        "冠军飞将",
+        "瑞麟志",
+        "默契交锋",
+        "九霄神辉",
+        "燃星之曲"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/154/1.jpg"
+    },
+    {
+      "id": 156,
+      "name_cn": "张良",
+      "name_vi": "Hạ Hầu Viên",
+      "id_name": "zhangliang",
+      "title_cn": "言灵之书",
+      "title_vi": "言灵之书",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "言灵之书",
+        "天堂福音",
+        "一千零一夜",
+        "幽兰居士",
+        "黄金白羊座",
+        "缤纷绘卷",
+        "千筹问战",
+        "古海寻踪",
+        "灵野札记"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/156/1.jpg"
+    },
+    {
+      "id": 157,
+      "name_cn": "不知火舞",
+      "name_vi": "Tần Cơ",
+      "id_name": "buzhihuowu",
+      "title_cn": "明媚烈焰",
+      "title_vi": "明媚烈焰",
+      "roles": [
+        "assassin",
+        "mage"
+      ],
+      "skins": [
+        "明媚烈焰",
+        "魅语",
+        "绯月行",
+        "花合斗"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/157/1.jpg"
+    },
+    {
+      "id": 162,
+      "name_cn": "娜可露露",
+      "name_vi": "Mã Triệu",
+      "id_name": "nakelulu",
+      "title_cn": "鹰之守护",
+      "title_vi": "鹰之守护",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "鹰之守护",
+        "晚萤",
+        "前尘镜"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/162/1.jpg"
+    },
+    {
+      "id": 163,
+      "name_cn": "橘右京",
+      "name_vi": "Trương Bội",
+      "id_name": "jvyoujing",
+      "title_cn": "神梦一刀",
+      "title_vi": "神梦一刀",
+      "roles": [
+        "assassin",
+        "warrior"
+      ],
+      "skins": [
+        "神梦一刀",
+        "修罗",
+        "枫霜尽"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/163/1.jpg"
+    },
+    {
+      "id": 166,
+      "name_cn": "亚瑟",
+      "name_vi": "Tôn Bình",
+      "id_name": "yase",
+      "title_cn": "圣骑之力",
+      "title_vi": "圣骑之力",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "圣骑之力",
+        "死亡骑士",
+        "狮心王",
+        "心灵战警",
+        "潮玩骑士王",
+        "追逃游戏",
+        "鸿运当头",
+        "动物派对",
+        "布丁狗之誓"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/166/1.jpg"
+    },
+    {
+      "id": 167,
+      "name_cn": "孙悟空",
+      "name_vi": "Hoàng Trung",
+      "id_name": "sunwukong",
+      "title_cn": "齐天大圣",
+      "title_vi": "齐天大圣",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "齐天大圣",
+        "地狱火",
+        "西部大镖客",
+        "美猴王",
+        "至尊宝",
+        "全息碎影",
+        "大圣娶亲",
+        "零号·赤焰",
+        "孙行者",
+        "齐天大圣",
+        "神迹守卫"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/167/1.jpg"
+    },
+    {
+      "id": 168,
+      "name_cn": "牛魔",
+      "name_vi": "Phó Bàng",
+      "id_name": "niumo",
+      "title_cn": "精英酋长",
+      "title_vi": "精英酋长",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "精英酋长",
+        "西部大镖客",
+        "制霸全明星",
+        "御旌",
+        "奔雷神使",
+        "牛运亨通",
+        "星界战将",
+        "小牛鸭"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/168/1.jpg"
+    },
+    {
+      "id": 169,
+      "name_cn": "后羿",
+      "name_vi": "Lưu Thiện",
+      "id_name": "houyi",
+      "title_cn": "半神之弓",
+      "title_vi": "半神之弓",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "半神之弓",
+        "精灵王",
+        "阿尔法小队",
+        "辉光之辰",
+        "黄金射手座",
+        "如梦令",
+        "圣弓游侠",
+        "无尽星芒",
+        "完美运算",
+        "石田雨龙"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/169/1.jpg"
+    },
+    {
+      "id": 170,
+      "name_cn": "刘备",
+      "name_vi": "Bạc Vân",
+      "id_name": "liubei",
+      "title_cn": "仁德义枪",
+      "title_vi": "仁德义枪",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "仁德义枪",
+        "万事如意",
+        "纽约教父",
+        "汉昭烈帝",
+        "时之恋人",
+        "潮玩造梦师",
+        "百相守梦",
+        "异域游侠",
+        "浪漫序章"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/170/1.jpg"
+    },
+    {
+      "id": 171,
+      "name_cn": "张飞",
+      "name_vi": "Tạo Tháo",
+      "id_name": "zhangfei",
+      "title_cn": "禁血狂兽",
+      "title_vi": "禁血狂兽",
+      "roles": [
+        "fighter",
+        "support"
+      ],
+      "skins": [
+        "禁血狂兽",
+        "五福同心",
+        "乱世虎臣",
+        "虎魂",
+        "百相守梦",
+        "兔狲·蓬尾"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/171/1.jpg"
+    },
+    {
+      "id": 173,
+      "name_cn": "李元芳",
+      "name_vi": "Tôn Quân",
+      "id_name": "liyuanfang",
+      "title_cn": "王都密探",
+      "title_vi": "王都密探",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "王都密探",
+        "特种部队",
+        "黑猫爱糖果",
+        "逐浪之夏",
+        "银河之约",
+        "飞鸢探春",
+        "云中旅人",
+        "妄想特派",
+        "匿光侦查者",
+        "蔬乡物语"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/173/1.jpg"
+    },
+    {
+      "id": 174,
+      "name_cn": "虞姬",
+      "name_vi": "Tạo Chấp",
+      "id_name": "yuji",
+      "title_cn": "森之风灵",
+      "title_vi": "森之风灵",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "森之风灵",
+        "加勒比小姐",
+        "霸王别姬",
+        "凯尔特女王",
+        "云霓雀翎",
+        "启明星使",
+        "无限倾心",
+        "神鉴启示录",
+        "夏日便利店",
+        "愿照·岁时盈"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/174/1.jpg"
+    },
+    {
+      "id": 175,
+      "name_cn": "钟馗",
+      "name_vi": "Lý Bàng",
+      "id_name": "zhongkui",
+      "title_cn": "虚灵城判",
+      "title_vi": "虚灵城判",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "虚灵城判",
+        "地府判官",
+        "神迹守卫",
+        "驱傩正仪",
+        "乐园奇幻夜",
+        "虚灵犬护"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/175/1.jpg"
+    },
+    {
+      "id": 178,
+      "name_cn": "杨戬",
+      "name_vi": "Tào Tháo",
+      "id_name": "yangjian",
+      "title_cn": "根源之目",
+      "title_vi": "根源之目",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "根源之目",
+        "埃及法老",
+        "永曜之星",
+        "次元傲视",
+        "天秀·启明",
+        "潮玩骑兵",
+        "破阵·退雄兵"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/178/1.jpg"
+    },
+    {
+      "id": 183,
+      "name_cn": "雅典娜",
+      "name_vi": "Tào Tháo",
+      "id_name": "yadianna",
+      "title_cn": "圣域余晖",
+      "title_vi": "圣域余晖",
+      "roles": [
+        "warrior",
+        "assassin"
+      ],
+      "skins": [
+        "圣域余晖",
+        "战争女神",
+        "冰冠公主",
+        "神奇女侠",
+        "单词大作战",
+        "黎明之约",
+        "潮玩士官长"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/183/1.jpg"
+    },
+    {
+      "id": 184,
+      "name_cn": "蔡文姬",
+      "name_vi": "Tôn Tính",
+      "id_name": "caiwenji",
+      "title_cn": "天籁弦音",
+      "title_vi": "天籁弦音",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "天籁弦音",
+        "蔷薇王座",
+        "奇迹圣诞",
+        "舞动绿茵",
+        "繁星吟游",
+        "花朝如约",
+        "电玩·兔顽号",
+        "夏日便利店",
+        "愿照·福禄聚"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/184/1.jpg"
+    },
+    {
+      "id": 186,
+      "name_cn": "太乙真人",
+      "name_vi": "Tôn Thế",
+      "id_name": "taiyizhenren",
+      "title_cn": "炼金大师",
+      "title_vi": "炼金大师",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "炼金大师",
+        "圆桌骑士",
+        "饕餮",
+        "华丽摇滚",
+        "劲辣红锅",
+        "谧流熔炉"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/186/1.jpg"
+    },
+    {
+      "id": 180,
+      "name_cn": "哪吒",
+      "name_vi": "Chu Du",
+      "id_name": "nezha",
+      "title_cn": "桀骜炎枪",
+      "title_vi": "桀骜炎枪",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "桀骜炎枪",
+        "三太子",
+        "逐梦之翼",
+        "次元突破",
+        "雪上飞焰",
+        "热血海滩"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/180/1.jpg"
+    },
+    {
+      "id": 190,
+      "name_cn": "诸葛亮",
+      "name_vi": "Tôn Đặc",
+      "id_name": "zhugeliang",
+      "title_cn": "绝代智谋",
+      "title_vi": "绝代智谋",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "绝代智谋",
+        "星航指挥官",
+        "黄金分割率",
+        "武陵仙君",
+        "掌控之力",
+        "时雨天司",
+        "星域神启",
+        "鹤羽星尊",
+        "天机白泽"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/190/1.jpg"
+    },
+    {
+      "id": 192,
+      "name_cn": "黄忠",
+      "name_vi": "Tôn Tuyên",
+      "id_name": "huangzhong",
+      "title_cn": "燃魂重炮",
+      "title_vi": "燃魂重炮",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "燃魂重炮",
+        "芝加哥教父",
+        "烈魂",
+        "火炮绅士",
+        "怒海冲锋"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/192/1.jpg"
+    },
+    {
+      "id": 191,
+      "name_cn": "大乔",
+      "name_vi": "Tạo Vân",
+      "id_name": "daqiao",
+      "title_cn": "沧海之曜",
+      "title_vi": "沧海之曜",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "沧海之曜",
+        "伊势巫女",
+        "守护之力",
+        "猫狗日记",
+        "白蛇",
+        "白鹤梁神女",
+        "挚爱花嫁",
+        "时之奇旅",
+        "乘龙忆丹青",
+        "绒语心约"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/191/1.jpg"
+    },
+    {
+      "id": 187,
+      "name_cn": "东皇太一",
+      "name_vi": "Lục Sâm",
+      "id_name": "donghuangtaiyi",
+      "title_cn": "噬灭日蚀",
+      "title_vi": "噬灭日蚀",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "噬灭日蚀",
+        "东海龙王",
+        "逐梦之光",
+        "灼幽烈阳",
+        "噬灭天穹",
+        "金福满堂"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/187/1.jpg"
+    },
+    {
+      "id": 182,
+      "name_cn": "干将莫邪",
+      "name_vi": "Tôn Liên",
+      "id_name": "ganjiangmoye",
+      "title_cn": "淬命双剑",
+      "title_vi": "淬命双剑",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "淬命双剑",
+        "第七人偶",
+        "冰霜恋舞曲",
+        "久胜战神",
+        "真爱魔法",
+        "胡桃夹子",
+        "画中仙",
+        "雾都夜雨",
+        "千山共赴"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/182/1.jpg"
+    },
+    {
+      "id": 189,
+      "name_cn": "鬼谷子",
+      "name_vi": "Vương Lâu",
+      "id_name": "guiguzi",
+      "title_cn": "万物有灵",
+      "title_vi": "万物有灵",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "万物有灵",
+        "阿摩司公爵",
+        "幻乐之宴",
+        "原初探秘者",
+        "五谷丰年",
+        "天穹祈灯",
+        "克喵"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/189/1.jpg"
+    },
+    {
+      "id": 193,
+      "name_cn": "铠",
+      "name_vi": "Tạo Thao",
+      "id_name": "kai",
+      "title_cn": "破灭刃锋",
+      "title_vi": "破灭刃锋",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "破灭刃锋",
+        "龙域领主",
+        "曙光守护者",
+        "青龙志",
+        "绛天战甲",
+        "银白咏叹调",
+        "琥珀纪元",
+        "冥王哈迪斯"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/193/1.jpg"
+    },
+    {
+      "id": 196,
+      "name_cn": "百里守约",
+      "name_vi": "Chu Chí",
+      "id_name": "bailishouyue",
+      "title_cn": "静谧之眼",
+      "title_vi": "静谧之眼",
+      "roles": [
+        "marksman",
+        "assassin"
+      ],
+      "skins": [
+        "静谧之眼",
+        "绝影神枪",
+        "特工魅影",
+        "朱雀志",
+        "碎云",
+        "真我赫兹",
+        "雪豹·霜爪"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/196/1.jpg"
+    },
+    {
+      "id": 195,
+      "name_cn": "百里玄策",
+      "name_vi": "Lục Trạo",
+      "id_name": "bailixuance",
+      "title_cn": "嚣狂之镰",
+      "title_vi": "嚣狂之镰",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "嚣狂之镰",
+        "威尼斯狂欢",
+        "白虎志",
+        "原初追逐者",
+        "热力回旋",
+        "超元猎域",
+        "百相守梦"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/195/1.jpg"
+    },
+    {
+      "id": 194,
+      "name_cn": "苏烈",
+      "name_vi": "Tôn Kiếm",
+      "id_name": "sulie",
+      "title_cn": "不屈铁壁",
+      "title_vi": "不屈铁壁",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "不屈铁壁",
+        "爱与和平",
+        "坚韧之力",
+        "玄武志",
+        "千军破阵",
+        "春野闲踪"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/194/1.jpg"
+    },
+    {
+      "id": 198,
+      "name_cn": "梦奇",
+      "name_vi": "Tôn Dục",
+      "id_name": "mengqi",
+      "title_cn": "入梦之灵",
+      "title_vi": "入梦之灵",
+      "roles": [
+        "fighter",
+        "mage"
+      ],
+      "skins": [
+        "入梦之灵",
+        "美梦成真",
+        "胖达荣荣",
+        "天降福星",
+        "顽趣"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/198/1.jpg"
+    },
+    {
+      "id": 179,
+      "name_cn": "女娲",
+      "name_vi": "Lục Bố",
+      "id_name": "nvwa",
+      "title_cn": "至高创世",
+      "title_vi": "至高创世",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "至高创世",
+        "尼罗河女神",
+        "朔望之晖",
+        "补天",
+        "愿照·千秋盛"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/179/1.jpg"
+    },
+    {
+      "id": 501,
+      "name_cn": "明世隐",
+      "name_vi": "Mingshiyin",
+      "id_name": "mingshiyin",
+      "title_cn": "灵魂劫卜",
+      "title_vi": "灵魂劫卜",
+      "roles": [
+        "support"
+      ],
+      "skins": [
+        "灵魂劫卜",
+        "占星术士",
+        "虹云星官",
+        "疑决卦",
+        "吟游魔法",
+        "夜落电台",
+        "景韶洛都"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/501/1.jpg"
+    },
+    {
+      "id": 199,
+      "name_cn": "公孙离",
+      "name_vi": "Tạo Kiên",
+      "id_name": "gongsunli",
+      "title_cn": "幻舞玲珑",
+      "title_vi": "幻舞玲珑",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "幻舞玲珑",
+        "花间舞",
+        "蜜橘之夏",
+        "无限星赏官",
+        "祈雪灵祝",
+        "玉兔公主",
+        "记忆之芯",
+        "离恨烟",
+        "云诺千山",
+        "涂山容容"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/199/1.jpg"
+    },
+    {
+      "id": 176,
+      "name_cn": "杨玉环",
+      "name_vi": "Tôn Vận",
+      "id_name": "yangyuhuan",
+      "title_cn": "霓裳风华",
+      "title_vi": "霓裳风华",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "风华霓裳",
+        "霓裳曲",
+        "遇见飞天",
+        "寅虎·心曲",
+        "银翎春语"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/176/1.jpg"
+    },
+    {
+      "id": 502,
+      "name_cn": "裴擒虎",
+      "name_vi": "Peiqinhu",
+      "id_name": "peiqinhu",
+      "title_cn": "六合虎拳",
+      "title_vi": "六合虎拳",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "六合虎拳",
+        "街头霸王",
+        "梅西",
+        "天狼狩猎者",
+        "李小龙",
+        "寅虎·赤拳",
+        "擒涛扼浪",
+        "祥瑞亨通"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/502/1.jpg"
+    },
+    {
+      "id": 197,
+      "name_cn": "弈星",
+      "name_vi": "Vương Tư",
+      "id_name": "yixing",
+      "title_cn": "天元之弈",
+      "title_vi": "天元之弈",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "天元之弈",
+        "踏雪寻梅",
+        "混沌棋",
+        "滕王阁序",
+        "炽奕燎原",
+        "万物之道",
+        "守夜人"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/197/1.jpg"
+    },
+    {
+      "id": 503,
+      "name_cn": "狂铁",
+      "name_vi": "Kuangtie",
+      "id_name": "kuangtie",
+      "title_cn": "战车意志",
+      "title_vi": "战车意志",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "战车意志",
+        "命运角斗场",
+        "御狮",
+        "特工战影",
+        "电玩高手",
+        "龙之律动"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/503/1.jpg"
+    },
+    {
+      "id": 504,
+      "name_cn": "米莱狄",
+      "name_vi": "Milaidi",
+      "id_name": "milaidi",
+      "title_cn": "筑城者",
+      "title_vi": "筑城者",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "筑城者",
+        "精准探案法",
+        "御霄",
+        "胡桃异想国",
+        "契约魔法",
+        "完美假期",
+        "怪诞之夜"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/504/1.jpg"
+    },
+    {
+      "id": 125,
+      "name_cn": "元歌",
+      "name_vi": "Yuange",
+      "id_name": "yuange",
+      "title_cn": "无间傀儡",
+      "title_vi": "无间傀儡",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "无间傀儡",
+        "午夜歌剧院",
+        "云间偶戏",
+        "无心",
+        "诡秘之主"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/125/1.jpg"
+    },
+    {
+      "id": 510,
+      "name_cn": "孙策",
+      "name_vi": "Sunce",
+      "id_name": "sunce",
+      "title_cn": "光明之海",
+      "title_vi": "光明之海",
+      "roles": [
+        "fighter",
+        "warrior"
+      ],
+      "skins": [
+        "光明之海",
+        "海之征途",
+        "猫狗日记",
+        "末日机甲",
+        "挚爱之约",
+        "乘龙淬吴钩",
+        "时之奇旅",
+        "百相守梦"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/510/1.jpg"
+    },
+    {
+      "id": 137,
+      "name_cn": "司马懿",
+      "name_vi": "Lục Tú",
+      "id_name": "simayi",
+      "title_cn": "寂灭之心",
+      "title_vi": "寂灭之心",
+      "roles": [
+        "assassin",
+        "mage"
+      ],
+      "skins": [
+        "寂灭之心",
+        "魇语军师",
+        "暗渊魔法",
+        "九山相柳"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/137/1.jpg"
+    },
+    {
+      "id": 509,
+      "name_cn": "盾山",
+      "name_vi": "Dunshan",
+      "id_name": "dunshan",
+      "title_cn": "无尽之盾",
+      "title_vi": "无尽之盾",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "无尽之盾",
+        "极冰防御线",
+        "御銮",
+        "圆桌骑士",
+        "梦圆繁星"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/509/1.jpg"
+    },
+    {
+      "id": 508,
+      "name_cn": "伽罗",
+      "name_vi": "Jialuo",
+      "id_name": "jialuo",
+      "title_cn": "破魔之箭",
+      "title_vi": "破魔之箭",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "破魔之箭",
+        "花见巫女",
+        "箭羽风息",
+        "太华",
+        "天狼溯光者",
+        "炽翼辉光",
+        "琥珀纪元"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/508/1.jpg"
+    },
+    {
+      "id": 312,
+      "name_cn": "沈梦溪",
+      "name_vi": "Shenmengxi",
+      "id_name": "shenmengxi",
+      "title_cn": "爆弹怪猫",
+      "title_vi": "爆弹怪猫",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "爆弹怪猫",
+        "棒球奇才",
+        "鲨炮海盗猫",
+        "星空之诺",
+        "月团寄思",
+        "大漠名商",
+        "匿光破解者",
+        "龙舞盛年",
+        "鸭鸭历险记"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/312/1.jpg"
+    },
+    {
+      "id": 507,
+      "name_cn": "李信",
+      "name_vi": "Lixin",
+      "id_name": "lixin",
+      "title_cn": "谋世之战",
+      "title_vi": "谋世之战",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "谋世之战",
+        "灼热之刃",
+        "一念神魔",
+        "山海·炽霜斩"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/507/1.jpg"
+    },
+    {
+      "id": 513,
+      "name_cn": "上官婉儿",
+      "name_vi": "Shangguanwaner",
+      "id_name": "shangguanwaner",
+      "title_cn": "惊鸿之笔",
+      "title_vi": "惊鸿之笔",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "惊鸿之笔",
+        "修竹墨客",
+        "梁祝",
+        "天狼绘梦者",
+        "神器·万象笔",
+        "妄想奇谈",
+        "群星魔术团"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/513/1.jpg"
+    },
+    {
+      "id": 515,
+      "name_cn": "嫦娥",
+      "name_vi": "Change",
+      "id_name": "change",
+      "title_cn": "寒月公主",
+      "title_vi": "寒月公主",
+      "roles": [
+        "mage",
+        "warrior"
+      ],
+      "skins": [
+        "寒月公主",
+        "露花倒影",
+        "如梦令",
+        "拒霜思",
+        "暖冬·兔眠",
+        "漠中幻影"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/515/1.jpg"
+    },
+    {
+      "id": 511,
+      "name_cn": "猪八戒",
+      "name_vi": "Zhubajie",
+      "id_name": "zhubajie",
+      "title_cn": "无忧猛士",
+      "title_vi": "无忧猛士",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "无忧猛士",
+        "年年有余",
+        "西部大镖客",
+        "猪悟能",
+        "潮玩探月行"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/511/1.jpg"
+    },
+    {
+      "id": 529,
+      "name_cn": "盘古",
+      "name_vi": "Pangu",
+      "id_name": "pangu",
+      "title_cn": "破晓之神",
+      "title_vi": "破晓之神",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "破晓之神",
+        "创世神祝",
+        "重装意志",
+        "冰霜神祇",
+        "经纬探寻者",
+        "敬我三分"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/529/1.jpg"
+    },
+    {
+      "id": 505,
+      "name_cn": "瑶",
+      "name_vi": "Yao",
+      "id_name": "yao",
+      "title_cn": "鹿灵守心",
+      "title_vi": "鹿灵守心",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "鹿灵守心",
+        "森",
+        "遇见神鹿",
+        "时之祈愿",
+        "时之愿境",
+        "山海·碧波行",
+        "真我赫兹",
+        "拾光映像",
+        "大耳狗之梦"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/505/1.jpg"
+    },
+    {
+      "id": 506,
+      "name_cn": "云中君",
+      "name_vi": "Yunzhongjun",
+      "id_name": "yunzhongjun",
+      "title_cn": "流云之翼",
+      "title_vi": "流云之翼",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "流云之翼",
+        "荷鲁斯之眼",
+        "纤云弄巧",
+        "时之祈愿",
+        "群星魔术团"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/506/1.jpg"
+    },
+    {
+      "id": 522,
+      "name_cn": "曜",
+      "name_vi": "Dongfangyao",
+      "id_name": "dongfangyao",
+      "title_cn": "星辰之子",
+      "title_vi": "星辰之子",
+      "roles": [
+        "warrior",
+        "assassin"
+      ],
+      "skins": [
+        "星辰之子",
+        "归虚梦演",
+        "云鹰飞将",
+        "李逍遥",
+        "海·苍雷引"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/522/1.jpg"
+    },
+    {
+      "id": 518,
+      "name_cn": "马超",
+      "name_vi": "Machao",
+      "id_name": "machao",
+      "title_cn": "冷晖之枪",
+      "title_vi": "冷晖之枪",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "冷晖之枪",
+        "幸存者",
+        "神威",
+        "无双飞将",
+        "琥珀纪元",
+        "访茗客"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/518/1.jpg"
+    },
+    {
+      "id": 523,
+      "name_cn": "西施",
+      "name_vi": "Xishi",
+      "id_name": "xishi",
+      "title_cn": "幻纱之灵",
+      "title_vi": "幻纱之灵",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "幻纱之灵",
+        "归虚梦演",
+        "诗语江南",
+        "游龙清影",
+        "玲珑珍味",
+        "至美·乘鲤谣",
+        "雪境奇遇",
+        "续相思",
+        "织梦人"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/523/1.jpg"
+    },
+    {
+      "id": 525,
+      "name_cn": "鲁班大师",
+      "name_vi": "Lubandashi",
+      "id_name": "lubandashi",
+      "title_cn": "神匠",
+      "title_vi": "神匠",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "神匠",
+        "归虚梦演",
+        "乓乓大师",
+        "匿光启智者",
+        "探海日志"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/525/1.jpg"
+    },
+    {
+      "id": 524,
+      "name_cn": "蒙犽",
+      "name_vi": "Mengya",
+      "id_name": "mengya",
+      "title_cn": "烈炮小子",
+      "title_vi": "烈炮小子",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "烈炮小子",
+        "归虚梦演",
+        "狂想玩偶喵",
+        "龙鼓争鸣",
+        "胡桃狂想曲",
+        "百解令",
+        "顽岩魄"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/524/1.jpg"
+    },
+    {
+      "id": 531,
+      "name_cn": "镜",
+      "name_vi": "Jing",
+      "id_name": "jing",
+      "title_cn": "破镜之刃",
+      "title_vi": "破镜之刃",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "破镜之刃",
+        "冰刃幻境",
+        "炽阳神光",
+        "匿光追影者",
+        "玫瑰异探",
+        "真我赫兹",
+        "青焰无极"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/531/1.jpg"
+    },
+    {
+      "id": 527,
+      "name_cn": "蒙恬",
+      "name_vi": "Mengtian",
+      "id_name": "mengtian",
+      "title_cn": "秩序统将",
+      "title_vi": "秩序统将",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "秩序统将",
+        "秩序猎龙将",
+        "蔚蓝守将",
+        "荣光圣徽"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/527/1.jpg"
+    },
+    {
+      "id": 533,
+      "name_cn": "阿古朵",
+      "name_vi": "Aguduo",
+      "id_name": "aguduo",
+      "title_cn": "山林之子",
+      "title_vi": "山林之子",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "山林之子",
+        "熊喵少女",
+        "顽趣",
+        "江河有灵",
+        "布丁狗之约"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/533/1.jpg"
+    },
+    {
+      "id": 536,
+      "name_cn": "夏洛特",
+      "name_vi": "Xialuote",
+      "id_name": "xialuote",
+      "title_cn": "玫瑰剑士",
+      "title_vi": "玫瑰剑士",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "玫瑰剑士",
+        "永昼",
+        "浮生妄"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/536/1.jpg"
+    },
+    {
+      "id": 528,
+      "name_cn": "澜",
+      "name_vi": "Lan",
+      "id_name": "lan",
+      "title_cn": "鲨之猎刃",
+      "title_vi": "鲨之猎刃",
+      "roles": [
+        "assassin",
+        "warrior"
+      ],
+      "skins": [
+        "鲨之猎刃",
+        "孤猎",
+        "赏金猎手",
+        "电玩·雷克斯",
+        "逐花归海",
+        "愿照·九州拓"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/528/1.jpg"
+    },
+    {
+      "id": 537,
+      "name_cn": "司空震",
+      "name_vi": "Sikongzhen",
+      "id_name": "sikongzhen",
+      "title_cn": "雷霆之王",
+      "title_vi": "雷霆之王",
+      "roles": [
+        "warrior",
+        "mage"
+      ],
+      "skins": [
+        "雷霆之王",
+        "启蛰",
+        "地狱燃心",
+        "愿照·山河定"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/537/1.jpg"
+    },
+    {
+      "id": 155,
+      "name_cn": "艾琳",
+      "name_vi": "Hồ Lệ",
+      "id_name": "ailin",
+      "title_cn": "精灵之舞",
+      "title_vi": "精灵之舞",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "精灵之舞",
+        "女武神",
+        "陌上桑"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/155/1.jpg"
+    },
+    {
+      "id": 538,
+      "name_cn": "云缨",
+      "name_vi": "Yunying",
+      "id_name": "yunying",
+      "title_cn": "燎原之心",
+      "title_vi": "燎原之心",
+      "roles": [
+        "warrior",
+        "assassin"
+      ],
+      "skins": [
+        "燎原之心",
+        "赤焰之缨",
+        "鹤归松栖",
+        "幻光神枪",
+        "赞萌露比"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/538/1.jpg"
+    },
+    {
+      "id": 540,
+      "name_cn": "金蝉",
+      "name_vi": "Jinchan",
+      "id_name": "jinchan",
+      "title_cn": "渡世行者",
+      "title_vi": "渡世行者",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "渡世行者",
+        "前尘",
+        "唐三藏"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/540/1.jpg"
+    },
+    {
+      "id": 542,
+      "name_cn": "暃",
+      "name_vi": "Fei",
+      "id_name": "fei",
+      "title_cn": "玉城之子",
+      "title_vi": "玉城之子",
+      "roles": [
+        "assassin"
+      ],
+      "skins": [
+        "玉城之子",
+        "碧珀绯影",
+        "星界游侠",
+        "埋骨钱",
+        "朽木白哉"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2100,
+        "attack": 170,
+        "defense": 50,
+        "ability": 100
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/542/1.jpg"
+    },
+    {
+      "id": 534,
+      "name_cn": "桑启",
+      "name_vi": "Sangqi",
+      "id_name": "sangqi",
+      "title_cn": "萤火之旅",
+      "title_vi": "萤火之旅",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "萤火之旅",
+        "画中游",
+        "海盐诗旅",
+        "奇遇星旅",
+        "鸣野蒿"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/534/1.jpg"
+    },
+    {
+      "id": 548,
+      "name_cn": "戈娅",
+      "name_vi": "Geya",
+      "id_name": "geya",
+      "title_cn": "沙海飞舟",
+      "title_vi": "沙海飞舟",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "沙海飞舟",
+        "危途狂花",
+        "驭风魔法",
+        "玫蓝誓约"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/548/1.jpg"
+    },
+    {
+      "id": 521,
+      "name_cn": "海月",
+      "name_vi": "Haiyue",
+      "id_name": "haiyue",
+      "title_cn": "永夜之心",
+      "title_vi": "永夜之心",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "永夜之心",
+        "幻泉雾影",
+        "浮梦罗烟",
+        "王牌新星",
+        "金乌负日"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/521/1.jpg"
+    },
+    {
+      "id": 544,
+      "name_cn": "赵怀真",
+      "name_vi": "Zhaohuaizhen",
+      "id_name": "zhaohuaizhen",
+      "title_cn": "自在之心",
+      "title_vi": "自在之心",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "自在之心",
+        "太极少年",
+        "鹤归松栖"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/544/1.jpg"
+    },
+    {
+      "id": 545,
+      "name_cn": "莱西奥",
+      "name_vi": "Laixiao",
+      "id_name": "laixiao",
+      "title_cn": "火鹰船长",
+      "title_vi": "火鹰船长",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "火鹰船长",
+        "西部游侠",
+        "末日机甲",
+        "踏浪烽翎"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/545/1.jpg"
+    },
+    {
+      "id": 564,
+      "name_cn": "姬小满",
+      "name_vi": "Jixiaoman",
+      "id_name": "jixiaoman",
+      "title_cn": "武道奇才",
+      "title_vi": "武道奇才",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "武道奇才",
+        "零食大作战",
+        "妄想食味",
+        "战舞者",
+        "飞车小橘子",
+        "小满鸭"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/564/1.jpg"
+    },
+    {
+      "id": 514,
+      "name_cn": "亚连",
+      "name_vi": "Yalian",
+      "id_name": "yalian",
+      "title_cn": "追忆之刃",
+      "title_vi": "追忆之刃",
+      "roles": [
+        "warrior",
+        "fighter"
+      ],
+      "skins": [
+        "追忆之刃",
+        "破局者",
+        "落雪白狼",
+        "破空之剑"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/514/1.jpg"
+    },
+    {
+      "id": 159,
+      "name_cn": "朵莉亚",
+      "name_vi": "Tôn Phong",
+      "id_name": "duoliya",
+      "title_cn": "人鱼之歌",
+      "title_vi": "人鱼之歌",
+      "roles": [
+        "support",
+        "mage"
+      ],
+      "skins": [
+        "人鱼之歌",
+        "金色潮汐",
+        "心动手记",
+        "幻珠鲛人"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/159/1.jpg"
+    },
+    {
+      "id": 563,
+      "name_cn": "海诺",
+      "name_vi": "Hainuo",
+      "id_name": "hainuo",
+      "title_cn": "命运之引",
+      "title_vi": "命运之引",
+      "roles": [
+        "warrior",
+        "mage"
+      ],
+      "skins": [
+        "命运之引",
+        "时空谍影",
+        "心动手记"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/563/1.jpg"
+    },
+    {
+      "id": 519,
+      "name_cn": "敖隐",
+      "name_vi": "Aoyin",
+      "id_name": "aoyin",
+      "title_cn": "凌霄真龙",
+      "title_vi": "凌霄真龙",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "凌霄真龙"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/519/1.jpg"
+    },
+    {
+      "id": 517,
+      "name_cn": "大司命",
+      "name_vi": "Dasiming",
+      "id_name": "dasiming",
+      "title_cn": "肃归之戈",
+      "title_vi": "肃归之戈",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "肃归之戈",
+        "暗都幽影",
+        "东方月初",
+        "死亡执政官"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/517/1.jpg"
+    },
+    {
+      "id": 582,
+      "name_cn": "元流之子(法师)",
+      "name_vi": "Yuanliuzhizi_magic",
+      "id_name": "yuanliuzhizi_magic",
+      "title_cn": "万妙之心",
+      "title_vi": "万妙之心",
+      "roles": [
+        "mage"
+      ],
+      "skins": [
+        "万妙之心"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2400,
+        "attack": 110,
+        "defense": 65,
+        "ability": 160
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/582/1.jpg"
+    },
+    {
+      "id": 581,
+      "name_cn": "元流之子(坦克)",
+      "name_vi": "Yuanliuzhizi_tank",
+      "id_name": "yuanliuzhizi_tank",
+      "title_cn": "止戈之道",
+      "title_vi": "止戈之道",
+      "roles": [
+        "fighter"
+      ],
+      "skins": [
+        "止戈之道"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/581/1.jpg"
+    },
+    {
+      "id": 577,
+      "name_cn": "少司缘",
+      "name_vi": "Shaosiyuan",
+      "id_name": "shaosiyuan",
+      "title_cn": "聆愿之祝",
+      "title_vi": "聆愿之祝",
+      "roles": [
+        "support"
+      ],
+      "skins": [
+        "聆愿之祝",
+        "涂山红红",
+        "灵卦秘语"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/577/1.jpg"
+    },
+    {
+      "id": 558,
+      "name_cn": "影",
+      "name_vi": "Ying",
+      "id_name": "ying",
+      "title_cn": "黯羽东君",
+      "title_vi": "黯羽东君",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "黯羽东君",
+        "魅影绮裳"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/558/1.jpg"
+    },
+    {
+      "id": 177,
+      "name_cn": "苍",
+      "name_vi": "Tài Hòa",
+      "id_name": "cang",
+      "title_cn": "苍狼末裔",
+      "title_vi": "苍狼末裔",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "苍狼末裔",
+        "维京掠夺者",
+        "苍林狼骑"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/177/1.jpg"
+    },
+    {
+      "id": 550,
+      "name_cn": "空空儿",
+      "name_vi": "Kongkonger",
+      "id_name": "kongkonger",
+      "title_cn": "笑面诡手",
+      "title_vi": "笑面诡手",
+      "roles": [
+        "support"
+      ],
+      "skins": [
+        "笑面诡手",
+        "戏梦巡演"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/550/1.jpg"
+    },
+    {
+      "id": 584,
+      "name_cn": "元流之子(射手)",
+      "name_vi": "Yuanliuzhizi_archer",
+      "id_name": "yuanliuzhizi_archer",
+      "title_cn": "沉舟之志",
+      "title_vi": "沉舟之志",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "沉舟之志"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/584/1.jpg"
+    },
+    {
+      "id": 151,
+      "name_cn": "孙权",
+      "name_vi": "Chu Du",
+      "id_name": "sunquan",
+      "title_cn": "定旌之谋",
+      "title_vi": "定旌之谋",
+      "roles": [
+        "marksman"
+      ],
+      "skins": [
+        "定旌之谋"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2300,
+        "attack": 160,
+        "defense": 60,
+        "ability": 90
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/151/1.jpg"
+    },
+    {
+      "id": 172,
+      "name_cn": "蚩奼",
+      "name_vi": "Lục Su",
+      "id_name": "chicha",
+      "title_cn": "五兵之主",
+      "title_vi": "五兵之主",
+      "roles": [
+        "warrior"
+      ],
+      "skins": [
+        "五兵之主",
+        "极光幻客"
+      ],
+      "difficulty": 4,
+      "skills": [],
+      "stats": {
+        "hp": 2700,
+        "attack": 130,
+        "defense": 80,
+        "ability": 110
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/172/1.jpg"
+    },
+    {
+      "id": 585,
+      "name_cn": "元流之子(辅助)",
+      "name_vi": "Yuanliuzhizi_support",
+      "id_name": "yuanliuzhizi_support",
+      "title_cn": "守望之诺",
+      "title_vi": "守望之诺",
+      "roles": [
+        "support"
+      ],
+      "skins": [
+        "守望之诺"
+      ],
+      "difficulty": 6,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/585/1.jpg"
+    },
+    {
+      "id": 188,
+      "name_cn": "大禹",
+      "name_vi": "Chu Dung",
+      "id_name": "dayu",
+      "title_cn": "鼎镇山河",
+      "title_vi": "鼎镇山河",
+      "roles": [
+        "support",
+        "fighter"
+      ],
+      "skins": [
+        "鼎镇山河"
+      ],
+      "difficulty": 7,
+      "skills": [],
+      "stats": {
+        "hp": 2500,
+        "attack": 100,
+        "defense": 75,
+        "ability": 140
+      },
+      "runes_cn": "狩猎、无情、掠夺",
+      "runes_vi": "Săn Bắt, Vô Tình, Cướp Bóc",
+      "avatar_url": "https://game.gtimg.cn/images/yxzj/img201606/heroimg/188/1.jpg"
+    }
+  ]
+}

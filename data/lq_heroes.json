@@ -1,0 +1,1656 @@
+{
+  "game": "lien_quan_mobile",
+  "source": "lienquan.garena.vn",
+  "last_updated": "2026-03-14",
+  "total_heroes": 31,
+  "heroes": [
+    {
+      "id": 1,
+      "name_vi": "Krixi",
+      "title_vi": "Tinh Linh Thiên Nhiên",
+      "roles": ["support", "mage"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Tung cánh",
+          "description_vi": "Khi tung kỹ năng trúng đích, tốc chạy của cô sẽ được tăng lên trong thời gian ngắn",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bướm ảo",
+          "description_vi": "Phóng bướm ảo gây sát thương phép, sát thương giảm dần tối đa 40% với các mục tiêu tiếp theo",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bão lá",
+          "description_vi": "Krixi kêu gọi sức mạnh thiên nhiên tấn công kẻ địch, hất tung chúng và gây sát thương phép",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Mưa sao băng",
+          "description_vi": "Mưa sao băng liên tục 5 giây tấn công kẻ địch, tối đa 4 lần trúng mỗi kẻ địch, tăng tốc chạy khi kích hoạt",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/7f04b1fd7f0520dd1ccbd1caad6faf1a5847d3f72e85b1.png",
+      "skins": [
+        "Krixi",
+        "Công chúa Bướm",
+        "Xứ Sở Thần Tiên",
+        "Tiệc Bãi Biển",
+        "Cô Tiên Thỏ",
+        "Phó văn nghệ",
+        "Tiểu yêu nữ",
+        "Hồ Thiên Nga",
+        "Thần Thoại Hy Lạp",
+        "Thủy Thủ",
+        "Terrible Tornado",
+        "Nàng tiên nổi loạn",
+        "Quán quân",
+        "Phù thủy thời không",
+        "Uyên Ương Mộng Điệp"
+      ]
+    },
+    {
+      "id": 2,
+      "name_vi": "Valhein",
+      "title_vi": "Thợ Săn Ác Quỷ",
+      "roles": ["marksman"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Ám khí",
+          "description_vi": "Mỗi đòn đánh thường thứ ba bắn một đoản kiếm ngẫu nhiên kèm hiệu ứng đặc biệt. Tăng tốc chạy lên tối đa 6 chồng",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Chuyến săn mạo hiểm",
+          "description_vi": "Valhein ném phi tiêu chuyên biệt gây sát thương phép, cấp thêm 1 chồng Hunter",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Lời nguyền tử vong",
+          "description_vi": "Ném phi tiêu vàng gây sát thương phép, choáng mục tiêu và cấp thêm chồng Hunter",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bão đạn",
+          "description_vi": "Valhein bắn sáu viên đạn bạc gây sát thương phép lên kẻ địch. Trúng tăng tốc độ tấn công",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/83d9de6ce9963f9ea406db2edd81707f5ee04e75516431-1.jpg",
+      "skins": [
+        "Valhein",
+        "Hoàng tử Quạ",
+        "Vũ khí tối thượng",
+        "S-Quang Vinh",
+        "Xạ thần Kagutsuchi"
+      ]
+    },
+    {
+      "id": 3,
+      "name_vi": "Aya",
+      "title_vi": "Ca Sĩ Tinh Linh",
+      "roles": ["support"],
+      "difficulty": 4,
+      "skills": [
+        {
+          "name_vi": "Linh hồn sóc nhỏ",
+          "description_vi": "Dưới 40% máu, Aya biến thành sóc nhỏ trong 5 giây, không bị chọn làm mục tiêu và nhận bộ chiêu thức mới",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nốt nhạc ánh sáng",
+          "description_vi": "Phóng quả cầu gây sát thương phép, làm chậm kẻ địch và tiết lộ vị trí",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Rừng sâu bảo hộ",
+          "description_vi": "Aya bay đến đồng đội và tạo khiên bảo vệ. Có thể kéo để rời khỏi",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Khúc nhạc rừng sâu",
+          "description_vi": "Tạo vòng tròn phép thuật quanh đồng đội đã được khiên, tăng tốc chạy và gây sát thương phép",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/d4510fa53f153c5e259543597c96bb88658d3efcbcd0f1.jpg",
+      "skins": [
+        "Aya",
+        "Hoạt náo viên",
+        "MC Sóc nhỏ",
+        "Thủy thủ",
+        "Điệp viên ký ức",
+        "Công chúa cầu vồng",
+        "Hỏa Hồ Tiên Ngư",
+        "Cinnamoroll's Dream"
+      ]
+    },
+    {
+      "id": 4,
+      "name_vi": "Yorn",
+      "title_vi": "Xạ thủ đêm",
+      "roles": ["marksman"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Vô số mũi tên",
+          "description_vi": "Sau khi sử dụng kỹ năng hoặc 5 đòn đánh thường, phóng 7 mũi tên gây sát thương vật lý và 1% máu tối đa. Tăng tốc chạy 30% trong 0.5 giây",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Mũi tên nổ",
+          "description_vi": "Phóng mũi tên đến vị trí chỉ định gây sát thương vật lý, choáng kẻ địch",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Mưa mũi tên",
+          "description_vi": "Triệu hồi vùng tấn công liên tục gây sát thương vật lý. Đòn đánh tiếp theo kích hoạt Vô số mũi tên",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Mũi tên thần thánh",
+          "description_vi": "Phóng mũi tên tăng cường gây sát thương vật lý cộng sát thương phép dựa trên máu mất của mục tiêu (tối đa 1000 với minion). Kích hoạt Vô số mũi tên sau đó",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/yorn.jpg",
+      "skins": [
+        "Yorn",
+        "Xạ thủ đêm",
+        "Chiến đấu cơ đặc biệt",
+        "Hoàng tử mặt trăng",
+        "Thần rồng",
+        "Thần Giáng sinh",
+        "Thiên tài học đường",
+        "Thần thoại Hy Lạp",
+        "Người bảo vệ dải ngân hà",
+        "Nhân vật bãi biển",
+        "Xạ thủ mặt trăng",
+        "Đâm thủng mây",
+        "Nhà văn bí ẩn",
+        "Thám tử Conan",
+        "Thương gia sa mạc"
+      ]
+    },
+    {
+      "id": 5,
+      "name_vi": "Murad",
+      "title_vi": "Chiến binh bóng tối",
+      "roles": ["assassin"],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_vi": "Ảnh Hồn",
+          "description_vi": "Mỗi đòn đánh thường trúng đích cộng dồn 1 Ảnh hồn và tăng xuyên giáp. Ở 4 chồng kích hoạt kỹ năng cuối trong 5 giây",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Tàn Ảnh Đao",
+          "description_vi": "Murad lướt 3 lần gây sát thương vật lý và choáng mục tiêu. Lần thứ 3 quay về vị trí ban đầu",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Vô Ảnh Vực",
+          "description_vi": "Tạo vùng gây sát thương, làm chậm kẻ địch, giảm giáp 3 giây. Murad không bị chọn mục tiêu",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Ảo Ảnh Trảm",
+          "description_vi": "Murad tấn công liên tục 5 lần lên mọi kẻ địch trong vùng ảnh hưởng gây sát thương vật lý. Sát thương giảm tối đa 20% khi có nhiều kẻ địch",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/murad.jpg",
+      "skins": [
+        "Murad",
+        "Chiến binh cơn lốc",
+        "Thần bóng tối",
+        "Ác quỷ bóng tối"
+      ]
+    },
+    {
+      "id": 6,
+      "name_vi": "Preyta",
+      "title_vi": "Pháp sư độc",
+      "roles": ["mage"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Rồng dịch bênh",
+          "description_vi": "Cấp tốc chạy cho Preyta",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hơi độc hại",
+          "description_vi": "Preyta tụ tập 2 giây phóng độc trong hướng chỉ định gây sát thương phép. Hành động khác huỷ bỏ. Ở trạng thái Siêu vi khuẩn để lại bóng tụ tập",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bom hoại tử",
+          "description_vi": "Tạo vụ nổ độc đẩy lùi kẻ địch, gây sát thương phép và làm chậm. Dạng tăng cường thêm choáng",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Dịch Hạch",
+          "description_vi": "Vào trạng thái Siêu vi khuẩn, tạo khiên, làm mới hết thời gian hồi kỹ năng, tăng cường 2 kỹ năng tiếp theo. Tăng tầm tấn công, tốc chạy, tốc độ tấn công, chuyển thành sát thương phép diện rộng",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/preyta.jpg",
+      "skins": [
+        "Preyta",
+        "Cướp biển",
+        "Thạch Long Phương Băng",
+        "Chiến đấu cơ F1",
+        "Rồng Huyết Độc",
+        "Sáng suốt Xứ Athanor"
+      ]
+    },
+    {
+      "id": 7,
+      "name_vi": "Zill",
+      "title_vi": "Chiến binh gió",
+      "roles": ["mage"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Bão Tố",
+          "description_vi": "Các chiêu thức trúng đích khiến mục tiêu chịu dấu ấn Giông tố. Ở 3 cộng dồn tiến hóa thành bão tố 5 giây giảm tốc chạy",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Phong Đao",
+          "description_vi": "Zill ném lưỡi đôi gây sát thương phép, áp dụng hiệu ứng chậm, rồi quay về gây sát thương bổ sung",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Phong Độn",
+          "description_vi": "Zill lướt đến vị trí chỉ định, gây sát thương phép cho kẻ địch gần đó",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Phong Ba",
+          "description_vi": "Zill hóa thân thành luồng phong ba bão tố, tấn công liên tục 5 lần lên kẻ địch lân cận gây sát thương phép mỗi đợt",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/256b32f0089b83919788d8a4d0cf88cc59966ed3684ca1.jpg",
+      "skins": [
+        "Zill",
+        "Lốc Địa Ngục",
+        "Dung nham",
+        "Cựu thần thiên hà",
+        "Diệt nguyệt tử sĩ",
+        "Quái xế",
+        "Phong thần Tu La",
+        "Thần mộng mị",
+        "Con quay gió"
+      ]
+    },
+    {
+      "id": 8,
+      "name_vi": "Raz",
+      "title_vi": "Chiến binh bàn tay",
+      "roles": ["assassin"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Đấm Và Lách",
+          "description_vi": "Sau khi sử dụng kỹ năng, lách với tốc chạy cực cao. Đòn đánh thứ 1 và 3 gây sát thương phép với hất văng",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Cú Đấm Thăng Hoa",
+          "description_vi": "Raz xông về phía trước phóng đấm móc lên mạnh lên kẻ địch trong vùng gây sát thương phép với hất tung. Phục hồi năng lượng trúng đích",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Cú Đấm Chân Không",
+          "description_vi": "Raz swing đấm với sức mạnh làm gió phóng gây sát thương phép với làm chậm và giảm giáp phép. Phục hồi năng lượng trúng đích",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Tả Xung Hữu Đột",
+          "description_vi": "Raz xông về phía trước với đấm nổ gây sát thương phép có hất văng. Phục hồi năng lượng trúng đích",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/c5cdd906de9c6f1e2a9f349a0c8a64ad591e6990ac0621.jpg",
+      "skins": [
+        "Raz",
+        "Đại tù trưởng",
+        "Băng Quyền Quán Quân",
+        "Chiến thần Muay Thái",
+        "Siêu việt",
+        "Gon",
+        "Bão vũ Cuồng lôi",
+        "MC Võ đài",
+        "Mãnh lôi thần quyền",
+        "Saitama Cosplay",
+        "Siêu cấp tin tặc"
+      ]
+    },
+    {
+      "id": 9,
+      "name_vi": "Grakk",
+      "title_vi": "Tướng Quỷ",
+      "roles": ["support", "tank"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Huyết Tế",
+          "description_vi": "Khi sát thương vượt 10% máu hiện tại, nổ gây sát thương phép bán kính 500m. Sau khi chết, nổ tại vị trí bán kính 5m",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Càn Quét",
+          "description_vi": "Grakk thành xoáy hút kẻ địch gần đó gây sát thương phép, làm chậm 30%. Nạn nhân gần chịu sát thương tăng, hiệu ứng chậm tăng đôi, im lặng 0.5 giây",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Xích Ma Quái",
+          "description_vi": "Grakk kéo kẻ địch bằng xích gây sát thương phép. Mỗi lần hạ/phụ cấp 125 máu (tối đa 20 chồng)",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nuốt Chửng",
+          "description_vi": "Grakk liên tục choáng và kéo mục tiêu, gây sát thương phép 3 giây đồng thời tạo khiên bằng sát thương gây ra",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/040403525e2882c0e3a6794c31976c89585357ba19a351.png",
+      "skins": [
+        "Grakk",
+        "Chàng Gấu Tuyết",
+        "Khô Lâu Đại Tướng",
+        "Thuyền Trưởng Râu Đỏ",
+        "Mèo Thần Tài",
+        "Sumo",
+        "Tiệc Bãi Biển",
+        "Cận Vệ Mafia",
+        "Màu Cờ Sắc Áo",
+        "Đi Vào Lòng Đất",
+        "Thần Ẩm Thực",
+        "Thủ Vệ Dạ Ưng",
+        "Ngũ Cốc Phong Đăng"
+      ]
+    },
+    {
+      "id": 10,
+      "name_vi": "Airi",
+      "title_vi": "Nữ Kiếm Sĩ",
+      "roles": ["assassin"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Sắc Lẻm",
+          "description_vi": "Mỗi đòn đánh thường giúp giảm thời gian hồi của Kiếm khí đi 1 giây",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Phi Tiêu",
+          "description_vi": "Airi phóng phi tiêu phía trước gây sát thương vật lý, choáng ngắn mục tiêu trúng",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Kiếm Vũ",
+          "description_vi": "Lướt tấn công theo hướng chỉ định gây sát thương vật lý, có thể sử dụng tối đa 3 lần trước khi hồi chiêu",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Long Kiếm",
+          "description_vi": "Airi phóng kiếm gây sát thương vật lý làm chậm kẻ địch, rồi đòn thứ 2 choáng. Mỗi kẻ địch trúng cấp khiên, tốc chạy, tốc độ tấn công 30% trong 8 giây",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/04999ff87145b9005694ffd78e1530a660017059a8fc11.jpg",
+      "skins": [
+        "Airi",
+        "Ninja Xanh Lá",
+        "Thích Khách",
+        "Cấm Vệ Nguyệt Tộc",
+        "Kiemono",
+        "Bạch Kiemono",
+        "Phó kiếm đạo",
+        "Quái xế công nghệ",
+        "Tiệc bãi biển",
+        "Mỵ Hồ",
+        "Đặc công tử điệp",
+        "Lễ hội mùa xuân",
+        "Bích hải thánh nữ",
+        "Thánh nữ Xiêm La",
+        "Thứ nguyên Vệ thần",
+        "Búp bê Mộng mị",
+        "Ninja ẩm thực",
+        "Quản lý tài năng"
+      ]
+    },
+    {
+      "id": 11,
+      "name_vi": "Rouie",
+      "title_vi": "Nữ Thần Thứ Nguyên",
+      "roles": ["support", "mage"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Quang tốc",
+          "description_vi": "Rouie tăng tốc chạy cho bản thân và đồng đội gần nhất trong phạm vi",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thần cảnh/Thần ấn",
+          "description_vi": "Triệu hồi Thần cảnh tại vị trí gây sát thương phép và im lặng kẻ địch. Lần 2 triệu hồi Thần ấn gây sát thương, đẩy lùi; đồng đội tăng tốc chạy",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thần môn",
+          "description_vi": "Rouie triệu hồi cánh cổng thứ nguyên. Sau 4 giây truyền tống Rouie và đồng đội",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thần trận",
+          "description_vi": "Triệu hồi Thần trận tại vị trí chỉ định gây sát thương phép, cho phép tất cả đồng đội dịch chuyển tới đó trong 8 giây",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/4ca89a4045850a44beaff09d25aca0e55eb13f364f5f71.jpg",
+      "skins": [
+        "Rouie",
+        "Sứ giả vũ trụ",
+        "Quang Vinh",
+        "Sứ giả quang minh",
+        "Vẹt cầu vồng",
+        "Tuần lộc đáng yêu",
+        "Công chúa hỏa long",
+        "Thụy mộc Thanh Long",
+        "Mèo hầu gái",
+        "Linh Sứ Thời không"
+      ]
+    },
+    {
+      "id": 12,
+      "name_vi": "Moren",
+      "title_vi": "Chiến Binh Máy Bay",
+      "roles": ["marksman"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Đạn công phá",
+          "description_vi": "Đòn đánh thường phóng vỏ nổ diện rộng gây sát thương vật lý bổ sung tương đương 1% máu tối đa mục tiêu",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Siêu đạn công phá",
+          "description_vi": "Tăng cường 3 đòn đánh thường liên tiếp với phạm vi nổ tăng, sát thương vật lý tăng",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Đằng không thủ pháo",
+          "description_vi": "Ném quả cầu khí che phủ Moren và đồng đội 3.5 giây; cho phép bay với tốc chạy tăng, không bị cản kỹ năng",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hỏa đạn truy tung",
+          "description_vi": "Nhảy lên không trung với miễn khống chế ngắn, khóa mục tiêu kẻ địch, phóng 5 tên lửa theo dõi gây sát thương vật lý dựa trên máu mất",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/acqqwc-1.jpg",
+      "skins": [
+        "Moren",
+        "Anh thợ điện",
+        "Lính cứu hỏa",
+        "Binh nhì",
+        "Thợ cắt cáp"
+      ]
+    },
+    {
+      "id": 13,
+      "name_vi": "Kriknak",
+      "title_vi": "Côn trùng địa ngục",
+      "roles": ["assassin"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Nhấm Nháp",
+          "description_vi": "Sau khi chiêu thức của Kriknak trúng mục tiêu, đòn đánh thường tiếp theo gây sát thương vật lý bổ sung",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Ấu Trùng Quỷ",
+          "description_vi": "Triệu hồi ấu trùng quỷ tấn công mục tiêu (ưu tiên tướng), gây sát thương vật lý và đánh dấu nạn nhân. Đòn đánh/chiêu thức kích hoạt đánh dấu gây sát thương chân thực dựa trên máu tối đa, giảm hồi chiêu",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bọ Húc",
+          "description_vi": "Kriknak xông về phía trước gây sát thương vật lý. Mỗi tướng địch trúng phục hồi máu",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hiểm Họa Không Trung",
+          "description_vi": "Cất cánh tăng tốc chạy; không thể tấn công hay sử dụng chiêu khác ngoài ấu trùng. Tái kích hoạt để hạ cánh gây sát thương phép có làm chậm",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/96415e6f9da45b94a0590e3a08028c8958e7138edc4ce1-1.jpg",
+      "skins": [
+        "Kriknak",
+        "Bọ Cánh Bạc",
+        "Yêu trùng cổ mộ",
+        "ST.L-162",
+        "Bọ cánh cam",
+        "Tử trùng DDoS",
+        "Bọ hoàng kim"
+      ]
+    },
+    {
+      "id": 14,
+      "name_vi": "Skud",
+      "title_vi": "Cao bồi Búa",
+      "roles": ["assassin"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Sôi máu",
+          "description_vi": "Skud tăng máu tối đa. Khi tấn công mục tiêu có máu tối đa thấp hơn, mỗi đòn gây sát thương phép bổ sung",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Găng nổi loạn",
+          "description_vi": "Skud nhảy về phía trước phóng đấm gây sát thương vật lý. Trúng cấp tốc độ tấn công, Kỹ năng 2 tăng cường",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Găng cuồng bạo",
+          "description_vi": "Skud tụ tập sức mạnh, tăng tốc chạy tới 40% trong 3 giây. Đòn đánh thường tiếp theo tăng cường gây sát thương phép, làm chậm. Trúng giảm hồi chiêu",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Găng hung thần",
+          "description_vi": "Bị động: Phục hồi máu từ minion/quái. Chủ động: Phóng sóng sát thương kẻ địch gần đó, hất văng",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/2b128ebef47ab5a8a2ae9d3db754cd585ee5e21149f621.jpg",
+      "skins": [
+        "Skud",
+        "Sơn Tặc",
+        "Quang Vinh",
+        "Tà linh ma tướng",
+        "Mafia",
+        "Cứu hộ",
+        "Quái thần thủy vực"
+      ]
+    },
+    {
+      "id": 15,
+      "name_vi": "Xeniel",
+      "title_vi": "Sứ Giả Thần Thánh",
+      "roles": ["support", "tank"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Sách Thánh Tích",
+          "description_vi": "Mỗi đòn đánh thường thứ ba gây sát thương bổ sung dựa trên máu tối đa",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thần Hộ Thể",
+          "description_vi": "Tạo khiên che chắn sát thương, rồi nổ gây sát thương phép, làm chậm kẻ địch. Không sát thương nếu khiên bị phá hủy",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Chùy Thần Lực",
+          "description_vi": "Xeniel nhảy đến vùng chỉ định gây sát thương phép và hất tung những kẻ địch",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Sứ Mệnh Cứu Thể",
+          "description_vi": "Cấp đồng đội khiên, tụ tập ngắn, rồi bay đến họ - gây sát thương phép, chữa lành, nếu khiên phá hủy tấn công kẻ địch lân cận",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/81f4a6d7c3f6bce399233e13f984bfe45a17a07e712b11.jpg",
+      "skins": [
+        "Xeniel",
+        "Thiên Sứ Hủy Diệt",
+        "Trung Vệ Thép",
+        "Kim sí điểu",
+        "Tổng lãnh tinh hệ",
+        "Hóa thân Tengu",
+        "Thần thoại Hy Lạp",
+        "Ma sứ tận thế",
+        "Shipper bánh mỳ",
+        "Tay trống ngang tàng",
+        "Cấm vệ"
+      ]
+    },
+    {
+      "id": 16,
+      "name_vi": "Liliana",
+      "title_vi": "Yêu Hồ Biến Hình",
+      "roles": ["mage"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Yêu hồ",
+          "description_vi": "Dạo giao thay đổi giữa dạng người và yêu hồ. Dạng người tấn công từ xa; dạng hồ tăng giáp vật lý, giáp phép, tốc chạy, tấn công phép",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hồ quang lực",
+          "description_vi": "Dạng người: Tụ tập phép gây sát thương vùng. Trúng 2+ kẻ địch tăng cường đòn tiếp theo dựa trên máu tối đa. Dạng hồ: Hồ Vĩ Kích - quét đuôi với tấn công xích",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hồ quang đạn",
+          "description_vi": "Dạng người: Phóng đạn phép tạo vụ nổ, choáng. Dạng hồ: Vũ Điệu Yêu Hồ - lướt gây sát thương, có thể tái kích hoạt với mục tiêu tướng",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Biến ảnh hoán hình",
+          "description_vi": "Biến đổi dạng khi lướt với miễn nhiễm. Người->Hồ: làm chậm, gây sát thương. Hồ->Người: để lại vùng sát thương phép",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/4b3a1b156a571f4c9cf270dabeb637c25aa0b6e3393031.jpg",
+      "skins": [
+        "Liliana",
+        "Hồ Quý Phi",
+        "Thần Tượng Âm Nhạc",
+        "Nguyệt Mị Ly",
+        "Tiểu Thơ Anh Đào",
+        "Tân Nguyệt Mị Ly",
+        "Nữ Thần F1",
+        "Thuỷ Thủ Hồ Ly",
+        "WaVe",
+        "Tiệc Bãi Biển",
+        "Lưu Thủy Thần Long",
+        "Thần Hổ Xiêm La",
+        "Ma Pháp Tối Thượng"
+      ]
+    },
+    {
+      "id": 17,
+      "name_vi": "Arduin",
+      "title_vi": "Chiến Binh Rìu",
+      "roles": ["warrior"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Hồn huyết",
+          "description_vi": "Khi máu Arduin thấp và đang giao tranh, hắn vào trạng thái Hồn huyết trong 1 thời gian",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hồn trảm",
+          "description_vi": "Vung rìu chém tạo vòng cung năng lượng gây sát thương vật lý, làm chậm tốc chạy",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hồn giáp",
+          "description_vi": "Tạo lá chắn theo máu tối đa, gây sát thương phép lên kẻ địch lân cận",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Câu hồn rìu",
+          "description_vi": "Phóng rìu gây sát thương vật lý diện rộng, choáng kẻ địch, rồi lướt tới vị trí rìu",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/8ac7305489de39cfaa10eb13f5a7824559bb7d0c7f2cc1.jpg",
+      "skins": [
+        "Arduin",
+        "Cận Vệ Hoàng Gia",
+        "Tà linh hiệp sỹ",
+        "Quang Vinh",
+        "Bạch vệ chiến giáp",
+        "Đường vào tim em",
+        "Chiến binh cổ đại",
+        "Organ cổ quái",
+        "Ngạo Hổ Hàn Đao",
+        "Nhà vô địch"
+      ]
+    },
+    {
+      "id": 18,
+      "name_vi": "Nakroth",
+      "title_vi": "Tay Gươm Phán Xét",
+      "roles": ["assassin"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Thẩm phán oai nghiêm",
+          "description_vi": "Mỗi đòn đánh thường thứ 4 sẽ hất văng mục tiêu",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bồi thẩm đoàn",
+          "description_vi": "Nakroth xông về phía trước, hất văng mục tiêu gây sát thương vật lý",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nguồn cơn rắc rối",
+          "description_vi": "Nakroth biến về phía sau và biến đòn tấn công vật lý tiếp theo",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Gươm hành quyết",
+          "description_vi": "Nakroth vung lưỡi gươm của mình lên những kẻ thù trong phạm vi",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/50a88477e44151ee8ef4cfb354c22fdc5ec64ff164ffc1.jpg",
+      "skins": [
+        "Nakroth",
+        "Quân đoàn địa ngục",
+        "BBoy công nghệ",
+        "Chiến Binh Hỏa Ngục",
+        "Siêu Việt",
+        "Khiêu chiến",
+        "Quán quân",
+        "Tiệc Bãi Biển",
+        "Killua",
+        "Lôi Quang Sứ",
+        "thứ nguyên vệ thần",
+        "Bạch diện chiến thương",
+        "Producer Tia chớp",
+        "Quỷ thương Liệp Đế"
+      ]
+    },
+    {
+      "id": 19,
+      "name_vi": "Jinna",
+      "title_vi": "Nhà Sư Niên Chuỗi",
+      "roles": ["support"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Ấn chú",
+          "description_vi": "Sau 4 đòn (đánh thường + chiêu), đòn tiếp theo phóng sóng xuyên gây sát thương phép",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Loạn hạt",
+          "description_vi": "Jinna ném chuỗi hạt 2 kẻ địch gần gây sát thương phép. Chuỗi nảy tối đa 2 lần. Trúng tướng chữa lành Jinna",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hàng Yêu Phục Ma",
+          "description_vi": "Jinna phóng sóng lực làm chậm tốc chạy kẻ địch, gây sát thương phép",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Kết Giới Xá Lợi",
+          "description_vi": "Tạo rào cản hạt bay tấn công gây sát thương phép mỗi lần (10 lần). Cấp giảm sát thương ngay; mỗi kẻ địch gần tăng thời gian",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/f3b0dc924b34f76c9265adb57758817a5b752794c417a1.jpg",
+      "skins": [
+        "Jinna",
+        "Đại Tư Tế",
+        "Dạ xoa vương",
+        "Hỏa nhãn ma vương",
+        "Kim Giác",
+        "Ma Thuật sĩ",
+        "Mafia"
+      ]
+    },
+    {
+      "id": 20,
+      "name_vi": "Cresht",
+      "title_vi": "Thần Đại Dương",
+      "roles": ["tank", "support"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Đại dương thịnh nộ",
+          "description_vi": "Cresht tích lũy Nộ thông qua đòn đánh thường, có thể biến thành dạng Thần nước với hiệu ứng khống chế",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Đinh ba thủy thần",
+          "description_vi": "Sử dụng đinh ba tấn công kẻ địch gây sát thương vật lý, xây dựng Nộ. Tăng cường ở dạng Thần nước",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bọt bong bóng",
+          "description_vi": "Nhảy đến vị trí chỉ định, tạo sóng bảo vệ đồng đội, xây dựng Nộ. Gây sát thương ở dạng Thần nước",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thủy thần",
+          "description_vi": "Biến thành Thần nước với khiên bảo vệ, tạo sóng lớn đẩy lùi kẻ địch, gây sát thương vật lý",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/04b0a1140d89b8ef0cd4a655753bbb895c4938662bc9f1.jpg",
+      "skins": [
+        "Cresht",
+        "Thợ sửa cáp",
+        "Cá Cắn Cáp",
+        "Đại sư sushi",
+        "Caesar bão tố",
+        "Bách tướng Lão tam"
+      ]
+    },
+    {
+      "id": 21,
+      "name_vi": "TeeMee",
+      "title_vi": "Tộc Lạc Đà",
+      "roles": ["support"],
+      "difficulty": 4,
+      "skills": [
+        {
+          "name_vi": "Vàng vung vãi",
+          "description_vi": "Các đơn vị kẻ địch lân cận (không tướng) khi bị hạ gục giúp TeeMee và đồng đội nhận thêm 25% vàng",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Rắm thần lực",
+          "description_vi": "TeeMee chịu đựng sát thương 5 giây, rồi phóng slam gây sát thương phép, choáng kẻ địch gần, hiệu ứng tỉ lệ thời gian tụ tập",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Giáo Móc TeeMee",
+          "description_vi": "TeeMee phóng giáo móc theo hướng chỉ định, kéo bản thân lại gần mục tiêu gây sát thương, choáng 1 giây nếu trúng kẻ địch",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Pháp trận thần kỳ",
+          "description_vi": "Tạo ma trận sống lại bao phủ đồng đội máu thấp gần, hồi sinh sau 2 giây với sát thương phép, làm chậm kẻ địch",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/d048143eef92ff2734c99f53b46e19db5a4dabef8a0fe1.jpg",
+      "skins": [
+        "TeeMee",
+        "Xiếc Cung Đình",
+        "Tay đua siêu tốc",
+        "Tanuki chiêu tài",
+        "Thần thoại Hy Lạp",
+        "Thịt xiên nướng",
+        "Lẩu nấm",
+        "Giấc mơ ngọt ngào"
+      ]
+    },
+    {
+      "id": 22,
+      "name_vi": "Lindis",
+      "title_vi": "Xạ Thủ Mặt Trăng",
+      "roles": ["marksman"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Phục kích",
+          "description_vi": "Tốc chạy tăng khi đi qua bụi, đòn đánh thường tiếp theo phóng 2 mũi gây sát thương vật lý bổ sung",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nguyệt Quang",
+          "description_vi": "Triệu hồi mặt trăng để chiếu sáng, tiết lộ kẻ địch 5 giây, lưu trữ tối đa 2 lần",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nguyệt Vực",
+          "description_vi": "Tạo bẫy tồn tại 2 phút, tiết lộ kẻ địch khi chạm, kích hoạt vùng làm chậm, gây sát thương vật lý",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Nguyệt Ảnh",
+          "description_vi": "Triệu hồi bóng ma tấn công kẻ địch, lưu trữ tối đa 5 với hồi chiêu 2 giây",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/741faa9b25ae476cda4ade9402d9498f5a617bf350b501.jpg",
+      "skins": [
+        "Lindis",
+        "Thám Tử Tư",
+        "Quang thánh tiễn",
+        "Nữ vương pháo hoa",
+        "Quang Vinh",
+        "Dạ tiệc",
+        "Đặc vụ thần thám",
+        "Đồng phục Shihakusho",
+        "Linh Hoa thần nữ"
+      ]
+    },
+    {
+      "id": 23,
+      "name_vi": "Lumburr",
+      "title_vi": "Thần Đất Cổ",
+      "roles": ["tank"],
+      "difficulty": 4,
+      "skills": [
+        {
+          "name_vi": "Ỷ mạnh vệ yếu",
+          "description_vi": "Lumburr tăng giáp vật lý, giáp phép cho bản thân và đồng đội máu thấp nhất",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Đất bằng dậy sóng",
+          "description_vi": "Lumburr giận dữ đấm xuống đất, hất váng đất đá, gây sát thương vật lý",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Bất khả cản phá",
+          "description_vi": "Lumburr xông về phía trước gây sát thương vật lý, đồng thời hất văng kẻ địch",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Long trời lở đất",
+          "description_vi": "Lumburr nổi thịnh nộ tạo động đất hất văng kẻ địch",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/119dc57d5a3a59b520b93a42301ffb135e7dedbf1c28a1.jpg",
+      "skins": [
+        "Lumburr",
+        "Cự thần viễn cổ",
+        "Vệ binh hỏa diệm",
+        "Máy Đào Khoáng",
+        "Golem thảo nguyên"
+      ]
+    },
+    {
+      "id": 24,
+      "name_vi": "Butterfly",
+      "title_vi": "Sát Thủ Bướm",
+      "roles": ["assassin"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Sát Thủ",
+          "description_vi": "Hạ hoặc phụ kẻ địch làm mới toàn bộ thời gian hồi chiêu",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Quét Kiếm",
+          "description_vi": "Quét kiếm gây sát thương vật lý, loại bỏ hiệu ứng chậm, tăng tốc chạy",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Phi Kiếm",
+          "description_vi": "Phóng kiếm nhanh theo đường thẳng gây sát thương vật lý, tăng tốc độ tấn công",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Ám Sát",
+          "description_vi": "Dịch chuyển phía sau kẻ địch máu thấp nhất, hành quyết, cấp giảm sát thương, đánh dấu để chuyển đổi sát thương nhận thành chữa lành",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/594f025c153d363cb992cd9d6f77d3905f0ed5818ffe61.jpg",
+      "skins": [
+        "Butterfly",
+        "Thủy thủ",
+        "Xuân nữ ngổ ngáo",
+        "Teen Nữ Công Nghệ",
+        "Nữ Quái Nổi Loạn",
+        "Quận Chúa Đế Chế",
+        "Đông êm đềm",
+        "Phượng Cửu Thiên",
+        "Cẩm y vệ Chu Tước",
+        "Asuna Tia chớp",
+        "Stacia",
+        "Thánh nữ khởi nguyên",
+        "Kim ngư thần nữ",
+        "Gánh anh đến cùng",
+        "Tình yêu nổi loạn",
+        "Rockgirl Siêu Đẳng",
+        "Bình minh tận thế",
+        "Ninh Tần"
+      ]
+    },
+    {
+      "id": 25,
+      "name_vi": "Mganga",
+      "title_vi": "Pháp Sư Độc",
+      "roles": ["mage"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Tà thuật",
+          "description_vi": "Các đòn đánh thường và kỹ năng đều kèm theo hiệu ứng độc gây sát thương phép",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Độc khí",
+          "description_vi": "Tạo vùng mây độc gây sát thương kẻ địch, làm chậm 4 giây, có dự trữ độc",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Độc tố",
+          "description_vi": "Phóng phi tiêu độc gây sát thương phép, chữa lành Mganga; trúng đồng đội thay vì",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Độc Dược",
+          "description_vi": "Nổ những dấu độc gần đó, gây sát thương phép, chữa lành đồng đội, sát thương tỉ lệ theo dấu tích lũy",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/956abd3fa2d1e8ac9dd80970323d22f45d25634f484341.jpg",
+      "skins": [
+        "Mganga",
+        "Hề cung đình",
+        "Tiệc Bánh Kẹo",
+        "Pháp sư mèo",
+        "Nhà hóa học",
+        "Độc toàn thân",
+        "Quái tặc không gian",
+        "Đèn Thần Hậu Đậu",
+        "Doombot hủy diệt"
+      ]
+    },
+    {
+      "id": 26,
+      "name_vi": "Mina",
+      "title_vi": "Nữ Chiến Sĩ Lưỡi Hái",
+      "roles": ["warrior"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Lưỡi hái phục hận",
+          "description_vi": "Mina có tỷ lệ xoay lưỡi hái mỗi khi chịu sát thương, gây sát thương vật lý lên kẻ địch lân cận",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Vũ Điệu Lưỡi Hái",
+          "description_vi": "Mina vung lưỡi hái gây sát thương vật lý lên kẻ địch gần dựa trên máu tối đa",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Lưỡi hái tử thần",
+          "description_vi": "Mina xoay lưỡi hái gây sát thương vật lý, kéo kẻ địch gần, làm chậm 50% tốc chạy",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Ma lực bóng tối",
+          "description_vi": "Kích động kẻ địch gần tấn công Mina trong 2 giây trong khi giảm đáng kể sát thương họ gây",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/09d93eb47007482254115f99686694d25847d3e83fdf41.png",
+      "skins": [
+        "Mina",
+        "Tiểu thư đoạt hồn",
+        "Tiệc Bánh Kẹo",
+        "Kẹo hay ghẹo",
+        "Lưỡi hái hoàng kim",
+        "Chị đại lắm chiêu",
+        "Đào tạo siêu sao",
+        "Nữ thần Ai Cập",
+        "Linh Xà yêu vũ",
+        "Xích Huyết Diễm Quỷ",
+        "Cẩm y vệ Kim Ô"
+      ]
+    },
+    {
+      "id": 27,
+      "name_vi": "Max",
+      "title_vi": "Cậu Bé Cơ Khí",
+      "roles": ["assassin"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Điện tích",
+          "description_vi": "Mỗi đòn đánh gây Điện tích, gây sát thương mỗi giây, giảm phục hồi mục tiêu",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Tay bán dẫn",
+          "description_vi": "Max quay tay cơ khí tấn công kẻ địch gần, gây sát thương vật lý, tốc chạy bổ sung mỗi lần trúng",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Động cơ cao thế",
+          "description_vi": "Max lướt qua mục tiêu, choáng xung điện, tạo khiên, có thể tái kích hoạt sau 4 giây",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Ra đa đạn đạo",
+          "description_vi": "Kích hoạt radar tiết lộ kẻ địch, ngắt chuyển, rồi bay đến mục tiêu chọn, tấn công với hất văng",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/301800head_B52.jpg",
+      "skins": [
+        "Max",
+        "Hiệp Sĩ Nhí",
+        "Găng Tay Vàng",
+        "Quang Vinh",
+        "Thần đồng sinh hóa",
+        "Tiểu King Kong",
+        "Chuyên gia đập hộp",
+        "Thần thoại Hy Lạp",
+        "Không trêu bạn",
+        "Trà chanh"
+      ]
+    },
+    {
+      "id": 28,
+      "name_vi": "Tulen",
+      "title_vi": "Pháp Sư Lôi Điện",
+      "roles": ["mage"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Lôi điện",
+          "description_vi": "Chiêu thức trúng đích tích lũy dấu Lôi Điện. Ở 5 điểm Tulen tạo 5 luồng sét quanh bản thân",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Lôi quang",
+          "description_vi": "Tulen phóng 3 tia sét về phía trước gây sát thương phép, sát thương giảm khi trúng nhiều",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Lôi động",
+          "description_vi": "Tulen dịch chuyển cực nhanh gây sát thương phép tại cả nơi đến và đi, làm chậm",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Lôi điểu",
+          "description_vi": "Triệu hồi chim lôi tấn công mục tiêu chỉ định trong khi Tulen di chuyển tự do",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/07210c9e529faa7766ba324bd86b75165a81722f3eab81.jpg",
+      "skins": [
+        "Tulen",
+        "Nhà Thám Hiểm",
+        "Tân Thần Thiên Hà",
+        "Phù Thủy Kiến Tạo",
+        "Đông êm đềm",
+        "Phó kỷ luật",
+        "Tân thần hoàng kim",
+        "Chí tôn kiếm tiên",
+        "Dạ hội",
+        "Thần sứ ST.L-79",
+        "Hoả thần long tộc",
+        "Tiêu Dao Vũ Thần",
+        "Tân niên vệ thần",
+        "Đại úy Athanor",
+        "Satoru Gojo",
+        "Giám thị sấm sét"
+      ]
+    },
+    {
+      "id": 29,
+      "name_vi": "Omen",
+      "title_vi": "Sát Khí Chuyên Chế",
+      "roles": ["warrior"],
+      "difficulty": 6,
+      "skills": [
+        {
+          "name_vi": "Sát khí",
+          "description_vi": "Đòn đánh thường trúng cộng 1 điểm Sát khí. Ở 5 điểm vào trạng thái tăng cường",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Sát kiếm",
+          "description_vi": "Omen tung kiếm kéo kẻ địch phía trước lại gần, gây sát thương vật lý",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Sát niệm",
+          "description_vi": "Khao khát diệt trừ bao phủ Omen, tăng miễn sát thương, tốc chạy",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Sát vực",
+          "description_vi": "Omen lao đến tướng địch đầu tiên trúng chiêu gây sát thương vật lý",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/ac091c4f83f63e5fe0d04d1d27d6c7f85a73df52368631.jpg",
+      "skins": [
+        "Omen",
+        "Sĩ Quan Viễn Chinh",
+        "Ám tử đao",
+        "Quỷ nguyệt tướng",
+        "Chiến binh trăng khuyết",
+        "Đao phủ tận thế",
+        "Thuyền trưởng hải tặc",
+        "Chiến xa quang minh",
+        "Chiến xa hắc ám",
+        "Quái Kiệt Guitar",
+        "Nhạc sĩ huyền thoại",
+        "Huyết ảnh Tà thần",
+        "Liệt Hỏa Thiên Cang"
+      ]
+    },
+    {
+      "id": 30,
+      "name_vi": "Taara",
+      "title_vi": "Nữ Xung Phong",
+      "roles": ["warrior", "tank"],
+      "difficulty": 5,
+      "skills": [
+        {
+          "name_vi": "Chiến ý",
+          "description_vi": "Nội tại: Mỗi 1% máu tối đa mất cộng công vật lý. Khi kỹ năng/cuối tiêu hao 4%/8% máu hiện tại",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Trăn trối",
+          "description_vi": "Taara nhảy, đấm xuống đất gây sát thương vật lý, làm chậm kẻ địch",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Đập tan",
+          "description_vi": "Taara quay búa gây sát thương vật lý 2 vòng lên kẻ địch gần",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thân thể thép",
+          "description_vi": "Taara phát huy tiềm năng, phục hồi 8% máu tối đa mỗi giây trong thời gian",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/f69423f533b12cbcd8ab15a7127e1e445e79e0b77e4ec1.jpg",
+      "skins": [
+        "Taara",
+        "Đại tù trưởng",
+        "Hỏa Ngọc Nữ Đế",
+        "Tiệc bãi biển",
+        "Hồng môn đường chủ",
+        "Tư lệnh hải âu",
+        "Lam Hải chiến nữ",
+        "Thần chiến tranh",
+        "Shion"
+      ]
+    },
+    {
+      "id": 31,
+      "name_vi": "Florentino",
+      "title_vi": "Kiếm Sĩ Hoa",
+      "roles": ["warrior", "assassin"],
+      "difficulty": 7,
+      "skills": [
+        {
+          "name_vi": "Xuất chúng",
+          "description_vi": "Đòn đánh thường kế tiếp lướt tới kẻ địch, gây sát thương vật lý với làm chậm, tăng sát thương. Cơ chế Kiếm bộ để lách",
+          "type": "passive",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Hào hoa",
+          "description_vi": "Phóng phi tiêu gây sát thương vật lý, choáng kẻ địch, sinh ra hoa để phục hồi năng lượng",
+          "type": "skill1",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Thưởng hoa",
+          "description_vi": "Quét 3 lần gây sát thương chuẩn = 1 phần máu tối đa kẻ địch, giảm hồi chiêu",
+          "type": "skill2",
+          "icon_url": ""
+        },
+        {
+          "name_vi": "Tài hoa",
+          "description_vi": "Lướt với cơ chế tấn công 1v1, miễn khống chế, cấp thưởng vĩnh viễn khi hạ kẻ địch",
+          "type": "ultimate",
+          "icon_url": ""
+        }
+      ],
+      "stats": {
+        "hp": 0,
+        "attack": 0,
+        "defense": 0,
+        "ability": 0
+      },
+      "recommended_runes": "Được xác định tùy theo vị trí chơi",
+      "avatar_url": "https://lienquan.garena.vn/wp-content/uploads/2024/05/9527c1cbad1c0656d0a4adf1dcec38e35c25f62d77d671.jpg",
+      "skins": [
+        "Florentino",
+        "Vũ kiếm sư",
+        "Giám sát tinh hệ",
+        "Kiếm sĩ Olympic",
+        "SEVEN",
+        "Thần thoại Hy Lạp",
+        "Tà long kiếm sĩ",
+        "Hisoka",
+        "Bá vương âm nhạc",
+        "Xứ sở thần tiên",
+        "Hỏa diệm Thần Long",
+        "S-Quang Vinh",
+        "Kỷ Nguyên Hổ Phách"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1f3a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4a131;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d48c1f;
+}
+
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-game-dark text-game-text;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom components */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-game-accent hover:bg-game-accent-dark text-game-darker font-semibold rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-game-card hover:bg-game-darker border border-game-accent text-game-accent font-semibold rounded-lg transition-colors duration-200;
+  }
+
+  .btn-danger {
+    @apply px-4 py-2 bg-game-red hover:bg-game-red-dark text-white font-semibold rounded-lg transition-colors duration-200;
+  }
+
+  .card {
+    @apply bg-game-card border border-game-accent border-opacity-20 rounded-lg p-4 hover:border-opacity-40 transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply card cursor-pointer hover:shadow-lg hover:shadow-game-accent/20;
+  }
+
+  .input-base {
+    @apply w-full bg-game-darker border border-game-accent border-opacity-30 rounded-lg px-3 py-2 text-game-text placeholder-game-text-secondary focus:outline-none focus:border-game-accent focus:border-opacity-100 transition-colors duration-200;
+  }
+
+  .badge-game {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-game-accent bg-opacity-20 text-game-accent;
+  }
+
+  .badge-game-red {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-game-red bg-opacity-20 text-game-red;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-game-gold mb-8 relative;
+  }
+
+  .section-title::after {
+    @apply absolute bottom-0 left-0 w-16 h-1 bg-gradient-to-r from-game-gold to-game-accent rounded-full;
+    content: '';
+  }
+
+  .glassmorphism {
+    @apply bg-game-card bg-opacity-40 backdrop-blur-md border border-game-accent border-opacity-10 rounded-lg;
+  }
+}
+
+/* Animations */
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideInDown {
+  animation: slideInDown 0.3s ease-out;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.3s ease-out;
+}
+
+/* Utility classes */
+.text-gradient {
+  background: linear-gradient(135deg, #f4a131 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-accent {
+  box-shadow: 0 0 20px rgba(244, 161, 49, 0.4);
+}
+
+.glow-red {
+  box-shadow: 0 0 20px rgba(211, 47, 47, 0.4);
+}
