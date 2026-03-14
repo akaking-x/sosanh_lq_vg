@@ -41,7 +41,7 @@ const AdminHeroesPage = () => {
     try {
       setLoading(true)
       const response = await heroApi.getAll()
-      setHeroes(response.data || [])
+      setHeroes(response.data.data || [])
     } catch (err) {
       setError(err.response?.data?.message || 'Không thể tải dữ liệu tướng')
     } finally {

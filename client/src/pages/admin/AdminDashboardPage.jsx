@@ -25,7 +25,7 @@ const AdminDashboardPage = () => {
     try {
       setLoading(true)
       const response = await adminApi.getDashboard()
-      setDashboard(response.data)
+      setDashboard(response.data.data)
     } catch (err) {
       setError(
         err.response?.data?.message || 'Không thể tải dữ liệu bảng điều khiển'

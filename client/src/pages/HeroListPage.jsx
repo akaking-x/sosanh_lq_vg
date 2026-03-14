@@ -15,14 +15,14 @@ const HeroListPage = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const { showChinese, toggleLanguage } = useLanguage()
 
-  const roles = ['warrior', 'mage', 'tank', 'assassin', 'support', 'marksman']
+  const roles = ['Chiến Binh', 'Pháp Sư', 'Đỡ Đòn', 'Sát Thủ', 'Hỗ Trợ', 'Xạ Thủ']
   const roleLabels = {
-    warrior: 'Chiến binh',
-    mage: 'Pháp sư',
-    tank: 'Tăng thủ',
-    assassin: 'Sát thủ',
-    support: 'Hỗ trợ',
-    marksman: 'Xạ thủ',
+    'Chiến Binh': 'Chiến Binh',
+    'Pháp Sư': 'Pháp Sư',
+    'Đỡ Đòn': 'Đỡ Đòn',
+    'Sát Thủ': 'Sát Thủ',
+    'Hỗ Trợ': 'Hỗ Trợ',
+    'Xạ Thủ': 'Xạ Thủ',
   }
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const HeroListPage = () => {
     try {
       setLoading(true)
       const response = await heroApi.getAll()
-      setHeroes(response.data)
+      setHeroes(response.data.data || [])
     } catch (error) {
       console.error('Failed to fetch heroes:', error)
       setHeroes([])
@@ -62,8 +62,8 @@ const HeroListPage = () => {
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       filtered = filtered.filter((hero) => {
-        const nameMatch = hero.name.toLowerCase().includes(query)
-        const chineseMatch = hero.chineseName && hero.chineseName.includes(query)
+        const nameMatch = (hero.name_vi || '').toLowerCase().includes(query)
+        const chineseMatch = hero.name_cn && hero.name_cn.includes(query)
         return nameMatch || chineseMatch
       })
     }

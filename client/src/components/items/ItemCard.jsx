@@ -10,18 +10,18 @@ const ItemCard = ({ item }) => {
   }
 
   const categoryIcons = {
-    attack: '⚔️',
-    defense: '🛡️',
-    magic: '✨',
-    movement: '👟',
-    jungle: '🌲',
+    'Tấn Công': '⚔️',
+    'Phòng Thủ': '🛡️',
+    'Phép Thuật': '✨',
+    'Tốc Độ': '👟',
+    'Rừng': '🌲',
   }
 
   const getDisplayName = () => {
-    if (item.game === 'vg' && showChinese && item.chineseName) {
-      return item.chineseName
+    if (item.game === 'vg' && showChinese && item.name_cn) {
+      return item.name_cn
     }
-    return item.name
+    return item.name_vi
   }
 
   return (
@@ -36,10 +36,10 @@ const ItemCard = ({ item }) => {
 
       {/* Icon */}
       <div className="relative h-32 bg-game-darker rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-all flex items-center justify-center">
-        {item.icon ? (
+        {item.icon_url ? (
           <img
-            src={item.icon}
-            alt={item.name}
+            src={item.icon_url}
+            alt={item.name_vi}
             className="w-20 h-20 object-contain group-hover:scale-110 transition-transform duration-300"
           />
         ) : (
@@ -52,8 +52,8 @@ const ItemCard = ({ item }) => {
         {getDisplayName()}
       </h3>
 
-      {item.game === 'vg' && item.chineseName && !showChinese && (
-        <p className="text-xs text-game-text-secondary mb-2">({item.chineseName})</p>
+      {item.game === 'vg' && item.name_cn && !showChinese && (
+        <p className="text-xs text-game-text-secondary mb-2">({item.name_cn})</p>
       )}
 
       {/* Price/Cost */}

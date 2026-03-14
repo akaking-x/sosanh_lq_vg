@@ -41,7 +41,7 @@ const AdminRunesPage = () => {
     try {
       setLoading(true)
       const response = await runeApi.getAll()
-      setRunes(response.data || [])
+      setRunes(response.data.data || [])
     } catch (err) {
       setError(err.response?.data?.message || 'Không thể tải dữ liệu ngọc')
     } finally {

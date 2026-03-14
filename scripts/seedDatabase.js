@@ -505,7 +505,7 @@ async function seedHeroMappings() {
       }
 
       if (!vgHero || !lqHero) {
-        console.log(`   ⏭  Bỏ qua mapping: ${vgName} ↔ ${lqName} (không tìm thấy tướng)`);
+        console.log(`   ⏭  Bỏ qua mapping: ${vgName} ↔ ${rawLqName} (không tìm thấy tướng)`);
         continue;
       }
 

@@ -44,9 +44,9 @@ const AdminMappingsPage = () => {
         heroApi.getAll(),
       ])
 
-      setMappings(mappingsRes.data || [])
+      setMappings(mappingsRes.data.data || [])
 
-      const allHeroes = heroesRes.data || []
+      const allHeroes = heroesRes.data.data || []
       setHeroes(allHeroes)
       setVgHeroes(
         allHeroes.filter((h) => h.game === 'Vương Giả Vinh Diệu')

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 
 const ComparisonCard = ({ mapping }) => {
-  const vgHero = mapping.vgHero
-  const lqHero = mapping.lqHero
-  const similarity = mapping.similarityScore || 0
+  const vgHero = mapping.vg_hero
+  const lqHero = mapping.lq_hero
+  const similarity = mapping.similarity_score || 0
 
   const getSimilarityColor = (score) => {
     if (score >= 80) return 'text-green-400'
@@ -25,10 +25,10 @@ const ComparisonCard = ({ mapping }) => {
         {/* VG Hero */}
         <div className="flex-1 text-center">
           <div className="relative h-24 w-24 mx-auto mb-2 rounded-lg overflow-hidden bg-game-darker">
-            {vgHero.avatar ? (
+            {vgHero.avatar_url ? (
               <img
-                src={vgHero.avatar}
-                alt={vgHero.name}
+                src={vgHero.avatar_url}
+                alt={vgHero.name_vi}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform"
               />
             ) : (
@@ -41,9 +41,9 @@ const ComparisonCard = ({ mapping }) => {
             </div>
           </div>
           <h4 className="font-bold text-game-gold text-sm group-hover:text-game-accent transition-colors truncate">
-            {vgHero.name}
+            {vgHero.name_vi}
           </h4>
-          <p className="text-xs text-game-text-secondary">{vgHero.title}</p>
+          <p className="text-xs text-game-text-secondary">{vgHero.title_vi}</p>
         </div>
 
         {/* Middle - Similarity Score */}
@@ -57,10 +57,10 @@ const ComparisonCard = ({ mapping }) => {
         {/* LQ Hero */}
         <div className="flex-1 text-center">
           <div className="relative h-24 w-24 mx-auto mb-2 rounded-lg overflow-hidden bg-game-darker">
-            {lqHero.avatar ? (
+            {lqHero.avatar_url ? (
               <img
-                src={lqHero.avatar}
-                alt={lqHero.name}
+                src={lqHero.avatar_url}
+                alt={lqHero.name_vi}
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform"
               />
             ) : (
@@ -73,9 +73,9 @@ const ComparisonCard = ({ mapping }) => {
             </div>
           </div>
           <h4 className="font-bold text-game-gold text-sm group-hover:text-game-accent transition-colors truncate">
-            {lqHero.name}
+            {lqHero.name_vi}
           </h4>
-          <p className="text-xs text-game-text-secondary">{lqHero.title}</p>
+          <p className="text-xs text-game-text-secondary">{lqHero.title_vi}</p>
         </div>
       </div>
     </Link>

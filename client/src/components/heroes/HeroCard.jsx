@@ -20,19 +20,19 @@ const HeroCard = ({ hero }) => {
   }
 
   const getDisplayName = () => {
-    if (hero.game === 'vg' && showChinese && hero.chineseName) {
-      return hero.chineseName
+    if (hero.game === 'vg' && showChinese && hero.name_cn) {
+      return hero.name_cn
     }
-    return hero.name
+    return hero.name_vi
   }
 
   const roleIcons = {
-    warrior: '⚔️',
-    mage: '✨',
-    tank: '🛡️',
-    assassin: '🗡️',
-    support: '❤️',
-    marksman: '🏹',
+    'Chiến Binh': '⚔️',
+    'Pháp Sư': '✨',
+    'Đỡ Đòn': '🛡️',
+    'Sát Thủ': '🗡️',
+    'Hỗ Trợ': '❤️',
+    'Xạ Thủ': '🏹',
   }
 
   return (
@@ -47,10 +47,10 @@ const HeroCard = ({ hero }) => {
 
       {/* Avatar */}
       <div className="relative h-40 bg-game-darker rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-all">
-        {hero.avatar ? (
+        {hero.avatar_url ? (
           <img
-            src={hero.avatar}
-            alt={hero.name}
+            src={hero.avatar_url}
+            alt={hero.name_vi}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           />
         ) : (
@@ -65,14 +65,14 @@ const HeroCard = ({ hero }) => {
         {getDisplayName()}
       </h3>
 
-      {hero.game === 'vg' && hero.chineseName && !showChinese && (
-        <p className="text-xs text-game-text-secondary mb-3">({hero.chineseName})</p>
+      {hero.game === 'vg' && hero.name_cn && !showChinese && (
+        <p className="text-xs text-game-text-secondary mb-3">({hero.name_cn})</p>
       )}
 
       {/* Title */}
-      {hero.title && (
+      {hero.title_vi && (
         <p className="text-sm text-game-text-secondary mb-3 line-clamp-2">
-          {hero.title}
+          {hero.title_vi}
         </p>
       )}
 

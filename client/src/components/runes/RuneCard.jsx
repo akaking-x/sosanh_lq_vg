@@ -10,18 +10,17 @@ const RuneCard = ({ rune }) => {
   }
 
   const tierColors = {
-    1: 'text-green-400',
-    2: 'text-blue-400',
-    3: 'text-purple-400',
-    4: 'text-orange-400',
-    5: 'text-red-400',
+    'S': 'text-red-400',
+    'A': 'text-orange-400',
+    'B': 'text-purple-400',
+    'C': 'text-blue-400',
   }
 
   const getDisplayName = () => {
-    if (rune.game === 'vg' && showChinese && rune.chineseName) {
-      return rune.chineseName
+    if (rune.game === 'vg' && showChinese && rune.name_cn) {
+      return rune.name_cn
     }
-    return rune.name
+    return rune.name_vi
   }
 
   return (
@@ -36,10 +35,10 @@ const RuneCard = ({ rune }) => {
 
       {/* Icon */}
       <div className="relative h-32 bg-game-darker rounded-lg overflow-hidden mb-4 group-hover:shadow-lg transition-all flex items-center justify-center">
-        {rune.icon ? (
+        {rune.icon_url ? (
           <img
-            src={rune.icon}
-            alt={rune.name}
+            src={rune.icon_url}
+            alt={rune.name_vi}
             className="w-16 h-16 object-contain group-hover:scale-110 transition-transform duration-300"
           />
         ) : (
@@ -52,8 +51,8 @@ const RuneCard = ({ rune }) => {
         {getDisplayName()}
       </h3>
 
-      {rune.game === 'vg' && rune.chineseName && !showChinese && (
-        <p className="text-xs text-game-text-secondary mb-2">({rune.chineseName})</p>
+      {rune.game === 'vg' && rune.name_cn && !showChinese && (
+        <p className="text-xs text-game-text-secondary mb-2">({rune.name_cn})</p>
       )}
 
       {/* Tier */}

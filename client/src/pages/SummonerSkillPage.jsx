@@ -17,7 +17,7 @@ const SummonerSkillPage = () => {
     try {
       setLoading(true)
       const response = await skillApi.getAll()
-      const skillsList = response.data
+      const skillsList = response.data.data || []
 
       const vgSkills = skillsList.filter((s) => s.game === 'vg')
       const lqSkills = skillsList.filter((s) => s.game === 'lq')
@@ -36,8 +36,8 @@ const SummonerSkillPage = () => {
       const query = searchQuery.toLowerCase()
       const filterSkills = (skillsList) =>
         skillsList.filter((skill) => {
-          const nameMatch = skill.name.toLowerCase().includes(query)
-          const descMatch = skill.description?.toLowerCase().includes(query)
+          const nameMatch = (skill.name_vi || '').toLowerCase().includes(query)
+          const descMatch = skill.description_vi?.toLowerCase().includes(query)
           return nameMatch || descMatch
         })
 
@@ -55,10 +55,10 @@ const SummonerSkillPage = () => {
       <div className="flex gap-4">
         {/* Icon */}
         <div className="flex-shrink-0">
-          {skill.icon ? (
+          {skill.icon_url ? (
             <img
-              src={skill.icon}
-              alt={skill.name}
+              src={skill.icon_url}
+              alt={skill.name_vi}
               className="w-16 h-16 rounded-lg object-cover border border-game-accent border-opacity-30"
             />
           ) : (
@@ -70,9 +70,9 @@ const SummonerSkillPage = () => {
 
         {/* Info */}
         <div className="flex-grow">
-          <h3 className="font-bold text-lg text-game-gold mb-2">{skill.name}</h3>
-          {skill.description && (
-            <p className="text-sm text-game-text-secondary mb-2">{skill.description}</p>
+          <h3 className="font-bold text-lg text-game-gold mb-2">{skill.name_vi}</h3>
+          {skill.description_vi && (
+            <p className="text-sm text-game-text-secondary mb-2">{skill.description_vi}</p>
           )}
           {skill.cooldown && (
             <p className="text-xs text-game-accent">

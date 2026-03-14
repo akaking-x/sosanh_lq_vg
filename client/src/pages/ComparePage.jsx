@@ -19,13 +19,13 @@ const ComparePage = () => {
     try {
       setLoading(true)
       const response = await mappingApi.getAll()
-      const mappingsData = response.data
+      const mappingsData = response.data.data || []
 
       // Populate hero references if needed
       const enrichedMappings = mappingsData.map((mapping) => ({
         ...mapping,
-        vgHero: mapping.vgHero || { name: 'Không xác định', title: '' },
-        lqHero: mapping.lqHero || { name: 'Không xác định', title: '' },
+        vg_hero: mapping.vg_hero || { name_vi: 'Không xác định', title_vi: '' },
+        lq_hero: mapping.lq_hero || { name_vi: 'Không xác định', title_vi: '' },
       }))
 
       setMappings(enrichedMappings)
@@ -44,22 +44,22 @@ const ComparePage = () => {
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       filtered = filtered.filter((mapping) => {
-        const vgMatch = mapping.vgHero?.name?.toLowerCase().includes(query)
-        const lqMatch = mapping.lqHero?.name?.toLowerCase().includes(query)
+        const vgMatch = mapping.vg_hero?.name_vi?.toLowerCase().includes(query)
+        const lqMatch = mapping.lq_hero?.name_vi?.toLowerCase().includes(query)
         return vgMatch || lqMatch
       })
     }
 
     // Sort
     if (sortBy === 'similarity') {
-      filtered = [...filtered].sort((a, b) => (b.similarityScore || 0) - (a.similarityScore || 0))
+      filtered = [...filtered].sort((a, b) => (b.similarity_score || 0) - (a.similarity_score || 0))
     } else if (sortBy === 'vg') {
       filtered = [...filtered].sort((a, b) =>
-        (a.vgHero?.name || '').localeCompare(b.vgHero?.name || '', 'vi')
+        (a.vg_hero?.name_vi || '').localeCompare(b.vg_hero?.name_vi || '', 'vi')
       )
     } else if (sortBy === 'lq') {
       filtered = [...filtered].sort((a, b) =>
-        (a.lqHero?.name || '').localeCompare(b.lqHero?.name || '', 'vi')
+        (a.lq_hero?.name_vi || '').localeCompare(b.lq_hero?.name_vi || '', 'vi')
       )
     }
 
@@ -161,7 +161,7 @@ const ComparePage = () => {
                 <div className="text-center">
                   <p className="text-3xl font-bold text-game-gold">
                     {Math.round(
-                      mappings.reduce((sum, m) => sum + (m.similarityScore || 0), 0) / mappings.length
+                      mappings.reduce((sum, m) => sum + (m.similarity_score || 0), 0) / mappings.length
                     )}
                     %
                   </p>

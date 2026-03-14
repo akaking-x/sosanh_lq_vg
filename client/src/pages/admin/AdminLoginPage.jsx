@@ -28,7 +28,7 @@ const AdminLoginPage = () => {
 
     try {
       const response = await adminApi.login(formData.username, formData.password)
-      const { token, admin } = response.data
+      const { token, admin } = response.data.data
 
       login(token, admin)
       navigate('/admin/dashboard')

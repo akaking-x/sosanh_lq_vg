@@ -15,13 +15,13 @@ const ItemListPage = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const { showChinese, toggleLanguage } = useLanguage()
 
-  const categories = ['attack', 'defense', 'magic', 'movement', 'jungle']
+  const categories = ['Tấn Công', 'Phòng Thủ', 'Phép Thuật', 'Di Chuyển', 'Rừng']
   const categoryLabels = {
-    attack: 'Tấn công',
-    defense: 'Phòng thủ',
-    magic: 'Phép thuật',
-    movement: 'Di chuyển',
-    jungle: 'Rừng',
+    'Tấn Công': 'Tấn Công',
+    'Phòng Thủ': 'Phòng Thủ',
+    'Phép Thuật': 'Phép Thuật',
+    'Di Chuyển': 'Di Chuyển',
+    'Rừng': 'Rừng',
   }
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const ItemListPage = () => {
     try {
       setLoading(true)
       const response = await itemApi.getAll()
-      setItems(response.data)
+      setItems(response.data.data || [])
     } catch (error) {
       console.error('Failed to fetch items:', error)
       setItems([])
@@ -58,8 +58,8 @@ const ItemListPage = () => {
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       filtered = filtered.filter((item) => {
-        const nameMatch = item.name.toLowerCase().includes(query)
-        const chineseMatch = item.chineseName && item.chineseName.includes(query)
+        const nameMatch = (item.name_vi || '').toLowerCase().includes(query)
+        const chineseMatch = item.name_cn && item.name_cn.includes(query)
         return nameMatch || chineseMatch
       })
     }

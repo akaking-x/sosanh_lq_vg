@@ -19,15 +19,15 @@ const SkillComparison = ({ vgSkill, lqSkill, skillType = 'passive' }) => {
     return (
       <div className="flex-1 p-4 bg-game-card rounded-lg border border-game-accent border-opacity-20 hover:border-opacity-40 transition-all">
         <div className="flex gap-3 mb-3">
-          {skill.icon && (
+          {skill.icon_url && (
             <img
-              src={skill.icon}
-              alt={skill.name}
+              src={skill.icon_url}
+              alt={skill.name_vi}
               className="w-12 h-12 rounded object-cover"
             />
           )}
           <div className="flex-1">
-            <h4 className="font-bold text-game-gold text-sm">{skill.name}</h4>
+            <h4 className="font-bold text-game-gold text-sm">{skill.name_vi}</h4>
             <span className={`text-xs px-2 py-0.5 rounded inline-block mt-1 ${
               game === 'vg'
                 ? 'bg-red-400 bg-opacity-20 text-red-400'
@@ -38,9 +38,9 @@ const SkillComparison = ({ vgSkill, lqSkill, skillType = 'passive' }) => {
           </div>
         </div>
 
-        {skill.description && (
+        {skill.description_vi && (
           <p className="text-xs text-game-text-secondary mb-3 line-clamp-3">
-            {skill.description}
+            {skill.description_vi}
           </p>
         )}
 
@@ -51,9 +51,9 @@ const SkillComparison = ({ vgSkill, lqSkill, skillType = 'passive' }) => {
               ⏱️ {skill.cooldown}s
             </span>
           )}
-          {skill.manaCost && (
+          {skill.mana_cost && (
             <span className="bg-game-darker px-2 py-1 rounded">
-              💎 {skill.manaCost}
+              💎 {skill.mana_cost}
             </span>
           )}
         </div>

@@ -42,7 +42,7 @@ const AdminItemsPage = () => {
     try {
       setLoading(true)
       const response = await itemApi.getAll()
-      setItems(response.data || [])
+      setItems(response.data.data || [])
     } catch (err) {
       setError(err.response?.data?.message || 'Không thể tải dữ liệu trang bị')
     } finally {

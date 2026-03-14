@@ -58,11 +58,11 @@ export const runeApi = {
 
 // Summoner Skill APIs
 export const skillApi = {
-  getAll: (params) => apiClient.get('/skills', { params }),
-  getById: (id) => apiClient.get(`/skills/${id}`),
-  create: (data) => apiClient.post('/skills', data),
-  update: (id, data) => apiClient.put(`/skills/${id}`, data),
-  delete: (id) => apiClient.delete(`/skills/${id}`),
+  getAll: (params) => apiClient.get('/summoner-skills', { params }),
+  getById: (id) => apiClient.get(`/summoner-skills/${id}`),
+  create: (data) => apiClient.post('/summoner-skills', data),
+  update: (id, data) => apiClient.put(`/summoner-skills/${id}`, data),
+  delete: (id) => apiClient.delete(`/summoner-skills/${id}`),
 }
 
 // Mapping APIs

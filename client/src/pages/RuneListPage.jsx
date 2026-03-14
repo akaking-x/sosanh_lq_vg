@@ -17,7 +17,7 @@ const RuneListPage = () => {
   const [categories, setCategories] = useState([])
   const { showChinese, toggleLanguage } = useLanguage()
 
-  const tiers = ['1', '2', '3', '4', '5']
+  const tiers = ['S', 'A', 'B', 'C']
 
   useEffect(() => {
     fetchRunes()
@@ -27,7 +27,7 @@ const RuneListPage = () => {
     try {
       setLoading(true)
       const response = await runeApi.getAll()
-      const runesList = response.data
+      const runesList = response.data.data || []
       setRunes(runesList)
 
       // Extract unique categories
@@ -63,8 +63,8 @@ const RuneListPage = () => {
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       filtered = filtered.filter((rune) => {
-        const nameMatch = rune.name.toLowerCase().includes(query)
-        const chineseMatch = rune.chineseName && rune.chineseName.includes(query)
+        const nameMatch = (rune.name_vi || '').toLowerCase().includes(query)
+        const chineseMatch = rune.name_cn && rune.name_cn.includes(query)
         return nameMatch || chineseMatch
       })
     }
@@ -125,7 +125,7 @@ const RuneListPage = () => {
                         : 'bg-game-card border border-game-accent border-opacity-30 text-game-text-secondary hover:border-opacity-100'
                     }`}
                   >
-                    Tầng {tier}
+                    {tier}
                   </button>
                 ))}
               </div>
