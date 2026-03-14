@@ -10,7 +10,7 @@ const Item = require('../models/Item');
  */
 const getItems = async (req, res) => {
   try {
-    const { game, category, search, page = 1, limit = 20, isActive = true } = req.query;
+    const { game, category, search, page = 1, limit = 500, isActive = true } = req.query;
 
     // Xây dựng query
     let query = {};
@@ -36,7 +36,7 @@ const getItems = async (req, res) => {
 
     // Tính toán pagination
     const skip = (page - 1) * limit;
-    const maxLimit = Math.min(limit, 100);
+    const maxLimit = Math.min(limit, 500);
 
     // Thực hiện query
     const items = await Item.find(query)

@@ -12,14 +12,14 @@ const Hero = require('../models/Hero');
  */
 const getMappings = async (req, res) => {
   try {
-    const { page = 1, limit = 20, verified } = req.query;
+    const { page = 1, limit = 100, verified } = req.query;
 
     let query = {};
     if (verified === 'true') query.is_verified = true;
     if (verified === 'false') query.is_verified = false;
 
     const skip = (parseInt(page) - 1) * parseInt(limit);
-    const maxLimit = Math.min(parseInt(limit), 100);
+    const maxLimit = Math.min(parseInt(limit), 500);
 
     const [mappings, total] = await Promise.all([
       HeroMapping.find(query)

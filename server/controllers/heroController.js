@@ -11,7 +11,7 @@ const Hero = require('../models/Hero');
  */
 const getHeroes = async (req, res) => {
   try {
-    const { game, role, search, page = 1, limit = 20 } = req.query;
+    const { game, role, search, page = 1, limit = 500 } = req.query;
 
     let query = { isActive: true };
 
@@ -33,7 +33,7 @@ const getHeroes = async (req, res) => {
     }
 
     const skip = (parseInt(page) - 1) * parseInt(limit);
-    const maxLimit = Math.min(parseInt(limit), 100);
+    const maxLimit = Math.min(parseInt(limit), 500);
 
     const [heroes, total] = await Promise.all([
       Hero.find(query)

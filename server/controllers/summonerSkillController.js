@@ -10,7 +10,7 @@ const SummonerSkill = require('../models/SummonerSkill');
  */
 const getSkills = async (req, res) => {
   try {
-    const { game, search, page = 1, limit = 20, isActive = true } = req.query;
+    const { game, search, page = 1, limit = 500, isActive = true } = req.query;
 
     // Xây dựng query
     let query = {};
@@ -32,7 +32,7 @@ const getSkills = async (req, res) => {
 
     // Tính toán pagination
     const skip = (page - 1) * limit;
-    const maxLimit = Math.min(limit, 100);
+    const maxLimit = Math.min(limit, 500);
 
     // Thực hiện query
     const skills = await SummonerSkill.find(query)
