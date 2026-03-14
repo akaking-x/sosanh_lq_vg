@@ -144,10 +144,20 @@ const IMAGE_URLS = {
 
 function downloadImage(url) {
   return new Promise((resolve, reject) => {
-    const client = url.startsWith('https') ? https : http;
-    client.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+    const parsedUrl = new URL(url);
+    const options = {
+      hostname: parsedUrl.hostname,
+      path: parsedUrl.pathname + parsedUrl.search,
+      port: parsedUrl.port || (parsedUrl.protocol === 'https:' ? 443 : 80),
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+    };
+    const client = parsedUrl.protocol === 'https:' ? https : http;
+    client.get(options, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
-        return downloadImage(res.headers.location).then(resolve).catch(reject);
+        const redirectUrl = res.headers.location.startsWith('http')
+          ? res.headers.location
+          : `${parsedUrl.protocol}//${parsedUrl.host}${res.headers.location}`;
+        return downloadImage(redirectUrl).then(resolve).catch(reject);
       }
       if (res.statusCode !== 200) {
         return reject(new Error(`HTTP ${res.statusCode} for ${url}`));
