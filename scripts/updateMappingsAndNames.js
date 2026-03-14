@@ -218,7 +218,16 @@ async function main() {
       });
 
       if (hero && hero.name_vi !== correct_vi) {
-        const newSlug = createSlug(correct_vi) + '-vg';
+        let newSlug = createSlug(correct_vi) + '-vg';
+        // Check if slug already exists for another hero
+        const existing = await db.collection('heroes').findOne({
+          slug: newSlug,
+          _id: { $ne: hero._id },
+        });
+        if (existing) {
+          // Append hero id to make slug unique
+          newSlug = createSlug(correct_vi) + '-' + name_cn.charCodeAt(0) + '-vg';
+        }
         await db.collection('heroes').updateOne(
           { _id: hero._id },
           { $set: { name_vi: correct_vi, slug: newSlug } }
